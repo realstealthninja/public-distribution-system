@@ -2,7 +2,7 @@ import os
 
 from flask import Flask, render_template
 
-from . import db, auth
+from . import auth, db
 
 
 def create_app(test_config=None):
