@@ -1,37 +1,73 @@
 {% extends 'base.html' %}
+{% macro card(title, description, button, url, icon) %}
+  <article class="card">
+    <div
+      class="position-absolute start-50 translate-middle rounded-circle p-3 text-light bg-dark"
+    >
+      <div class="container" style="width: 64px; height: 64px;">
+        <i class="bi {{ icon }} fs-1 w"></i>
+      </div>
+    </div>
+    <section class="card-body">
+      <h5 class="card-title">{{ title }}</h5>
+      <p class="card-text">{{ description }}</p>
+      <a href="{{ url }}" class="btn btn-primary">{{ button }}</a>
+    </section>
+  </article>
+{% endmacro %}
+
 {% block header %}
-  <h1>{% block title %}Public Distribution System{% endblock %}</h1>
-  <p>Welcome to the web PDS, View allocations</p>
+  <div class="px-3 bg-img rounded index-hero">
+    <h1>{% block title %}Public Distribution System{% endblock %}</h1>
+    <p>Welcome to the web PDS, Feeding India since 2026.</p>
+  </div>
 {% endblock %}
 
 {% block content %}
   <section class="container">
-    <section class="row">
+    <section class="pb-4">
+      <h2>Lorem</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
+        cupiditate enim est, excepturi, eligendi soluta, cumque iure harum
+        consequuntur distinctio nihil eum? Saepe, dicta vel itaque cupiditate
+        nisi quisquam similique! Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Ex sunt incidunt, non provident, sapiente nihil quia
+        totam accusamus aperiam voluptatem corrupti cum voluptas. Inventore
+        rerum voluptatibus molestiae suscipit. Officiis, tempore? Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Tempore vitae aperiam
+        provident alias quos doloribus dolor, ratione optio? Ab delectus itaque,
+        esse atque iusto doloremque consectetur consequuntur architecto sapiente
+        exercitationem?
+      </p>
+    </section>
+    <section class="row mt-5">
       <div class="col">
-        <article class="card">
-          <section class="card-body">
-            <h5 class="card-title">Families</h5>
-            <p class="card-text">250</p>
-          </section>
-        </article>
+        {{ card('Families', 'There are 250 families currently registered for public distribution.', 'register', url_for('auth.register'), 'bi-people-fill') }}
       </div>
 
       <div class="col">
-        <article class="card">
-          <section class="card-body">
-            <h5 class="card-title">States</h5>
-            <p class="card-text">250</p>
-          </section>
-        </article>
+        {{
+          card(
+            title = "Allocations",
+            description = "We have over 250 allocations ready to be distributed.",
+            icon = "bi-basket-fill",
+            button = "order",
+            url = "#"
+          )
+        }}
       </div>
 
       <div class="col">
-        <article class="card">
-          <section class="card-body">
-            <h5 class="card-title">Allocations</h5>
-            <p class="card-text">250</p>
-          </section>
-        </article>
+        {{
+          card(
+            title = "States",
+            description = "Currently operational in 15 states all across the Indian subcontinent.",
+            icon = "bi-globe-central-south-asia",
+            button = "statisitcs",
+            url = "#"
+          )
+        }}
       </div>
     </section>
   </section>
