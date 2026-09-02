@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block header %}
+  <h1>{% block title %}Login{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <section>
+    <p>Login administrate the website</p>
+    <form method="post">
+      <div class="mb-3">
+        <label for="username" class="form-label"> Username </label>
+        <input
+          name="username"
+          class="form-control"
+          type="text"
+          id="username"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label"> Password </label>
+        <input
+          name="password"
+          class="form-control"
+          type="password"
+          id="password"
+          required
+        />
+      </div>
+      <input type="submit" class="btn btn-primary" value="Log In" />
+    </form>
+  </section>
+{% endblock %}

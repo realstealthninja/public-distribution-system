@@ -1,0 +1,5 @@
+{
+  "jinja-lsp.templates": "backend/templates",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "jinja-lsp.backend": null
+}

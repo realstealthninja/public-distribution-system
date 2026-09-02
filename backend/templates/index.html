@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block header %}
+  <h1>{% block title %}Public Distribution System{% endblock %}</h1>
+  <p>Welcome to the web PDS, View allocations</p>
+{% endblock %}
+
+{% block content %}
+  <section class="container">
+    <section class="row">
+      <div class="col">
+        <article class="card">
+          <section class="card-body">
+            <h5 class="card-title">Families</h5>
+            <p class="card-text">250</p>
+          </section>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card">
+          <section class="card-body">
+            <h5 class="card-title">States</h5>
+            <p class="card-text">250</p>
+          </section>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card">
+          <section class="card-body">
+            <h5 class="card-title">Allocations</h5>
+            <p class="card-text">250</p>
+          </section>
+        </article>
+      </div>
+    </section>
+  </section>
+{% endblock %}
