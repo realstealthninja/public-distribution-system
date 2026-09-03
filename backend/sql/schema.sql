@@ -7,18 +7,19 @@
 
 CREATE TABLE state(
     state_id NUMBER(2) GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) PRIMARY KEY,
-    name VARCHAR(27)
+    state_name VARCHAR(44)
 )
 /
-CREATE TABLE city(
-    city_id NUMBER(4) GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) PRIMARY KEY,
+CREATE TABLE district(
+    district_id NUMBER(4) GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) PRIMARY KEY,
+    district_name VARCHAR(35),
     state_id NUMBER(2) REFERENCES state(state_id)
 )
 /
 
 CREATE TABLE address(
     address_id NUMBER(6) GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) PRIMARY KEY,
-    city_id NUMBER(4) REFERENCES city(city_id),
+    district_id NUMBER(4) REFERENCES district(district_id),
     pincode NUMBER(6)
 )
 /
@@ -31,6 +32,7 @@ CREATE TABLE item(
 
 CREATE TABLE distributor(
     distributor_id NUMBER(6) GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) PRIMARY KEY,
+    distributor_name VARCHAR(54),
     address_id NUMBER(6) REFERENCES address(address_id)
 )
 /
@@ -89,7 +91,6 @@ CREATE TABLE transaction(
     bill NUMBER(6,2)
 )
 /
-
 CREATE TABLE admin(
     user_id NUMBER(6) GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) PRIMARY KEY,
     username VARCHAR(10),
