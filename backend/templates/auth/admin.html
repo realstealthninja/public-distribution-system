@@ -7,8 +7,7 @@
   <section>
     <p>Login administrate the website</p>
     <form method="post">
-      <div class="mb-3">
-        <label for="username" class="form-label"> Username </label>
+      <div class="mb-3 form-floating">
         <input
           name="username"
           class="form-control"
@@ -16,9 +15,9 @@
           id="username"
           required
         />
+        <label for="username" class="form-label"> Username</label>
       </div>
-      <div class="mb-3">
-        <label for="password" class="form-label"> Password </label>
+      <div class="mb-3 form-floating">
         <input
           name="password"
           class="form-control"
@@ -26,7 +25,9 @@
           id="password"
           required
         />
+        <label for="password" class="form-label">Password</label>
       </div>
+
       <input type="submit" class="btn btn-primary" value="Log In" />
     </form>
   </section>

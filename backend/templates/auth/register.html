@@ -1,0 +1,141 @@
+{% extends 'base.html' %}
+{% block header %}
+  <h1>{% block title %}Register{% endblock %}</h1>
+  <p>
+    Register your family into the PDS. It's completely free and free of
+    government beaurcracy.
+  </p>
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+    <fieldset class="contianer mb-3">
+      <legend>Family details</legend>
+      <div class="contianer p-1">
+        <div class="row">
+          <div class="col form-floating">
+            <input class="form-control" id="name" name="name" required />
+            <label class="form-label" for="name">Name</label>
+          </div>
+          <div class="col form-floating">
+            <input
+              class="form-control"
+              id="annual_income"
+              name="annual_income"
+              required
+            />
+            <label class="form-label" for="annual_income">Annual Income</label>
+          </div>
+          <div class="mt-3">
+            <label class="form-label" for="annual_income">Property count</label>
+            <input
+              class="form-range"
+              type="range"
+              min="1"
+              max="10"
+              step="1"
+              id="property"
+              name="property"
+              required
+            />
+            <output
+              for="property"
+              id="property-output"
+              aria-hidden="true"
+            ></output>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset class="mb-3">
+      <legend>Address</legend>
+      <div class="row mb-3">
+        <div class="col form-floating">
+          <select
+            class="form-select"
+            id="district"
+            name="district"
+            onchange="district_changed()"
+            required
+          >
+            {% for district in cities %}
+              <option value="{{ district[0] }}" data-state="{{ district[2] }}">
+                {{ district[1] }}
+              </option>
+            {% endfor %}
+          </select>
+          <label class="form-label" for="district">district</label>
+        </div>
+        <div class="col form-floating">
+          <select
+            class="form-select"
+            id="state"
+            name="state"
+            onchange="state_changed()"
+            required
+          >
+            {% for state in states %}
+              <option value="{{ state[0] }}">{{ state[1] }}</option>
+            {% endfor %}
+          </select>
+          <label class="form-label" for="state">State</label>
+        </div>
+      </div>
+      <div class="form-floating">
+        <input class="form-control" id="pincode" name="pincode" required />
+        <label class="form-label" for="pincode">Pincode</label>
+      </div>
+    </fieldset>
+    <fieldset class="mb-3">
+      <legend>Login details</legend>
+      <div class="row">
+        <div class="col form-floating">
+          <input class="form-control" id="username" name="username" required />
+          <label class="form-label" for="username">Username</label>
+        </div>
+        <div class="col form-floating">
+          <input
+            class="form-control"
+            id="password"
+            name="password"
+            type="password"
+            required
+          />
+          <label class="form-label" for="password">Password</label>
+        </div>
+      </div>
+    </fieldset>
+    <button class="form-submit btn btn-primary" type="submit">submit</button>
+  </form>
+
+  <script>
+    const district = document.getElementById("district");
+    const state = document.getElementById("state");
+    const property = document.getElementById("property");
+    const property_output = document.getElementById("property-output");
+
+    function district_changed() {
+      let current_district = district.options[district.selectedIndex];
+      state.value = current_district.getAttribute("data-state");
+    }
+
+    function state_changed() {
+      let current_state = state.value;
+      for (let i = 0; i < district.options.length; i++) {
+        if (district.options[i].getAttribute("data-state") != current_state) {
+          district.options[i].setAttribute("hidden", "hidden");
+        } else {
+          district.options[i].removeAttribute("hidden");
+
+          district.value = district.options[i].value;
+        }
+      }
+    }
+
+    function output_property_value() {
+      property_output.textContent = property.value;
+    }
+
+    property.addEventListener("input", output_property_value);
+  </script>
+{% endblock %}
