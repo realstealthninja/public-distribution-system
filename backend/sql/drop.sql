@@ -1,3 +1,5 @@
+DROP TABLE family_user
+/
 DROP TABLE transaction
 /
 DROP TABLE allocation
@@ -16,11 +18,9 @@ DROP TABLE item
 /
 DROP TABLE address
 /
-DROP TABLE city
+DROP TABLE district
 /
 DROP TABLE state
 /
 DROP TABLE admin
-/
-DROP TABLE family_user
 /
