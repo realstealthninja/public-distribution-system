@@ -1502,7 +1502,6 @@ Basavannapalem PDC,523211
 Degaramudi PDC,523301
 Rajupalem PDC,523301
 Vinjanampadu PDC,523301
-Kolalapudi PDC,523261
 Hanumapuram PDC,523183
 Kandlagunta PDC,523183
 B Machavaram PDC,523225
@@ -1657,7 +1656,6 @@ Upper Mallial PDC,505445
 Venkatapuram PDC,521190
 Kannevidu PDC,521190
 Kakaravai PDC,521402
-ALINAKHIPALEM PDC,521250
 Godilanka PDC,533217
 Munganda PDC,533214
 Munjavarapukottu PDC,533214
@@ -1847,8 +1845,6 @@ Konan PDC,811313
 Lohra PDC,811313
 Mahadeo Simaria PDC,811313
 Itasagar PDC,811313
-Karma PDC,811315
-M Nagar PDC,811315
 Mohanpur PDC,811316
 Telwa Bazar PDC,811316
 Dumari PDC,811314
@@ -1909,7 +1905,6 @@ Pratappur PDC,811107
 R Mahsaura PDC,811107
 S Imam Nagar PDC,811107
 Kiranpur PDC,811106
-SONBARSHA PDC,811106
 Dharampur PDC,803120
 Andi PDC,803107
 Jana PDC,803107
@@ -2008,7 +2003,6 @@ Okhariyagolab PDC,805106
 Mahrawan PDC,805107
 Apsai PDC,805108
 Bajitpur PDC,805108
-Bali PDC,805108
 Aranikesopur PDC,805109
 Dohra PDC,805109
 Kahuara PDC,805109
@@ -2244,21 +2238,6 @@ CHOTEBODALI PDC,494450
 KOTRAPAL PDC,494450
 Mandem PDC,494450
 PATRAPARA PDC,494450
-Gudra PDC,494450
-Idwada PDC,494450
-Mukram PDC,494450
-Damaram PDC,494450
-Talmendri PDC,494450
-Tadopot PDC,494450
-Markapal PDC,494450
-Pitetugali PDC,494450
-Hakwa PDC,494450
-Okenar PDC,494450
-Porrodwaya PDC,494450
-Jabbe PDC,494450
-Karkawada PDC,494450
-Gartul PDC,494450
-Erpagutta PDC,494450
 Chapka PDC,494224
 Garenga PDC,494224
 Kumhali PDC,494224
@@ -2270,7 +2249,6 @@ Kawadgaon PDC,494224
 Bareguda PDC,494446
 Chandur PDC,494446
 GOLLAGUDA PDC,494446
-Annaram PDC,494446
 Etpal PDC,494444
 Toynar PDC,494444
 Peddakodepal PDC,494444
@@ -2279,9 +2257,6 @@ ERAMNAR PDC,494444
 PODAKORMA PDC,494444
 TODKA PDC,494444
 Burji PDC,494444
-Turrenar PDC,494444
-Nendra PDC,494444
-Kanwadganv PDC,494444
 Dabpal PDC,494449
 Kuper PDC,494449
 Metapal PDC,494449
@@ -2293,11 +2268,6 @@ Titirgaon PDC,494001
 Polampalli PDC,494122
 Chikpal PDC,494122
 Milampalli PDC,494122
-Gumodhi PDC,494111
-Pariya PDC,494111
-Kerlapenda PDC,494111
-Duled PDC,494111
-Chhotekedwal PDC,494111
 Ghotpal PDC,494441
 Korlapal PDC,494441
 BADEPANEDA PDC,494441
@@ -2307,29 +2277,20 @@ Upet PDC,494441
 Jhodiyabadam PDC,494441
 Katulnar PDC,494441
 Haram PDC,494441
-Tunder PDC,494441
 Hiroli PDC,494556
 Injeram PDC,494114
 Burklanka PDC,494114
-Palachalma PDC,494114
-Palamadgu PDC,494114
-Gangler PDC,494114
-Balengtong PDC,494114
-Mulakisoli PDC,494114
 Badedharaur PDC,494010
 Ermur PDC,494010
 Garda PDC,494010
 Parapur PDC,494010
 Sadra PDC,494010
 Bheja PDC,494010
-Erwar PDC,494010
 Cherpalli PDC,494448
 Kandulnar PDC,494448
 DAMPAYA PDC,494448
 Murkinar PDC,494448
 Vangapalli PDC,494448
-Bandeparre PDC,494448
-Kachlaram PDC,494448
 Badegudra PDC,494552
 Gadmiri PDC,494552
 Kuakonda PDC,494552
@@ -2623,7 +2584,6 @@ Tetali PDC,534218
 Vadluru PDC,534218
 Velagaduuru PDC,534227
 Kakileru PDC,534320
-Seshammacheruvu PDC,534320
 Kannai Kumudavalli PDC,534328
 S Illindalaparru PDC,534225
 Chilakapadu PDC,534216
@@ -2676,7 +2636,6 @@ Chowtapalli PDC,521323
 Pedakamanapudi PDC,521325
 Seetanapalli PDC,521340
 Vadarlapadu PDC,521340
-Chatakai PDC,521340
 Pedatummidi PDC,521329
 Pedaparupudi PDC,521263
 Boruvancha PDC,521202
@@ -3313,7 +3272,6 @@ DHUSMALHAT PDC,855107
 GANGI PDC,855107
 PATKOI HAT PDC,855107
 TEOSA PDC,855107
-Dohar B O PDC,855115
 SISIYA PDC,854108
 Gauripur PDC,854116
 Dilarpur PDC,854113
@@ -3923,7 +3881,6 @@ Auria PDC,813103
 Balia Mahra PDC,813103
 Kajhia PDC,813103
 Sondiha Dharmdiha PDC,813103
-Chatrapal PDC,813103
 Rajpur PDC,813202
 Srinagar PDC,813202
 Bagduma PDC,813104
@@ -3999,7 +3956,6 @@ Salempurtola PDC,813209
 Srimatpur PDC,813209
 Alinagear Rajpur PDC,813210
 Parghari PDC,813210
-Badi Ibrahimpur PDC,813210
 Kapsona PDC,813108
 GERUA PDC,813212
 Khabra PDC,813212
@@ -5301,7 +5257,6 @@ Gumgi PDC,815317
 Kathkoko PDC,815317
 Khijuri PDC,815317
 Kishutand PDC,815317
-Pindarkon PDC,825405
 Chepakala PDC,825311
 Gossaibalia PDC,825311
 Keredari PDC,825311
@@ -6305,7 +6260,6 @@ Huvinahadagali Bazar PDC,583219
 Uppanayakanahalli PDC,583219
 Kogali PDC,583220
 Sonna PDC,583220
-Hampi Power House PDC,583221
 Kampli Sugar  Factory PDC,583132
 Kampli Fort PDC,583132
 Kanvi Thimmalapura PDC,583132
@@ -6646,15 +6600,10 @@ Duttargaon PDC,585311
 Lad Chincholi PDC,585311
 Urmapal PDC,494111
 Ganjenar PDC,494111
-Chhote Gadam PDC,494111
-Chhote Lakhapal PDC,494111
-Puspalli PDC,494111
 Badekakloor PDC,494442
 Mutanpal PDC,494442
 Bade Kilepal-3 PDC,494442
 Koypal PDC,494442
-Topar PDC,494442
-Metawada PDC,494442
 Chindawada PDC,494115
 Kokawada PDC,494115
 Koleng PDC,494115
@@ -6664,8 +6613,6 @@ Puspal PDC,494001
 Bispur PDC,494115
 Bodaras PDC,494115
 Kankapal PDC,494115
-Chitalnar PDC,494115
-Palem PDC,494115
 Hatkongera PDC,494334
 Umradah PDC,494334
 Pataud PDC,494334
@@ -6677,30 +6624,18 @@ Alparas PDC,494665
 Bulawand PDC,494665
 Masbaras PDC,494665
 Porondi PDC,494665
-Enhoor PDC,494665
-Kastura PDC,494665
-Gattakaal PDC,494665
-Maanjhikurusbodi PDC,494665
 Erpanar PDC,494777
 Tekameta PDC,494777
 Hanumanpur PDC,494777
-Uliya PDC,494777
-Pakurkal PDC,494777
-Kodhur PDC,494777
 Gudum PDC,494669
 Hanpatri PDC,494669
 Otekasa PDC,494669
 Metaghamre PDC,494669
-Bhurka PDC,494669
-Bhejar PDC,494669
-Tumrisur PDC,494669
 Anwari PDC,494337
 Dokla PDC,494337
 Navagaon PDC,494337
 Gurwandi PDC,494771
 Mandagaon PDC,494771
-Kuli PDC,494771
-Budhandand PDC,494771
 Anjani PDC,494334
 Neelegondi PDC,494334
 Singanpur PDC,494331
@@ -6712,10 +6647,6 @@ Sonabal PDC,494226
 Umargaon PDC,494226
 Badebhirawand PDC,494226
 Hadeli PDC,494220
-Madagaon PDC,494226
-Sukurpal PDC,494226
-Bhagdewa PDC,494226
-Bolbola PDC,494226
 Kottara PDC,494670
 Markatola PDC,494670
 Talakurra PDC,494670
@@ -6723,12 +6654,10 @@ Aalbeda PDC,494670
 Andi PDC,494670
 Bagdongri PDC,494670
 Bheja PDC,494670
-Upertonaka PDC,494670
 Haradula PDC,494336
 Kurna PDC,494336
 Pandarwahi PDC,494336
 Aroud PDC,494336
-Golkumhada PDC,494336
 Devgaon PDC,494661
 Dhanora PDC,494662
 Kohkameta PDC,494661
@@ -6778,10 +6707,6 @@ Chindlibeda PDC,494230
 Rawbeda PDC,494230
 Karmari PDC,494230
 Hichka PDC,494230
-Bertanar PDC,494230
-Budhakhursai PDC,494230
-Bodagaon PDC,494230
-Maankot PDC,494230
 Karmoti PDC,494635
 Chwela PDC,494635
 Dabkatta PDC,494635
@@ -6790,7 +6715,6 @@ Dudhawa PDC,494335
 Samtara PDC,494335
 Lendara PDC,494335
 Jhaliamari PDC,494335
-Saaranda PDC,494335
 Salna PDC,494347
 Titirwand PDC,494347
 Hatma PDC,494347
@@ -6802,19 +6726,6 @@ Torandi PDC,494237
 Jarandi PDC,494237
 Chhatodi PDC,494237
 Shriguhan PDC,494332
-Mulnaar PDC,494220
-Jodenga PDC,494220
-Tekapal PDC,494220
-Amgaon PDC,494662
-Sulenga PDC,494662
-Pidiyakot PDC,494662
-Jhara PDC,494662
-Temrugaon PDC,494662
-Raynar PDC,494662
-Borpal PDC,494661
-Khadkagaon (B) PDC,494661
-Telanga PDC,494661
-Ghotiya PDC,494661
 Arjuni PDC,495552
 Bargawan PDC,495552
 Katnai PDC,495552
@@ -7070,7 +6981,6 @@ Seoni PDC,491229
 Tohe PDC,491229
 Koraldand PDC,491229
 Kadekasa PDC,491229
-Medha PDC,491229
 Dumartola PDC,491666
 Kande PDC,491666
 Mukadah PDC,491666
@@ -7154,7 +7064,6 @@ Kotra PDC,496001
 Loing PDC,496001
 Naurangpur PDC,496001
 Urdana Camp PDC,496001
-KALMI PDC,496001
 Ghughari PDC,496224
 Musgutri PDC,496224
 Raikera PDC,496224
@@ -7465,7 +7374,6 @@ Mandli PDC,174321
 Paroian PDC,174321
 Takarala PDC,177211
 Gohan PDC,193101
-Court Complex PDC,193101
 Ajas PDC,193502
 Chithi Bandi PDC,193502
 Nadihal PDC,193502
@@ -9694,7 +9602,6 @@ Amlipadar PDC,493891
 Sargiguda PDC,493891
 Urmal PDC,493891
 Kuhimal PDC,493891
-Raipur RS PDC,492009
 Bhainsa PDC,493113
 Arangi PDC,493555
 Bamhani PDC,493555
@@ -9760,7 +9667,6 @@ Lamkeni PDC,493558
 Kusmur PDC,493558
 Bartiyabhatha PDC,493558
 Kosamkunda PDC,493559
-OTGAN PDC,493101
 Raipura PDC,492013
 Charoda PDC,493229
 Odan PDC,493229
@@ -10610,7 +10516,6 @@ Basodhan PDC,176314
 Palwin PDC,176314
 Udaipur PDC,176314
 Singi PDC,176314
-Panjoh PDC,176314
 Athedgwalu PDC,176312
 Badka PDC,176330
 Dighai PDC,176312
@@ -11097,7 +11002,6 @@ Vasoli PDC,416519
 Aravli PDC,416518
 Adeli PDC,416516
 Ubhadanda PDC,416516
-Konal Katta Colony PDC,416549
 Vaje PDC,410206
 Lodhivali PDC,410206
 Chirner PDC,410206
@@ -11201,7 +11105,6 @@ Lonad PDC,421302
 Pachhapur PDC,421302
 Rehnal PDC,421302
 Sonale PDC,421302
-Zidake PDC,421302
 Kondhale PDC,421312
 Palsai PDC,421312
 Mohandul PDC,421101
@@ -11454,7 +11357,6 @@ Hiwara Khurd PDC,443304
 Sarshiv PDC,443304
 Uti PDC,443304
 Warwand PDC,443304
-Mohana Bk PDC,443304
 Hirdao PDC,443302
 Tambola PDC,443302
 Wadgaon Tejan PDC,443302
@@ -11987,7 +11889,6 @@ Ezhupunna PDC,688537
 Ezhupunna South PDC,688537
 Andhakaranazhy PDC,688531
 Manappuram PDC,688526
-PONNITTUSSERY PDC,688523
 Kannankara PDC,688527
 Parayakad PDC,688540
 Karumalloor PDC,683511
@@ -12760,7 +12661,6 @@ Mualvum PDC,796070
 Chawngtlai PDC,796310
 Bairabi PDC,796081
 Thingdawlmelriat PDC,796005
-ZORAM MEDICAL COLLEGE PDC,796005
 Balhlakawn PDC,796891
 Kawlchaw W PDC,796891
 Paithar PDC,796891
@@ -15349,7 +15249,6 @@ Girim PDC,413801
 Gopalwadi PDC,413801
 Hingniberdi PDC,413801
 Ravet PDC,412101
-Cod Dehu Road PDC,412101
 Sadumbre PDC,412109
 Phulawade PDC,410509
 Pokhari PDC,410509
@@ -16919,7 +16818,6 @@ Khodalim PDC,327601
 Bodigama PDC,327604
 Sagrod PDC,327604
 Surwania PDC,327604
-Naugama PDC,327603
 Berwa PDC,327022
 Devda PDC,327023
 Kanji Ka Gara PDC,327023
@@ -21659,7 +21557,6 @@ Golasan PDC,343041
 Ranodar PDC,343041
 Sarwana PDC,343041
 Sayar Ka Koseeta PDC,343041
-Pathmeda PDC,343041
 Chorau PDC,343022
 Meghalwa PDC,343022
 Sangana PDC,343022
@@ -22224,7 +22121,6 @@ Maharaj Nagar PDC,261201
 Manikapur PDC,261201
 Pokhra Kalan PDC,261201
 Sadarpur PDC,261201
-Bhithmani PDC,261201
 Dateli PDC,261121
 Hargaon ND PDC,261121
 Kusuma PDC,261121
@@ -22632,7 +22528,6 @@ Sunderkhal PDC,263132
 Gaujhariya PDC,262308
 Gidhaur PDC,262308
 Lohia Head PDC,262308
-Sunpahar PDC,262308
 Dhyari PDC,263138
 Pyura PDC,263138
 Nathuwakhan PDC,263158
@@ -22763,7 +22658,6 @@ Khateramalla PDC,262524
 Madhuwa PDC,262524
 Leelam PDC,262554
 Sirkha PDC,262547
-Garbyang PDC,262547
 Kotgari Ghanjri PDC,262533
 Lachhima PDC,262533
 Sainranthi PDC,262553
@@ -24701,7 +24595,6 @@ Chakhani Bhumihari Patti PDC,274306
 Khutahi PDC,274306
 Pagar PDC,274306
 Rampur Bagaha PDC,274306
-Dharampur PDC,274308
 Bhaisaha PDC,274802
 Gethihawa PDC,274802
 Khairi PDC,274802
@@ -27190,12 +27083,7 @@ Gonapar PDC,222144
 Alamganj PDC,222162
 Manapur PDC,222162
 Nonari PDC,222128
-Bangaondih PDC,222101
-Bhelara PDC,222101
 Latifpur PDC,223103
-Rupaipur PDC,222101
-Bangawadeeh PDC,228172
-Harpur PDC,228172
 Bhaisa PDC,222129
 Madhi PDC,222129
 Aara PDC,222133
@@ -27575,7 +27463,6 @@ Allinagaram PDC,621713
 Annanagar PDC,621713
 Govindapuram PDC,621713
 Elangaicheri PDC,621714
-Sirukadambur B O PDC,621714
 Koilesanai PDC,621851
 Sullangudi PDC,621715
 Kumiliam PDC,621804
@@ -28641,8 +28528,6 @@ Tulsi Nagar PDC,462003
 Vidya Vihar PDC,462002
 IBD Hallmark city kolar road PDC,462040
 AIIMS PDC,462020
-Nodal Delivery Centre Shahpura Bhopal PDC,462116
-Neelbad PDC,462034
 Nayapura Kolar PDC,462042
 Bamitha PDC,471105
 Chandra Nagar PDC,471101
@@ -28772,7 +28657,6 @@ Shadora PDC,473330
 Bajranggarh PDC,473249
 Guna Bazar PDC,473001
 Maksudangarh PDC,473287
-Fatehgarh PDC,473106
 Berad PDC,473793
 Pohari PDC,473775
 Rannod PDC,473781
@@ -28899,8 +28783,6 @@ Charkop PDC,400067
 Daulat Nagar SO Mumbai PDC,400066
 Oshiwara PDC,400102
 Rani Sati Marg PDC,400097
-NDC Kandivali EAST PDC,400201
-NDC JOGESHWARI EAST PDC,400160
 Girgaon PDC,400004
 Madhavbaug PDC,400004
 Marine Lines PDC,400020
@@ -28909,7 +28791,6 @@ Ranade Road PDC,400028
 S V S Marg PDC,400028
 Worli Naka PDC,400018
 Worli Police Camp PDC,400030
-Delisle Road PDC,400113
 Agripada PDC,400011
 Chinchpokli PDC,400011
 Haines Road PDC,400011
@@ -29074,7 +28955,6 @@ Sangavi PDC,411027
 Vadgaon Sheri PDC,411014
 Yerwada PDC,411006
 Maan PDC,411057
-NDC Pimpri PF PDC,411078
 Anandnagar S O (Pune) PDC,411051
 Bajirao Road PDC,411002
 Bhusari Colony PDC,411038
@@ -29259,7 +29139,6 @@ None PDC,795159
 Pngaei Yangdong PDC,795114
 Tamei PDC,795125
 PARBUNG PDC,795121
-Tousem PDC,795160
 Bawngkawn PDC,796014
 Kawnpui PDC,796070
 Khawzawl PDC,796310
@@ -29395,7 +29274,6 @@ Mungeli PDC,495334
 Pendra Road PDC,495117
 PondiUproda PDC,495448
 Sakri PDC,495003
-NDC Bilaspur PDC,495002
 Balgi Project Korba PDC,495455
 Bamhni Bazar PDC,495660
 Champa PDC,495671
@@ -29797,7 +29675,6 @@ Nilokheri PDC,132117
 Nissing PDC,132024
 Taroari Mandi PDC,132116
 MUNAK PDC,132040
-Padha PDC,132035
 Hathwala PDC,132115
 Panipat GT Road PDC,132103
 Panipat Kishanpura PDC,132103
@@ -30956,8 +30833,6 @@ Maharshi Nagar PDC,201304
 Sec41 Noida PDC,201303
 Vidyut Nagar PDC,201008
 Gurjinder Vihar PDC,201315
-NDC NEPZ PDC,201319
-NDC Sec-1 Greater Noida PDC,201320
 Alambagh PDC,226005
 AMAUSI AD PDC,226009
 Aminabad Park PDC,226018
@@ -30983,7 +30858,6 @@ Mahanagar PDC,226006
 Sanatan Dharam Vidya Peeth PDC,226026
 Secretariat SO Lucknow PDC,226001
 Vishwas Khand PDC,226010
-Gomti Nagar Extension SO Lucknow PDC,226010
 Behta PDC,229201
 Bhojpur SO Raebareli PDC,229202
 Cheolaha PDC,229216
@@ -31317,7 +31191,6 @@ Raiganj Town PDC,733134
 Ramganj SO North Dinajpur PDC,733207
 Rampur SO South Dinajpur PDC,733140
 Teor PDC,733145
-Fulbari PDC,733139
 Begunia Bazar PDC,713324
 Dakhin Dhadka PDC,713302
 Kendua PDC,713343
@@ -31869,7 +31742,6 @@ Shahkarinagar PDC,203150
 Sikandrabad SO Bulandshahr PDC,203205
 Siyana PDC,203412
 Agauta PDC,203413
-Khurja MDG PDC,203131
 Chhatary PDC,203397
 Danpur SO Bulandshahr PDC,203392
 Debai  Bazar PDC,203393
@@ -32093,7 +31965,6 @@ Meerut Tehsil PDC,250002
 Rasulpur Rohta PDC,250502
 SGMandi PDC,250002
 Sarrafa Bazar PDC,250002
-I E Partapur Ext PDC,250103
 Bachhraon PDC,244225
 Nawgawan PDC,244251
 Kutagulla PDC,515541
@@ -32356,7 +32227,6 @@ Pandalapaka PDC,533345
 Dusi Rs PDC,532484
 Narasannapeta Market PDC,532421
 P S Puram PDC,532190
-NDC Srikakulam PDC,532184
 Etcherla PDC,532410
 Murapaka PDC,532403
 Ponduru PDC,532168
@@ -32874,7 +32744,6 @@ Rambag PDC,721628
 Brajalalchak PDC,721659
 Iswarpur PDC,721659
 Kakra PDC,721659
-Rasikachak B O PDC,721659
 Alinan PDC,721137
 Chakjiandighi PDC,721649
 Hijalberia PDC,721649
@@ -33085,7 +32954,6 @@ Echoda PDC,504307
 Gandhi Chowk PDC,504001
 Narsapur PDC,504104
 Tamsi PDC,504312
-GADIGUDA PDC,504314
 Bheemaram PDC,504204
 Donabanda PDC,504207
 Luxettipet PDC,504215
@@ -33093,7 +32961,6 @@ Mandamarri Colleries PDC,504231
 Sirpur PDC,504299
 Sirpur Khagaznagar PDC,504296
 Tandur PDC,504272
-BEJJUR PDC,504300
 Hasanparthy PDC,506371
 Kazipet PDC,506003
 Waddepalli PDC,506370
@@ -33188,15 +33055,12 @@ Film Nagar PDC,500096
 Raj Bhawan PDC,500041
 Srinagar Colony PDC,500073
 Prashasan Nagar PDC,500110
-NDC Banjarahills PDC,500934
-NDC Ibrahim Bagh Lines PDC,500931
 A Gs Office PDC,500004
 C B I T PDC,500075
 Central Secretariat PDC,500022
 Ibrahim Bagh Lines PDC,500031
 Karwan Sahu PDC,500006
 Parishram Bhawan PDC,500004
-NDC HYDERABAD G PDC,500901
 Kanchanbagh PDC,500058
 Huda Resi  Complex PDC,500035
 Osmannagar PDC,500036
@@ -33208,8 +33072,6 @@ Neredmet PDC,500056
 Sainikpuri PDC,500094
 Mathrusri Nagar PDC,500049
 MALLAREDDY UNIVERSITY CAMPUS PDC,500100
-NDC IDA Jeedimetla PDC,500955
-NDC Trimulgherry PDC,500915
 Bompalli PDC,501502
 Aravindanagar PDC,515001
 Garladinne PDC,515731
@@ -33751,7 +33613,6 @@ Kurrapalli PDC,524226
 Chinna Kaniyampadu PDC,524227
 Thimmareddypalli PDC,524227
 Yerikollu PDC,524228
-B C  Colony PDC,524228
 Gogulapalli PDC,524315
 Chilakalamarri PDC,524302
 Gudigunta PDC,524302
@@ -33919,10 +33780,8 @@ G B Kendua Konihar PDC,805114
 Dumari PDC,805121
 Mheshdih PDC,805121
 Pachgawan PDC,805121
-Phulwan PDC,805121
 Kenasari PDC,805123
 Rayes PDC,805124
-Kabla Kharant PDC,805124
 Chamotha PDC,805125
 Targir PDC,805125
 Baksanda PDC,805126
@@ -34137,7 +33996,6 @@ Panapur Langa PDC,844124
 Sekhopur PDC,844509
 Anjani PDC,844125
 Thathan Buzurg PDC,844125
-Sisauni Prabodhi PDC,844125
 Chitrauli PDC,844126
 Mahathi Dharamchand PDC,844126
 Chakramdas PDC,844128
@@ -34162,9 +34020,6 @@ Jarapalli PDC,494447
 Kottur PDC,494447
 Timmapur PDC,494447
 UDTAMALLA PDC,494447
-Badesunkanpalli PDC,494447
-Pedautlapalli PDC,494447
-Kaurgatta PDC,494447
 PADHAPUR PDC,494553
 Barda PDC,494222
 Chiurgaon PDC,494222
@@ -34186,13 +34041,6 @@ mangalnar PDC,494450
 MANGAPETA PDC,494450
 MURKINAR PDC,494450
 PHULGATTA PDC,494450
-Hingmeta PDC,494450
-Majjimendrari PDC,494450
-Muchler PDC,494450
-Kartur PDC,494450
-Kotmeta PDC,494450
-Timmenar PDC,494450
-Odru PDC,494450
 Kesarpal PDC,494224
 Satosa PDC,494224
 Jamgaon PDC,494224
@@ -34210,17 +34058,12 @@ Papanpal PDC,494444
 DAUDITUMNAR PDC,494444
 JAITALOOR PDC,494444
 MUSALUR PDC,494444
-Gujjakonta PDC,494444
-Mallur PDC,494444
-Peddajojer PDC,494444
 Kanwalnar PDC,494449
 Pharaspal PDC,494449
 Pondoom PDC,494449
 CHANDENAR PDC,494449
 NETAPUR PDC,494449
 Pongabheji PDC,494122
-Peddabedkel PDC,494111
-Burkapal PDC,494111
 Jawanga PDC,494441
 BADESUROKHI PDC,494441
 BANGAPAL PDC,494441
@@ -34229,18 +34072,9 @@ MADSE PDC,494441
 NAGUL PDC,494441
 PAHURNAR PDC,494441
 Irpanar PDC,494441
-Cherpal PDC,494441
 Kakadi PDC,494556
 Kirandul Hill Top PDC,494556
-Badepali PDC,494556
-Bengpal PDC,494556
-Lawa PDC,494556
-Muler PDC,494556
 Errabore PDC,494114
-Mailasur PDC,494114
-Sendurguda PDC,494114
-Gorkha PDC,494114
-Lendra PDC,494114
 Chitrakote PDC,494010
 Ghotia PDC,494010
 Kaknar PDC,494010
@@ -34253,16 +34087,12 @@ Badarenga PDC,494010
 Karekot PDC,494010
 Aanjar PDC,494010
 Sataspur PDC,494010
-Neganar PDC,494010
 Pusgudi PDC,494448
 ANGAMPALLI PDC,494448
 GORLA PDC,494448
 MINKAPLLI PDC,494448
 Pegdapalli PDC,494448
 Nukanpal PDC,494448
-Pharsapalli PDC,494448
-Cheramangi PDC,494448
-Kongupalli PDC,494448
 Badebedma PDC,494552
 Badelakhapal PDC,494552
 Gadapal PDC,494552
@@ -34271,15 +34101,9 @@ Sameli PDC,494552
 Surnar PDC,494552
 Lendra PDC,494552
 Neelavaya PDC,494552
-Madkamiras PDC,494552
 Jhapra PDC,494111
 Kanjipani PDC,494111
 Kondre PDC,494111
-Jangampal PDC,494111
-Tongpal PDC,494111
-Mankapal PDC,494111
-Fulbagadi PDC,494111
-Rajamunda PDC,494111
 Chingpal PDC,494442
 Errakot PDC,494442
 Telemarenga PDC,494442
@@ -34300,13 +34124,11 @@ Chawad PDC,494334
 Mardapoti PDC,494334
 Pidapal PDC,494334
 Vyas Kongera PDC,494334
-Jhulnatendu PDC,494334
 Bhainsasur PDC,494665
 Panidober PDC,494665
 Talabeda PDC,494665
 Baiha Salhebhat PDC,494665
 Bhaisgaon PDC,494665
-Kuhche PDC,494665
 Panwar PDC,494777
 Saver PDC,494777
 Vijaynagar PDC,494777
@@ -34317,8 +34139,6 @@ Godpal PDC,494669
 Khutgaon PDC,494669
 Hulghat PDC,494669
 Latmarka PDC,494669
-Garda PDC,494669
-Padgaal PDC,494669
 Bhilai PDC,494337
 Jaisakarra PDC,494337
 Junwani PDC,494337
@@ -34326,10 +34146,8 @@ Koliyari PDC,494337
 Lilejhar PDC,494337
 Puri PDC,494337
 Mayana PDC,494337
-Bhotha PDC,494337
 Donde PDC,494771
 Khairkatta PDC,494771
-Mudla PDC,494771
 Batrali PDC,494331
 Umaradah PDC,494331
 Bunagaon PDC,494226
@@ -34338,10 +34156,6 @@ Chikhalputi PDC,494226
 Chilputi PDC,494226
 Khachgaon PDC,494220
 Pala PDC,494226
-Singanpur PDC,494226
-Ghodagaon PDC,494226
-Kumharpara PDC,494226
-Nevta PDC,494226
 Bhanbeda PDC,494670
 Hatkarra PDC,494670
 Kanharpuri PDC,494670
@@ -34387,7 +34201,6 @@ Satyanagar PDC,494776
 Vanshri Nagar PDC,494776
 Kringalmuspi PDC,494776
 Khedegaon PDC,494776
-Berkot PDC,494776
 Bhandarseoni PDC,494229
 Lanjoda PDC,494229
 Katagaon PDC,494229
@@ -34406,9 +34219,6 @@ Churegaon PDC,494230
 Dundabedma PDC,494230
 Kararmeta PDC,494230
 Bokarbeda PDC,494230
-Badepinjodi PDC,494230
-Tahkantola PDC,494230
-Kilenar PDC,494230
 Damkasa PDC,494635
 Tarhul PDC,494635
 Iragaon PDC,494635
@@ -34433,21 +34243,6 @@ Hadigaon PDC,494237
 Pidhapal PDC,494237
 Belondi PDC,494237
 Sarangpal PDC,494332
-Kudhur PDC,494220
-Tumadiwal PDC,494220
-Nahkanaar PDC,494220
-Taragaon PDC,494662
-Murumwada PDC,494662
-Rekawaya PDC,494662
-Bansgaon PDC,494226
-Kerlapal PDC,494661
-Brehbeda PDC,494661
-Aadnar PDC,494661
-Bagbeda PDC,494661
-Nednar PDC,494661
-Kurushnar PDC,494661
-Mulle PDC,494661
-Chapai PDC,494661
 Changori PDC,495552
 Arjuni PDC,491441
 Piparsatti PDC,495552
@@ -34718,7 +34513,6 @@ Marvelly PDC,502270
 Ramsanpalli PDC,502270
 Nidijipla PDC,502270
 Khammampally PDC,502345
-Kambalpally PDC,502306
 Chinnagottimukla PDC,502313
 Kanukunta PDC,502313
 Lingapur PDC,502313
@@ -34919,7 +34713,6 @@ Jamandlapalli PDC,506103
 Kothareddial PDC,506103
 Matwada PDC,506103
 Chintanekkonda PDC,506369
-Secunderabad Thanda PDC,506103
 Kogilvai PDC,506006
 Mogilcherla PDC,506006
 Geegugonda PDC,506330
@@ -34941,8 +34734,6 @@ REKAMPALLY PDC,506331
 Madhupalli PDC,506163
 Bommakal PDC,506318
 Rangapur PDC,506318
-Katrial PDC,506313
-KOTHAPALLE PDC,506313
 Dardepalli PDC,506316
 SIRISANNAGUDEM PDC,506316
 KRISHNANAGAR PDC,506329
@@ -34994,7 +34785,6 @@ Medpalli PDC,501501
 Mittakorud PDC,501501
 Narayanpur PDC,501141
 Juntapalli PDC,501144
-Muddaipet PDC,501144
 Amdapur PDC,501504
 Chilkur PDC,501504
 Kanakamamidi PDC,501504
@@ -36270,8 +36060,6 @@ Vellampalli PDC,523211
 Ballikurva PDC,523301
 Uppumagulur PDC,523301
 Yeddanapudi PDC,523301
-Bollapalli PDC,523261
-Baitamanjuluru PDC,523261
 Prasangulapadu PDC,523183
 Kopperapadu PDC,523213
 Tangedumalli PDC,523302
@@ -36380,7 +36168,6 @@ Nepalli PDC,521245
 Pedaogirala PDC,521245
 Krishnavaram PDC,521211
 Narasingapalem PDC,521211
-Vadlamanu PDC,521211
 Valbhapur PDC,505405
 Kasarabad PDC,521182
 Velagaleru PDC,521229
@@ -36842,7 +36629,6 @@ KUTTI GOLA PDC,855107
 NATUA PARA PDC,855107
 PIYAJEE PDC,855107
 SIRSEE PDC,855107
-Daula B O PDC,855107
 BAINA PDC,854116
 Kehunia PDC,854116
 Pranpur PDC,854116
@@ -38193,7 +37979,6 @@ Kawara PDC,802162
 Pachrukhia Kala PDC,802163
 Basauri PDC,802207
 Lahritiwaridih PDC,802207
-LABNA PATKHAULI PDC,802207
 Ekwari PDC,802208
 Chilhose PDC,802164
 Ramasarh PDC,802164
@@ -38353,11 +38138,6 @@ Kolhua PDC,811313
 Maniyadda PDC,811313
 Numar PDC,811313
 Bariarpur PDC,811313
-B Bahadurpur PDC,811315
-Belchhi PDC,811315
-Kumar PDC,811315
-Manjosh PDC,811315
-Noma PDC,811315
 Bisodah PDC,811316
 Kalyanpur PDC,811316
 Aghara So PDC,811314
@@ -38779,7 +38559,6 @@ Bichal PDC,509336
 Mogalmadka PDC,509336
 Vithalapuram PDC,509336
 Lingampally PDC,509311
-Hasthalpur PDC,502255
 Rajpet PDC,502113
 Tuniki PDC,502336
 Toguta PDC,502130
@@ -38788,7 +38567,6 @@ Kuknoor PDC,502109
 KUKNOOR PDC,503311
 Alwal PDC,502247
 Doulathabad PDC,502247
-Mubaraspur PDC,502247
 Malkapur PDC,502335
 Laxminagar PDC,502125
 Banda Posanipally PDC,502117
@@ -38808,7 +38586,6 @@ Dacharam PDC,502278
 Dilalpur PDC,502278
 Ramasagar PDC,502278
 Ramunipatla PDC,502267
-KCR NAGAR PDC,502267
 Thimmapur PDC,502114
 Kanugal PDC,502114
 Gudikandula PDC,502114
@@ -38988,7 +38765,6 @@ Boroseta PDC,835211
 Jaldega PDC,835211
 Sukhajharia PDC,835211
 Domtoli PDC,835211
-GHAGHRA PDC,835231
 Chapijhario PDC,835213
 Kurse PDC,835213
 Landupsenha PDC,835213
@@ -39076,7 +38852,6 @@ Bagdaha PDC,815351
 Bindapathar PDC,815351
 Chirudih Bakudih PDC,815351
 Ladhna PDC,815351
-Gopalpur PDC,815351
 Banka PDC,814142
 Madhopur PDC,814142
 Amdiha PDC,815352
@@ -39108,10 +38883,8 @@ Kasbadudhanichak PDC,814160
 Pratappur PDC,814160
 Kelahi PDC,815354
 Sitamurhi PDC,815355
-Sangajuri PDC,815355
 Parspani PDC,814147
 Raja Bhitaa PDC,814147
-BOHA PDC,814147
 Asarimadhuri PDC,814153
 Burhi Kura PDC,814153
 Damruhat PDC,814153
@@ -39617,7 +39390,6 @@ Makarabbi PDC,583216
 Hudem PDC,583218
 Katriki Halli PDC,583218
 Kenchamallanahalli PDC,583218
-Kallahalli Rajapura PDC,583203
 Holagundi PDC,583219
 Kombli PDC,583219
 Nagatibasapura PDC,583219
@@ -40303,12 +40075,8 @@ Salhe PDC,491229
 Markeli PDC,491229
 Tumdikasa PDC,491229
 Bagdongri PDC,491229
-Sambalpur PDC,491229
 Bhainsbod PDC,491666
 Mohbhatta PDC,491666
-Admagondi PDC,491666
-Pendakodo PDC,491666
-Harratola PDC,491666
 Bharewa PDC,491559
 Kodwagodan PDC,491559
 Polmi PDC,491559
@@ -41635,7 +41403,6 @@ Birunani PDC,571249
 Harihara PDC,571249
 Parakatageri PDC,571249
 West Nemmale PDC,571249
-Sundarnagar PDC,571232
 Rangasamudra PDC,571234
 Biligeri PDC,571251
 Moovathoklu PDC,571251
@@ -42907,7 +42674,6 @@ Khadaiya PDC,825321
 Pachra PDC,825321
 Saradhu PDC,825321
 Koyed PDC,825321
-Bijaiya PDC,825413
 Shah Colony PDC,829119
 Deoria Bargaon PDC,829106
 Harhadkander PDC,825101
@@ -42922,7 +42688,6 @@ PUNDI PDC,825316
 Sankul PDC,825411
 Khokhando PDC,829134
 Lawalang PDC,829134
-Jageshwar PDC,829134
 Chedra PDC,829202
 Ichak PDC,829202
 Marang Loiya PDC,829202
@@ -43447,7 +43212,6 @@ Karana PDC,172026
 Khanag PDC,172026
 Kothi PDC,172026
 Jaon PDC,172002
-Ladhagi PDC,172032
 Dehar PDC,172025
 Olwa PDC,172025
 Sush PDC,172025
@@ -43681,7 +43445,6 @@ Bhadol PDC,394540
 Ishanpore PDC,394540
 Kudiana PDC,394540
 Narthan PDC,395005
-Tunda PDC,395005
 Vanz PDC,394230
 Vaktana PDC,394230
 Abhva PDC,395007
@@ -44006,7 +43769,6 @@ Nangal Teju PDC,123501
 Pranpura PDC,123501
 Bhucholi PDC,123034
 Dhana PDC,123034
-SURJANWAS PDC,123034
 Nimoth PDC,123411
 Bhatsana PDC,123106
 Dungerwas PDC,123106
@@ -44722,7 +44484,6 @@ Keifang PDC,796261
 Lungpher N PDC,796261
 Zawngin PDC,796261
 DAIDO PDC,796261
-BUANGPUI PDC,796186
 N Chawnpui PDC,796091
 Saiphai PDC,796101
 Govt  Complex PDC,796009
@@ -46067,7 +45828,6 @@ Karaila PDC,486892
 Pipra PDC,486892
 Badgad PDC,486892
 Karri PDC,486892
-DUDHICHUA PROJECT PDC,486890
 Jhakhrawal PDC,486881
 Saraundha PDC,486881
 Majhauli PDC,486881
@@ -46859,7 +46619,6 @@ Virjoli PDC,402109
 Wali PDC,402109
 Narvan PDC,402115
 Shekhadi PDC,402113
-Lahe PDC,421603
 Balegaon PDC,421402
 Tokawade PDC,421402
 Vaishakhare PDC,421402
@@ -46922,7 +46681,6 @@ Gowane PDC,401103
 Pelhar PDC,401208
 Rajawali PDC,401208
 Valiv PDC,401208
-Sakwar PDC,401303
 Gorhe PDC,421303
 Mala PDC,421303
 Pik PDC,421303
@@ -47030,7 +46788,6 @@ Rewasa PDC,444801
 Saur PDC,444801
 Ekdara PDC,444906
 Surli PDC,444906
-Shahapur PDC,444906
 Dhoter Kheda PDC,444806
 Kandli PDC,444806
 Malhara PDC,444806
@@ -47101,7 +46858,6 @@ Panhera Wadoda PDC,443101
 Wadaji PDC,443101
 Advihir PDC,443103
 Nimkhed PDC,443103
-Borkhed PDC,443103
 Malegaon PDC,443404
 Naigaon PDC,443404
 Malkapur Pangra PDC,443202
@@ -47219,7 +46975,6 @@ Golegaon PDC,412210
 Hol PDC,412306
 Bhondave Wadi PDC,412204
 Chandkhed PDC,410506
-Ordanance Dep Talegaon Dabhade PDC,410506
 Karandi PDC,412208
 Kasari PDC,412208
 Kolwadi PDC,412110
@@ -47930,7 +47685,6 @@ Bedadka PDC,671541
 Chamnad PDC,671317
 Adkathbail PDC,671121
 Shiribagilu PDC,671124
-ULIYATHADKA PDC,671124
 Arikady PDC,671321
 Bombrana PDC,671321
 Nirchal PDC,671321
@@ -48873,7 +48627,6 @@ Marjadpur PDC,485881
 New Deorajnagar PDC,485881
 Saria PDC,485881
 Tapa PDC,485115
-khukhuda kothar PDC,485115
 Janardanpur PDC,485111
 Kandaila PDC,485111
 Padkhuri PDC,485111
@@ -49039,7 +48792,6 @@ Ghiyar PDC,484771
 Keet PDC,484771
 Dongarsarwar PDC,484771
 Barhi Kachhar PDC,484771
-Giruikhurd PDC,484771
 Amgawan PDC,484330
 Rasmohni PDC,484669
 Tikuri PDC,484669
@@ -50163,7 +49915,6 @@ Sangariya PDC,327601
 Shergarh PDC,327601
 Karji PDC,327604
 Samaria PDC,327604
-Pindarama PDC,327603
 Bhimpur PDC,327021
 Karanpur PDC,327021
 Chopasang PDC,327022
@@ -51464,7 +51215,6 @@ Sikrida PDC,752083
 Korapitha PDC,752081
 Taria PDC,752026
 Kajaliapalli PDC,752080
-CHADHEYAPALI PDC,752080
 Bhogabadi PDC,752091
 Indipurdeuli PDC,752016
 Nalibasanta PDC,752016
@@ -51591,7 +51341,6 @@ Kalkalia T E PDC,799211
 Taranagar PDC,799211
 Tarapur PDC,799211
 Town Rampur PDC,799002
-Durgabari PDC,799012
 Paschim Gokulnagar PDC,799130
 Jampuijala Colony PDC,799011
 Ampinagar PDC,799101
@@ -52197,7 +51946,6 @@ Mandar PDC,759016
 Mathatentulia PDC,759016
 Santhapur PDC,759016
 Sorisiapada PDC,759016
-Baniapada PDC,759016
 Belatikiri PDC,759027
 Babandha PDC,759019
 Bangursinga PDC,759019
@@ -54154,7 +53902,6 @@ Behlana PDC,160003
 Balongi PDC,160055
 Dharamgarh PDC,140501
 Joula Kalan PDC,140501
-Khuda Ali Sher PDC,160001
 Pabhat PDC,140603
 Behrampur Bet PDC,140111
 Bhoje Majra PDC,140111
@@ -54432,7 +54179,6 @@ Pipasar PDC,341029
 Dehari PDC,341030
 Jhareli PDC,341020
 Satika Kalan PDC,341020
-Kherat PDC,341002
 Bithora Kallan PDC,306001
 Barsa PDC,306001
 Gajnai PDC,306114
@@ -55012,7 +54758,6 @@ Markhamgarant PDC,248140
 Dwara PDC,248008
 Kumalda PDC,248008
 Kishanpur PDC,246149
-Khadri Khadakmaf PDC,249204
 Sarona PDC,248013
 Bharapur Bhori PDC,247667
 Dhanauri PDC,247667
@@ -56512,7 +56257,6 @@ Hariharpur PDC,231305
 Jaipatti Kala PDC,231305
 Kamalpur PDC,231305
 Khajuraul PDC,231305
-Kailhat Bazar PDC,231305
 Parsoi PDC,231219
 Mudiladeeh PDC,231215
 Sarvat PDC,231215
@@ -60823,7 +60567,6 @@ Sectt  Alwar PDC,301001
 Tehla PDC,301410
 Thanagazi PDC,301022
 Vijay Mandir PDC,301023
-EXTENSION COUNTER BHIWARI I A  POST OFFICE PDC,301019
 Bansur PDC,301402
 Jakhrana PDC,301713
 Mandawar S O (Alwar) PDC,301407
@@ -61002,7 +60745,6 @@ Zamin Endathur PDC,603311
 Mandaveli PDC,600004
 Royapettah PDC,600014
 West Mambalam PDC,600033
-Greams Road NDC PDC,600200
 Anna Nagar S O (Chennai) PDC,600040
 Icf Colony PDC,600038
 Perambur PDC,600011
@@ -61036,7 +60778,6 @@ SaramPy PDC,605013
 Thattanchavady PDC,605009
 Venkata Nagar PDC,605011
 Villiyanur PDC,605110
-Pondicherry NDC PDC,605012
 Alampoondi PDC,604151
 Illodu PDC,604210
 Kutteripattu PDC,604302
@@ -61309,7 +61050,6 @@ Khalgaon PDC,415620
 Lanja PDC,416701
 Rajapur S O (Ratnagiri) PDC,416702
 Sakharpa PDC,415801
-Kondye PDC,415635
 Guruwar Pethtasgaon PDC,416312
 Sankh PDC,416412
 Manjarde PDC,416317
@@ -61342,7 +61082,6 @@ Parel Rly Work Shop PDC,400012
 V J B Udyan PDC,400027
 Haffkin Institute PDC,400012
 Matunga PDC,400019
-NDC DADAR PDC,400114
 A I Staff Colony PDC,400029
 Airport S O (Mumbai) PDC,400099
 Andheri Railway Station PDC,400058
@@ -61352,7 +61091,6 @@ Sahar P and T Colony PDC,400099
 Santacruz P and T  Colony PDC,400029
 Seepz PDC,400096
 J B  Nagar PDC,400059
-NDC Chakala MIDC PDC,400193
 BARC PDC,400085
 Bhandup Complex PDC,400082
 Bhandup Ind Estate PDC,400078
@@ -61367,8 +61105,6 @@ Rifle Range PDC,400086
 Tilak Nagar SO Mumbai PDC,400089
 Trombay PDC,400088
 Vikhroli PDC,400079
-NDC CHEMBUR PDC,400171
-NDC Tagore Nagar PDC,400183
 Bangur Nagar PDC,400104
 Dahisar RS PDC,400068
 Dahisar PDC,400068
@@ -61384,7 +61120,6 @@ Cumballa Hill PDC,400026
 Dr Deshmukh Marg PDC,400026
 J J Hospital PDC,400008
 Tulsiwadi PDC,400034
-NDC Mumbai Central PDC,400118
 Central Building PDC,400020
 MPT PDC,400001
 Belapur Node   III PDC,400614
@@ -61430,7 +61165,6 @@ Tarapur App PDC,401504
 Vangaon PDC,401103
 Vasai Road E PDC,401202
 Vikramgad PDC,401605
-Mira Road NDC PDC,401108
 Alegaon PDC,444511
 Gandhinagar Akola PDC,444004
 Karanja S O (Washim) PDC,444105
@@ -61489,7 +61223,6 @@ Shradhananpeth PDC,440022
 Vivekanand Nagar PDC,440015
 Bori S O (Nagpur) PDC,441108
 Industrial Area Butibori PDC,441122
-NDC Nagpur G PDC,440038
 Pahela PDC,441924
 Pohra PDC,441809
 Tumsar PDC,441912
@@ -61550,8 +61283,6 @@ Model Colony PDC,411016
 Parvati PDC,411009
 Raviwar Peth PDC,411002
 Sadashiv Peth PDC,411030
-NDC Ganeshkhind PDC,411074
-NDC Parvati PDC,411076
 Baramati Court PDC,413102
 Baramati MIDC PDC,413133
 Bhavaninagar S O (Pune) PDC,413104
@@ -61616,7 +61347,6 @@ Fazalpura PDC,431001
 Harsool PDC,431008
 Session Court S O (Chhatrapati Sambhajinagar) PDC,431005
 Shivar PDC,431116
-Nodal Delivery Center PDC,431025
 Ankush Nagar PDC,431212
 Sillod Sakhar Karkhana PDC,431135
 Soegaon PDC,431120
@@ -61684,7 +61414,6 @@ Sawarkar Nagar PDC,422013
 Trimbak PDC,422212
 Trimbak Vidya Mandir PDC,422213
 Ycm Open Univesity PDC,422222
-NDC Nashik PDC,422014
 Devlali Air Force PDC,422501
 Devlali Bazar PDC,422401
 Idgaon Devlali PDC,422101
@@ -62090,7 +61819,6 @@ Kosamba RS PDC,394120
 Vankal PDC,394430
 Varachha Road PDC,395006
 TARSADI PDC,394120
-NDC SURAT PDC,395015
 Chandod PDC,391105
 Gadhboriad PDC,391152
 Kawant PDC,391170
@@ -62149,7 +61877,6 @@ Faridabad Sector 22 PDC,121005
 Faridabad Sector 29 PDC,121008
 New Township Palwal PDC,121102
 Sector55 PDC,121015
-NDC Faridabad PDC,121999
 Air Force PDC,122005
 Garhi Harsaru PDC,122505
 IMT Manesar PDC,122052
@@ -62159,8 +61886,6 @@ Nuh PDC,122107
 Punhana PDC,122508
 Tauru PDC,122105
 Vatika India Sec 82 PDC,122012
-NDC GURGAON PDC,122999
-NDC DLF QE Complex PDC,122998
 Bawania PDC,123034
 Gokal Bazar Rewari PDC,123401
 Khori PDC,123101
@@ -62909,7 +62634,6 @@ Saidabad PDC,500059
 Shahalibanda PDC,500065
 Uppuguda PDC,500053
 Badangpet PDC,500112
-NDC Kanchanbagh PDC,500958
 G S I (S R) Bandlaguda PDC,500068
 Ramanthapur PDC,500013
 Ibrahimpatnam PDC,501506
@@ -62925,7 +62649,6 @@ Jama I Osmania PDC,500007
 Musheerabad (D) PDC,500020
 Prakashamnagar PDC,500016
 Samskruthi PDC,500088
-NDC ECIL PDC,500962
 Aushapur PDC,501301
 Alwal PDC,500010
 Chandanagar PDC,500050
@@ -63693,7 +63416,6 @@ Barkhedi PDC,462008
 Gandhi Nagar (Bhopal) PDC,462036
 Mandideep PDC,462046
 Sikandri Sarai PDC,462010
-Nodal Delivery Centre Bhopal G P O PDC,462099
 Arera Hills PDC,462027
 Govindpura PDC,462023
 R S Nagar PDC,462016
@@ -63801,7 +63523,6 @@ Miloniganj PDC,482002
 Napier Town PDC,482001
 Richhai PDC,482010
 Shahpura (Jabalpur) PDC,483119
-NDC Jabalpur PDC,482007
 Bakal PDC,483331
 Barhi S O (Katni) PDC,483770
 Niwar PDC,483442
@@ -63830,7 +63551,6 @@ Meghnagar PDC,457779
 Ratlam Collectorate PDC,457001
 Ratlam Stn Road PDC,457001
 Sailana PDC,457550
-Shivgarh PDC,457111
 Biaora PDC,465674
 Boda PDC,465685
 Khilchipur PDC,465679
@@ -63901,7 +63621,6 @@ Reis Magos PDC,403114
 Secretariat S O (North Goa) PDC,403521
 St Inez PDC,403001
 Tapal Bhavan PDC,403001
-NDC Goa at Alto Porvorim PDC,403522
 Jawaharnagar Ichalkaranji PDC,416115
 Kumbhoj PDC,416111
 Shirol PDC,416103
@@ -64415,7 +64134,6 @@ Alinagar PDC,273001
 Deidiha PDC,273409
 Gorakhpur University PDC,273009
 Uruwa Bazar PDC,273407
-NDC GORAKHPUR PDC,273011
 Collectrate Compound Maharajganj PDC,273303
 Dhani Bazar PDC,273161
 M M M E College PDC,273010
@@ -64636,7 +64354,6 @@ Mijikajan PDC,784173
 Napaam PDC,784028
 Sirajuli PDC,784117
 Sonitpur PDC,784001
-Bairia PDC,800036
 Barauni Urvark Nagar PDC,851115
 Beldaur PDC,852161
 Chautham PDC,851201
@@ -64884,7 +64601,6 @@ Sector 2 Bhilai PDC,490001
 Sector 3 Bhilai PDC,490001
 Dondi PDC,491230
 ISPAT BHAWAN BHILAI PDC,490001
-NDC Bhilai Nagar PDC,490004
 Gandai Pandaria PDC,491888
 Kawardha Collectorate PDC,491995
 Ambikapur Nyalaya PDC,497001
@@ -64993,7 +64709,6 @@ Narayannagar PDC,380007
 Polytechnic SO Ahmedabad PDC,380015
 Sabarmati PDC,380005
 New Ranip PDC,382470
-NDC Naranpura Vistar PDC,380012
 Civil Hospital PDC,380016
 Delhi Gate SO Ahmedabad PDC,380004
 Naroda I E PDC,382330
@@ -65209,7 +64924,6 @@ Hathi Barkala PDC,248001
 Majra SO Dehradun PDC,248171
 Pashulok PDC,249203
 Mehunwala PDC,248018
-NDC Dehradun PDC,248020
 Bhagwanpur SO Haridwar PDC,247661
 Roorkee City PDC,247667
 Roshnabad Kutchery PDC,249403
@@ -65600,7 +65314,6 @@ Mathchandipur PDC,721659
 Paramanandapur PDC,721644
 Parbatipur PDC,721636
 Reapara PDC,721650
-NDC Uppal PDC,500939
 Biborda PDC,722152
 Gohagram PDC,713428
 Mohara PDC,713428
@@ -66241,7 +65954,6 @@ Nonhi PDC,804418
 Saistabad PDC,804418
 Keyal PDC,804420
 Saha Telpa PDC,804420
-MANIYAWAN PDC,804420
 Lari PDC,804422
 Sachai PDC,804421
 KORIYAWAN PDC,804435
@@ -66288,9 +66000,6 @@ Pedraun PDC,811312
 Kakan PDC,811313
 Pathak Chak PDC,811313
 Agahara Barubatta PDC,811313
-Sijhauri PDC,811315
-Akauni PDC,811315
-Lohanda PDC,811315
 Charkapathal PDC,811314
 Maheshwari PDC,811314
 Dhodhari PDC,811314
@@ -66465,8 +66174,6 @@ MOBARAKPUR PDC,801505
 APiplawan PDC,801109
 CHESI PDC,801109
 SRAMPUR PDC,801109
-Bahuara PDC,801109
-Chhoti Tengraila PDC,801109
 JARKHA PDC,801110
 KHANPURA PDC,801110
 MASAURHA PDC,801110
@@ -66638,7 +66345,6 @@ Saistapur PDC,844508
 Nainha PDC,844124
 Chakjamal PDC,844509
 Mani Bhakurahar PDC,844125
-KUTUBPUR PDC,844125
 Jahangirpur Salkhanni PDC,844126
 Milki Urf  Chakwaje Khijirpur PDC,844126
 Pour PDC,844126
@@ -66666,12 +66372,6 @@ Galgam PDC,494447
 Palaguda PDC,494447
 Putkel PDC,494447
 Gaganpalli PDC,494447
-Chutwahi PDC,494447
-Dalla PDC,494447
-Kottaguda PDC,494447
-Bhimaram PDC,494447
-Tekler PDC,494447
-Pedachanda PDC,494447
 Dugeli PDC,494553
 Gamawada PDC,494553
 NERLI PDC,494553
@@ -66695,16 +66395,6 @@ keshkutul PDC,494450
 KETULNAR PDC,494450
 KOMPALLI PDC,494450
 USKAPATNAM PDC,494450
-Bandemarka PDC,494450
-Edkapalli PDC,494450
-Madepur PDC,494450
-Mukabeli PDC,494450
-Surokhi PDC,494450
-Medpal PDC,494450
-Karremarka PDC,494450
-Fandiwaya PDC,494450
-Palsegundi PDC,494450
-Kandalaparti PDC,494450
 Guria PDC,494224
 Mohlai PDC,494224
 Seoni PDC,494224
@@ -66719,31 +66409,20 @@ Vankomar PDC,494224
 Chargaon PDC,494224
 Kottaguda PDC,494446
 GULLAPENTA PDC,494446
-Kuchnur PDC,494446
-Kondahausam PDC,494446
 Pusnar PDC,494444
 KAMKANAR PDC,494444
 METAPAL PDC,494444
 MIDTE PDC,494444
 MORMED PDC,494444
 Gongla PDC,494444
-Mingachal PDC,494444
-Kachlaram PDC,494444
-Kottapal PDC,494444
-Irrenar PDC,494444
-Dumirpalnar PDC,494444
 Gatam B O PDC,494449
 Tetam PDC,494552
 CHITALUR PDC,494449
 JARAM PDC,494449
-Nadenar PDC,494449
 Singanpur PDC,494001
 Jagargunda PDC,494122
 Misma PDC,494122
 Porokondasanwali PDC,494122
-Gorgunda PDC,494111
-Korrapad PDC,494111
-Tetrai PDC,494111
 Chhotetumnar PDC,494441
 Gumda PDC,494441
 Harrakoder PDC,494441
@@ -66756,19 +66435,12 @@ Kandoli PDC,494441
 Muchnar PDC,494441
 TUMRIGUDA PDC,494441
 Gomter PDC,494441
-Kohkawada PDC,494441
-Sadar PDC,494441
-Bodhghat PDC,494441
-Muhander PDC,494441
-Salepal PDC,494441
-Kahachenar PDC,494441
 Burgum PDC,494556
 Potali PDC,494556
 Kadampal PDC,494556
 Madadi PDC,494556
 Purangel PDC,494556
 Aalnar PDC,494556
-Pirnar PDC,494556
 Banda PDC,494114
 Bheji PDC,494114
 Kistaram PDC,494114
@@ -66788,7 +66460,6 @@ Pamgal PDC,494448
 CHERAKDODI PDC,494448
 KESAIGUDA PDC,494448
 Tamlapalli PDC,494448
-Marrimalla PDC,494448
 Bhusaras PDC,494552
 Etepal PDC,494552
 Mailawada PDC,494552
@@ -66804,7 +66475,6 @@ Kodripal PDC,494111
 Pondum PDC,494111
 Rokel PDC,494111
 Chingawaram PDC,494111
-Chichorguda PDC,494111
 Kumharsandra PDC,494442
 Kalepal PDC,494442
 BIRGALI PDC,494442
@@ -66813,14 +66483,11 @@ Kodenar-3 PDC,494442
 Mawlibhata PDC,494442
 Sadrabodenar PDC,494442
 Soorguda PDC,494442
-Bhejripadar PDC,494442
 Gorli PDC,494115
 Michwar PDC,494115
 Pendalnar PDC,494115
 Sautnar PDC,494115
 Gumadpal PDC,494115
-Keratong PDC,494115
-Dabba PDC,494115
 Deori PDC,494334
 Kokpur PDC,494334
 Malajkudum PDC,494334
@@ -66830,19 +66497,11 @@ Kolar PDC,494665
 Koyalibeda PDC,494665
 Tadoki PDC,494665
 Kanagoan PDC,494665
-Kohka PDC,494665
-Hetale PDC,494665
-Gutakachhar PDC,494665
-Khutgaon PDC,494665
 Kurenar PDC,494777
 Maroda PDC,494777
 Nagaldand PDC,494777
 Shankar Nagar PDC,494777
 Sitram PDC,494777
-Ghotanbeda PDC,494777
-Maanjhikutni PDC,494777
-Puskatta PDC,494777
-Berhbeda PDC,494777
 Durgkondal PDC,494669
 Ghotha PDC,494669
 Janakpur PDC,494669
@@ -66852,7 +66511,6 @@ Pevari PDC,494669
 Sonekanhar PDC,494669
 Surungdoh PDC,494669
 Dodkaenhur PDC,494669
-Padgaal (Hanpatri) PDC,494669
 Badegauri PDC,494337
 Sirsida PDC,494337
 Badejharkatta PDC,494771
@@ -67213,8 +66871,6 @@ Nagarajupalli PDC,523301
 Ananthavaram PDC,523301
 Jonnatali PDC,523301
 Rajugaripalem PDC,523301
-Bhagavanrajupalem PDC,504346
-Kondamanjulur PDC,523261
 Pothavaram PDC,523183
 Brahmananidamanuru PDC,523183
 Hussainpalli PDC,506319
@@ -68400,7 +68056,6 @@ Peddalogidi PDC,532213
 Jagannadhapuram PDC,532430
 Umilada PDC,532430
 Gathalavalasa PDC,532430
-Guppidipeta PDC,532430
 Jamachakram PDC,532426
 Savaraddapanasa PDC,532426
 Peddabammidi PDC,532474
@@ -69578,7 +69233,6 @@ Ratanpura PDC,841506
 Kpmishrauli PDC,841245
 Sanjalpur PDC,841245
 Shiopur Sakra PDC,841245
-UJJAINA PDC,841447
 BB Bankatwa PDC,845101
 Patilar PDC,845101
 Sirisia PDC,845101
@@ -70056,9 +69710,6 @@ ADAVI RANGAPUR PDC,506331
 Kantaipalem PDC,506163
 Venkatapur PDC,506163
 Korepalli PDC,506318
-Liabarthy PDC,506313
-Sagaram PDC,506313
-DONGACHINTHATHANDA PDC,506313
 Oblapur PDC,506316
 Thammadapalli PDC,506316
 Timmapuram PDC,506316
@@ -70089,7 +69740,6 @@ Cherlapalli PDC,501301
 Edulabad PDC,501301
 Katchavanisingaram PDC,500088
 Korremal PDC,500088
-Godhumkunta PDC,501302
 Kutbullapur PDC,500055
 CMR College PDC,501401
 Dabirpur PDC,501401
@@ -70098,7 +69748,6 @@ Rajbolaram PDC,501401
 Ravalkol PDC,501401
 Yakmai PDC,501143
 Bandelkacherla PDC,501502
-Lingampally PDC,501502
 Chenvelli PDC,501503
 Kandwada PDC,501503
 Kowkunta PDC,501503
@@ -70882,7 +70531,6 @@ ROUNIA PDC,854104
 BHOLMARA PDC,855108
 KHODAGANJ PDC,855108
 KANHAIYABARI HAT PDC,855107
-Pichhla B O PDC,855107
 DHANETHA PDC,854108
 KHERIA PDC,854108
 DHARHAN PDC,854116
@@ -71912,7 +71560,6 @@ Sotam PDC,829207
 Pathakpagar PDC,822118
 Kotkhas PDC,822118
 Pipra Khurd PDC,822118
-Julanga PDC,822118
 Parhatoli PDC,822119
 Chainpur PDC,822119
 Kukud PDC,822119
@@ -74675,7 +74322,6 @@ Malhar PDC,182121
 Johnu PDC,182124
 Sermanjla PDC,182124
 Goha PDC,182201
-Bari PDC,182201
 Dool PDC,182204
 Galhar PDC,182204
 Sharanwan PDC,182130
@@ -74869,7 +74515,6 @@ Chhuhi PDC,493773
 Karaiha PDC,493773
 Kukrel PDC,493773
 Kalartarai PDC,493773
-Dhamtari Nyayalay PDC,493773
 Madanpur PDC,493889
 Maroda PDC,493889
 Boirgaon PDC,493889
@@ -74912,7 +74557,6 @@ Malidih PDC,493445
 Tumgaon PDC,493445
 Bodrabandha PDC,493445
 Machewa PDC,493445
-Mahasamund Nyayalay PDC,493445
 Gaurgaon PDC,493888
 Gona PDC,493888
 MainpurII PDC,493889
@@ -75713,7 +75357,6 @@ Jannagadde PDC,577136
 S  Madapura PDC,577138
 Somanahalli PDC,577138
 Dandur PDC,577549
-Kallenahalli PDC,577549
 Mudigere PDC,577550
 Addagadde PDC,577126
 Berukodige PDC,577126
@@ -76008,7 +75651,6 @@ Ganjigere PDC,571812
 Kanaganahalli PDC,571455
 Kusma PDC,494226
 Lakhapuri PDC,494220
-Kejang PDC,494226
 Dhanelikanhar PDC,494670
 Selegaon PDC,494670
 Kanharpuri PDC,491441
@@ -76016,7 +75658,6 @@ Katholi PDC,494670
 Nathianawagaon PDC,494336
 Palewa PDC,494336
 Salebhat PDC,494336
-Gotitola PDC,494336
 Bijli PDC,494661
 Chingnar PDC,494661
 Orcha PDC,494662
@@ -76029,8 +75670,6 @@ Kodoli PDC,494662
 Mahimagawadi PDC,494662
 Nayanar PDC,494661
 Aadimpar PDC,494661
-Bhatpal PDC,494661
-Karmari PDC,494661
 Bhansuli PDC,494333
 Surhi PDC,494333
 Devgaon PDC,494333
@@ -76038,9 +75677,6 @@ Pratappur PDC,494776
 Kalyanpur PDC,494776
 Machpalli PDC,494776
 Matoli PDC,494776
-Murawandi PDC,494776
-Hidur PDC,494776
-Pariyahur PDC,494776
 Hirri PDC,494229
 Juganikalar PDC,494229
 Lubha PDC,494228
@@ -76058,8 +75694,6 @@ Toskapal PDC,494230
 Kanagaon PDC,494230
 Khutpadar PDC,494230
 Hatchapai PDC,494230
-Marmakonadi PDC,494230
-Niljhar PDC,494230
 Jodekursi PDC,494635
 Traighotiya PDC,494635
 Amakada PDC,494635
@@ -76067,13 +75701,11 @@ Barheli PDC,494635
 Bhainsakanhar A PDC,494635
 Bogar PDC,494635
 Chindgaon PDC,494635
-Gudhphel PDC,494635
 Budeli PDC,494335
 Dhanesara PDC,494335
 Largaon Markatola PDC,494335
 Sarwandi PDC,494335
 Ghotiyavahi PDC,494335
-Rawas PDC,494335
 Khalari PDC,494347
 Tenwsa PDC,494347
 Dharli PDC,494237
@@ -76081,15 +75713,6 @@ Heerapur PDC,494237
 Bogadi PDC,494237
 Sitali PDC,494237
 Binjoli PDC,494237
-Becha PDC,494220
-Puspal PDC,494220
-Ader PDC,494662
-Makadi PDC,494226
-Bagdongari PDC,494661
-Ghamandi PDC,494661
-Padamkot PDC,494661
-Aakabeda PDC,494661
-Mohndi PDC,494661
 Birkoni PDC,495552
 Kotmisonar PDC,495552
 Pondidalha PDC,495552
@@ -76299,7 +75922,6 @@ Kaudikasa PDC,491665
 Rengadabri PDC,491665
 Motipur PDC,491665
 Kuturghoda PDC,491665
-Madiyanvadvi PDC,491665
 Amgaon PDC,491668
 Belargondi PDC,491668
 Charbhata PDC,491668
@@ -76370,15 +75992,11 @@ Vikrampur PDC,491881
 Nedgaon PDC,491229
 Kaneli PDC,491229
 Navagaon PDC,491229
-Sharda PDC,491229
-Ghodagaon PDC,491229
-Baseli PDC,491229
 Korramtola PDC,491666
 Kumhali PDC,491666
 Panabaras PDC,491666
 Umarpal PDC,491666
 Urjhe PDC,491666
-Urwahi PDC,491666
 Bagharra PDC,491559
 Damapur PDC,491559
 Kolegaon PDC,491559
@@ -76551,7 +76169,6 @@ Ghamroj PDC,122102
 Bilaspur Khurd PDC,122413
 Dhani Chitarsain PDC,122413
 Pathreri PDC,122413
-Jhanjrola Khera PDC,122506
 Smaspur PDC,122003
 Gudhana PDC,122504
 Jant PDC,122502
@@ -76600,7 +76217,6 @@ Daroli Ahir PDC,123028
 Kothal Khurd PDC,123028
 Asiaki Gorawas PDC,123035
 Rohrai PDC,123401
-Kheri Ramgarh PDC,123304
 Bhoda PDC,125047
 Landhari PDC,125047
 Chirod PDC,125007
@@ -77672,7 +77288,6 @@ Fungkah PDC,796901
 Sangau PDC,796901
 Tuipang PDC,796901
 SENTETFIANG PDC,796901
-SIHHMUI PDC,796410
 Mualpheng PDC,796261
 Pawlrang PDC,796261
 Vanbawng PDC,796261
@@ -77781,7 +77396,6 @@ Kolavoor PDC,574162
 Kompadavu PDC,574144
 Kandavara PDC,574151
 Kumpala PDC,575022
-Madoor PDC,575022
 Boliyar PDC,574153
 Pavur PDC,574199
 Nagori PDC,575002
@@ -77851,7 +77465,6 @@ Uttuvalli PDC,571313
 Ajjipura PDC,571439
 Uddanur PDC,571439
 Honnahalli PDC,571127
-Kullur PDC,571127
 Alur PDC,571117
 Kannur PDC,571443
 Singanallur PDC,571443
@@ -78789,7 +78402,6 @@ Kudan PDC,401502
 Tandulwadi PDC,401102
 Virathan Budruk PDC,401102
 Khaniwali PDC,401204
-Ganeshpuri PDC,401204
 Chandansar PDC,401305
 Abitghar PDC,421303
 Alonde PDC,421303
@@ -79581,7 +79193,6 @@ Kharadgaon PDC,414502
 Ladjalgaon PDC,414502
 Malegaon PDC,414502
 Tandali Dumala PDC,413701
-Chikhalthanwadi PDC,413726
 Kendal BK PDC,414105
 Narayan Gavan PDC,414301
 Dhotre BK PDC,414304
@@ -80782,7 +80393,6 @@ Bijari PDC,425414
 Radikalam PDC,425414
 Talai PDC,425414
 Sawaryadigar PDC,425414
-ASALI PDC,425414
 Gondur PDC,424002
 Mehergaon PDC,424002
 Nakane PDC,424002
@@ -80902,7 +80512,6 @@ Hatale PDC,424119
 Kharjai PDC,424119
 Khadki bk PDC,424119
 Tandulwadi PDC,424102
-Waghra-Waghri PDC,425111
 Dodhwad PDC,425420
 Kalali PDC,425420
 Dahivad PDC,425401
@@ -81075,7 +80684,6 @@ Irivallur PDC,673616
 Kuruvattur PDC,673611
 Karuvasseri PDC,673010
 Vengeri PDC,673010
-Thanneerpanthal PDC,673010
 Meemutty PDC,673580
 Karuvampoyil PDC,673572
 Manipuram PDC,673572
@@ -81982,7 +81590,6 @@ Pirna PDC,403513
 Camurlim PDC,403507
 Cumbharjua PDC,403107
 Mandur PDC,403104
-Bharati Indian Antartic Station PDC,403004
 Onda PDC,403530
 Morjim PDC,403527
 Varconda PDC,403512
@@ -81992,7 +81599,6 @@ Pilerne PDC,403114
 Pratapnagar Harvale PDC,403505
 Surla PDC,403505
 Sancordem PDC,403406
-Bolkarne PDC,403406
 Sirsaim PDC,403502
 Cotorem PDC,403506
 Guleli PDC,403506
@@ -82184,7 +81790,6 @@ Gangai PDC,480886
 Sihora PDC,480886
 Jhittarra PDC,480996
 SOS BALGRAM PDC,462022
-Chhawani Pathar PDC,462022
 Bhouri PDC,462030
 Nayapura PDC,462030
 Tara Sewaniya PDC,462036
@@ -82419,7 +82024,6 @@ Linga PDC,480559
 Pipalpani PDC,480338
 Lohangi Raiyat PDC,480112
 Turkikhapa PDC,480107
-Jamuniya Jethu PDC,480442
 Sukkarwara PDC,461001
 Sangakheda Kalan PDC,461001
 Narmal School Hoshangabad PDC,461001
@@ -82990,7 +82594,6 @@ Breka PDC,762010
 Belghar PDC,762107
 Bhandrangi PDC,762107
 Sirla PDC,762107
-Raipur Khurd PDC,160003
 Baliali PDC,160055
 Dappar PDC,140506
 Jalalpur PDC,140506
@@ -84753,10 +84356,8 @@ Sarangajodi PDC,752014
 Balapur PDC,752046
 Birapurusottampur PDC,752046
 Teisipur PDC,752046
-Durgadaspur PDC,752104
 Mukundadaspur PDC,752100
 Dandamakundpur PDC,752104
-Mirzapur PDC,752010
 Belpara PDC,767040
 Biripali PDC,767040
 Mahakhand PDC,767040
@@ -85497,7 +85098,6 @@ Andirapuram PDC,629851
 Ratnapuram PDC,629851
 Kadukkarai PDC,629851
 Keeriparai PDC,629851
-Veerapuli R F PDC,629851
 Isanthimangalam PDC,629852
 Kodimunai PDC,629251
 Pazhavilai PDC,629501
@@ -87060,7 +86660,6 @@ Bethwasia PDC,342303
 Khabra Khurd PDC,342303
 Padasala PDC,342303
 Dhunariya PDC,342303
-NEWRA ROAD PDC,342303
 Doli PDC,342014
 Khudala PDC,342014
 Loonawas Kallan PDC,342014
@@ -88062,7 +87661,6 @@ Chak 4 Ksp PDC,335526
 13 Ksp-B PDC,335526
 Kelaniya PDC,335522
 Dhirdesar PDC,335522
-Malasar B O PDC,335522
 Kalian PDC,335001
 12 Z PDC,335001
 78 Gb PDC,335701
@@ -88116,7 +87714,6 @@ Rasuwala PDC,335062
 5 As PDC,335704
 14 Bgd PDC,335704
 3 Bpm PDC,335704
-Gopalsar PDC,335704
 47 F PDC,335073
 61 F PDC,335073
 Naggi PDC,335073
@@ -88468,7 +88065,6 @@ Unai Pallathur PDC,632101
 Thuthikadu PDC,632113
 Veppambattu PDC,632113
 Eriyur Amirthi PDC,632102
-KILKANAVAYUR PDC,632102
 Arumbakkam PDC,632202
 Senji PDC,632202
 Alamelumangapuram PDC,632009
@@ -89074,7 +88670,6 @@ Gossaipur PDC,734014
 Tarbandha PDC,734014
 Kalachandgach PDC,734426
 Bilakshu PDC,734427
-TUMBAJOTE PDC,734010
 Duptin10 PDC,734214
 Seeyok PDC,734214
 Thurbo PDC,734214
@@ -90354,7 +89949,6 @@ Mangara PDC,222162
 Pariyat PDC,222162
 Sotipur PDC,222162
 Budhhipur PDC,222128
-Bhelara PDC,228172
 Kohara Sultanpur PDC,222132
 Bhaupur PDC,222136
 Kumbhapur PDC,222137
@@ -91597,7 +91191,6 @@ Solaikudiyiruppu PDC,628210
 Viramanickam PDC,628212
 Seerudaiyarpuram PDC,628213
 Siluvaipatti PDC,628002
-Vellapatti PDC,628002
 Marudanvalvoo PDC,628303
 Savalaperi PDC,628303
 Maniyac R S PDC,628302
@@ -93188,7 +92781,6 @@ Barehpura PDC,262121
 Bhadsara PDC,262121
 Bahadurpur PDC,262203
 Karunapur Karoor PDC,262203
-Aliyapur PDC,262203
 SINDHAURA KHARAGPUR PDC,262202
 Amra Karoor PDC,262201
 Churra PDC,262201
@@ -93215,7 +92807,6 @@ Padla PDC,246731
 Rawli PDC,246721
 Sabalpur Bitra PDC,246732
 Chandanpura PDC,246763
-Jagdishpur PDC,246763
 Bijauri PDC,246749
 Mandawali PDC,246749
 Mohanpur PDC,246749
@@ -93631,7 +93222,6 @@ Randol PDC,247120
 Bahera Sandal Singh PDC,247120
 Kamboh Majra PDC,247121
 Raipur PDC,247121
-Badshahi Bagh PDC,247121
 Banderjud PDC,247662
 Mohand PDC,247662
 Tanko Sunderpur PDC,247662
@@ -93705,7 +93295,6 @@ Kuaran PDC,733102
 Jagadishpur PDC,733201
 Rashokhowahat PDC,733201
 Shikarpur PDC,733201
-Narayanpur PDC,733201
 Hatia PDC,733123
 Jalalpur PDC,733124
 Kaldighi PDC,733124
@@ -93720,7 +93309,6 @@ Dangarhat PDC,733141
 Kumarganj PDC,733141
 Pundari PDC,733125
 Sandhiya PDC,733125
-PATUN PDC,733125
 Trimohini PDC,733126
 Dhantala PDC,733202
 Haptiagachh PDC,733202
@@ -93750,7 +93338,6 @@ Asharubasti PDC,733207
 Kaimari PDC,733207
 Kuchilagoan PDC,733207
 Molani PDC,733207
-MASTAFAPUR PDC,733140
 Daralhat PDC,733127
 Laskarhat PDC,733127
 Telighata PDC,733127
@@ -93763,7 +93350,6 @@ Santa PDC,713325
 Bogra PDC,713332
 Bhanora PDC,713334
 Seakulberia PDC,713335
-PRANTAPALLY PDC,713335
 Ethora PDC,713359
 Lalganj PDC,713359
 Asanboni PDC,713360
@@ -94047,7 +93633,6 @@ Keshabpur PDC,712413
 Chakhayatpur PDC,712416
 Dharasimul PDC,712416
 Palaspai PDC,712416
-SOSAPOTA PDC,712417
 Purba Krishnapur PDC,712415
 Ragpur PDC,712415
 Manaspur PDC,712123
@@ -94328,7 +93913,6 @@ Sironj PDC,464228
 Indore Takshashila PDC,452001
 Khatiwala Tank PDC,452014
 Mhow Cantt PDC,453441
-NODEL DELIVERY CENTER INDORE PDC,452999
 Bijasan Road PDC,452005
 Indore Collectorate PDC,452007
 Indore R S S Nagar PDC,452011
@@ -94423,7 +94007,6 @@ Bijaipur S O (Sheopur PDC,476332
 Dimni PDC,476134
 Karhal S O (Sheopur PDC,476355
 Kelaras PDC,476224
-DHODHAR PDC,476338
 Collem PDC,403410
 Curchorem PDC,403706
 Curtorim PDC,403709
@@ -94517,7 +94100,6 @@ Dadar Colony PDC,400014
 Wadala PDC,400031
 CHINCHBUNDER PDC,400009
 Bandra West PDC,400050
-Bandra W eCOM  Nodal Delivery Centre PDC,400150
 Bhandup East PDC,400042
 Nahur PDC,400080
 Pant Nagar PDC,400075
@@ -94529,7 +94111,6 @@ Goregaon RS PDC,400104
 Jogeshwari East PDC,400060
 Malad PDC,400064
 Motilal Nagar PDC,400104
-NDC Kandivali West PDC,400167
 Opera House PDC,400004
 Bhawani Shankar PDC,400028
 Prabhadevi PDC,400025
@@ -94542,7 +94123,6 @@ Mantralaya SO Mumbai PDC,400032
 Nariman Point PDC,400021
 Tajmahal PDC,400001
 VWTC PDC,400005
-NDC Mumbai G PDC,400111
 K U Bazar PDC,400703
 Karjat S O (Raigarh(MH)) PDC,410201
 Khanda Colony PDC,410206
@@ -94571,7 +94151,6 @@ Ulhasnagar 4 PDC,421004
 Vishnunagar PDC,421202
 Bhiwandi PDC,421308
 Kalwa PDC,400605
-Thane NDC PDC,400609
 Diwa PDC,400612
 Agashi PDC,401301
 Bassein Road PDC,401202
@@ -94934,7 +94513,6 @@ Bhoilymbong PDC,793116
 Barengapara PDC,794103
 Tikrikilla PDC,794109
 DAINADUBI PDC,794113
-HALLIDAYGANJ PDC,794116
 Anantapur S O (Baleswar) PDC,756046
 Chakabarahapur PDC,756055
 Kupari PDC,756059
@@ -95013,7 +94591,6 @@ Jagannathapuram PDC,517501
 R S Gardens PDC,517507
 Tirumala S O (Chittoor) PDC,517504
 Tirupati West PDC,517501
-Nodal Delivery Center Tirupati PDC,517510
 Akividu PDC,534235
 Kopalle PDC,534206
 S R K R  Engg college PDC,534204
@@ -95165,7 +94742,6 @@ Railway Wagon Work Shop PDC,521241
 Veerullapadu PDC,521170
 Vja Rly Divl Office PDC,520001
 Magallu PDC,521184
-GOLLAPUDI BAZAR PDC,521225
 Anatavaram PDC,533222
 Mummidivaram PDC,533216
 Palivela PDC,533229
@@ -95458,7 +95034,6 @@ Naini SO Saran PDC,841316
 Pratappur SO Saran PDC,841225
 Purwari Telpa PDC,841302
 Rajendra College SO Saran PDC,841301
-Meena Bazar Camp PDC,841101
 Amnour PDC,841401
 Dumarshan Bangra PDC,841410
 Ishuwapur PDC,841411
@@ -96274,7 +95849,6 @@ Nandambakkam Kudiyiruppu PDC,600089
 Nilamangai Nagar PDC,600088
 Pazhavanthangal PDC,600061
 Tidel Park PDC,600113
-NDC Stthomasmount PDC,600201
 Irungattukottai PDC,602117
 Kanchipuram Cutchery PDC,631501
 Little Kanchipuram PDC,631501
@@ -96997,7 +96571,6 @@ Shahajahanabad PDC,462001
 Bangrasia PDC,462045
 M P  Vidhan Sabha PDC,462004
 University S O (Bhopal) PDC,462026
-Nodal Delivery Centre Arera Hills Bhopal PDC,462057
 Buxwaha PDC,471318
 Nowgong PDC,471201
 Baldeogarh PDC,472111
@@ -98391,7 +97964,6 @@ Shastrinagar SO Ahmedabad PDC,380013
 Vadaj PDC,380013
 Ghuma PDC,380058
 South Bopal PDC,380057
-NDC Ellisbridge PDC,380010
 Bapunagar PDC,380024
 I E Bapunagar PDC,380024
 Krishnanagar SO Ahmedabad PDC,382345
@@ -98512,7 +98084,6 @@ Rajkot Raiya Road PDC,360007
 Rajkot Bedipara PDC,360003
 Rajkot Udyognagar PDC,360002
 Dhuva PDC,363623
-NDC RAJKOT PDC,360008
 Adariyana PDC,363780
 Chuda PDC,363410
 Dudhrej PDC,363040
@@ -98615,7 +98186,6 @@ Tejgadh PDC,391156
 Karelibaug PDC,390018
 MI Estate PDC,390010
 Ongc Col PDC,390009
-NDC VADODARA PDC,390026
 Bhaily PDC,391410
 Chhani SO Vadodara PDC,391740
 Fartilizer Nagar PDC,391750
@@ -99357,7 +98927,6 @@ Fathenagar Colony PDC,500018
 Manikonda PDC,500089
 Sanathnagar I E PDC,500018
 Shantinagar PDC,500028
-NDC Chitrapuri Colony PDC,500989
 IBC Hyderabad PDC,500109
 Gachibowli PDC,500032
 Himayathnagar PDC,500029
@@ -99433,7 +99002,6 @@ Ramapuram PDC,516504
 Chitvel PDC,516104
 Nandalur PDC,516150
 Tekhalibazar PDC,721646
-NDC Vanasthalipuram PDC,500970
 Daripally PDC,502255
 Uppu Lingapur PDC,502255
 Meenajipet PDC,502336
@@ -99442,7 +99010,6 @@ Fareedpur PDC,502130
 Rampur PDC,502109
 Pothamshettipally PDC,502109
 Ibrahimpur PDC,502247
-Venkataipally PDC,502335
 Zapthi Shivnoor PDC,502248
 Madur PDC,502248
 Shankarampet PDC,502248
@@ -99972,10 +99539,6 @@ GATTIKAL PDC,506314
 BURHANPALLE PDC,506314
 Singaram PDC,506005
 Fathepur PDC,506163
-Bandouthapur PDC,506313
-Kakkiralapalli PDC,506313
-Nandanam PDC,506313
-Yellanda PDC,506313
 Kondapur PDC,506316
 Bokinala PDC,521260
 Aziz Nagar PDC,500075
@@ -100003,7 +99566,6 @@ Thumkunta PDC,500078
 Uddemarri PDC,500078
 Mailwar PDC,501143
 Manthangod PDC,501143
-NEELAPALLI PDC,501143
 Ainapur PDC,501502
 Malkapur PDC,501158
 Sangamkalan PDC,501158
@@ -100224,9 +99786,7 @@ Gullapalli PDC,523211
 Guravareddipalem PDC,523211
 Konidena PDC,523301
 Vemavaramagraharam PDC,523301
-Kondamuru PDC,523261
 Fatheshapur PDC,506244
-Reningavaram PDC,523261
 Chadalavada PDC,523183
 Kopparam PDC,523302
 Kopperapalem PDC,523302
@@ -100904,8 +100464,6 @@ Nelakaner PDC,494447
 Polampalli PDC,494447
 Semaldodi PDC,494447
 TARREM PDC,494447
-Nabbi PDC,494447
-Yampur PDC,494447
 DHURLI PDC,494553
 Bhejripadar PDC,494222
 Khotalapal PDC,494222
@@ -100931,13 +100489,6 @@ MARAMETA PDC,494450
 PETHA PDC,494450
 TAKILOAD PDC,494450
 TALNAR PDC,494450
-Birabhatti PDC,494450
-Jaramarka PDC,494450
-Rengawaya PDC,494450
-Chuchkonta PDC,494450
-Ehkeli PDC,494450
-Dudme PDC,494450
-Cherpalli PDC,494450
 Salemeta PDC,494224
 Sonarpal PDC,494224
 Sorgaon PDC,494224
@@ -100961,8 +100512,6 @@ KADER PDC,494444
 MANKELI PDC,494444
 PALNAR PDC,494444
 POTENAR PDC,494444
-Sagwahi PDC,494444
-Mirganghotul PDC,494444
 Balpet PDC,494449
 Kamaloor PDC,494449
 Kawadgaon PDC,494449
@@ -100970,19 +100519,11 @@ Matenar PDC,494449
 Kumharras PDC,494449
 CHINTALANKA PDC,494449
 Gondpalli PDC,494449
-Kundeli PDC,494449
-Fulnar PDC,494449
-Chikpal PDC,494449
-Gudase PDC,494449
 Argatta PDC,494122
 Dubbatota PDC,494122
 Gogunda PDC,494122
 Gondpalli PDC,494122
 Kerlapal PDC,494122
-Tarlagudaa PDC,494111
-Surpanguda PDC,494111
-Kamaram PDC,494111
-Almagunda PDC,494111
 Bagmundi Panera PDC,494441
 BENGLUR PDC,494441
 HANDAWADA PDC,494441
@@ -100990,18 +100531,12 @@ HIDPAL PDC,494441
 KORKOTTI PDC,494441
 MOPHALNAR PDC,494441
 TUSHAVAL PDC,494441
-Kasoli 02 PDC,494441
-Pawel PDC,494441
-Bodali PDC,494441
-Tetam PDC,494441
 Bangali Camp PDC,494556
 Guphadi PDC,494556
 Kirandul R S PDC,494556
 Nahadi PDC,494556
 Kodenar PDC,494556
 Gollapalli PDC,494114
-karigundam PDC,494114
-Uskewaya PDC,494114
 Kuruspal PDC,494010
 Kuthar PDC,494010
 Chinnakawali PDC,494448
@@ -101009,11 +100544,6 @@ Dudheda (Kottaguda) PDC,494448
 Modakpal PDC,494448
 Sankanpalli PDC,494448
 USKALED PDC,494448
-Ralapal PDC,494448
-Chinnakodepal PDC,494448
-Punnur PDC,494448
-Gauraram PDC,494448
-Loded PDC,494448
 Masenar PDC,494552
 Mokhpal PDC,494552
 Pedka PDC,494552
@@ -101026,8 +100556,6 @@ Pakela PDC,494111
 Ramaram PDC,494111
 Murrepal PDC,494111
 Adhikariras PDC,494111
-Gondpalli PDC,494111
-Pordem PDC,494111
 Badekilepal PDC,494442
 Chitapur PDC,494442
 Keshapur PDC,494442
@@ -101038,17 +100566,12 @@ Jamgaon PDC,494442
 Kapanar PDC,494442
 Nainnar PDC,494442
 Rajoor PDC,494442
-Goriyapal PDC,494442
-Kanakurushpal PDC,494442
-Matkot PDC,494442
 Badegadam PDC,494115
 Chandangiri PDC,494115
 Kundanpal PDC,494115
 Kunna PDC,494115
 Kotamsar PDC,494115
 Tahakwada PDC,494115
-Jheeram PDC,494115
-Chiurwada PDC,494115
 Bagodar PDC,494334
 Manpur PDC,494334
 Puswada PDC,494334
@@ -101064,13 +100587,9 @@ Kosronda PDC,494665
 Mandagaon PDC,494665
 Mangta Salhebhat PDC,494665
 Temrupani PDC,494665
-Ghoomer PDC,494665
-Navgel PDC,494665
-Wala PDC,494665
 PV 92 PDC,494777
 Dharampur PDC,494777
 Kandadi PDC,494777
-Kanchanmunda PDC,494777
 Karaki PDC,494669
 Kewti PDC,494669
 Kodapakha PDC,494669
@@ -101090,10 +100609,6 @@ Pittebhodiya PDC,494771
 Prem Nagar PDC,494771
 Yashwantnagar PDC,494771
 Chankyapuri PDC,494771
-Paalavi PDC,494771
-Markachua PDC,494771
-Mendra PDC,494771
-Rampur PDC,494771
 Bhirawahi PDC,494334
 Pusawand PDC,494334
 Tultuli PDC,494334
@@ -101123,8 +100638,6 @@ Bharanda PDC,494661
 Gomagal PDC,494662
 Madhohnar PDC,494662
 Sonpur PDC,494661
-Amsara PDC,494661
-Dugabengal PDC,494661
 Amoda PDC,494333
 Kishanpuri PDC,494333
 Jamgaon PDC,496001
@@ -101148,18 +100661,14 @@ Charbhatha PDC,494230
 Baniyagaon PDC,494230
 Masukokoda PDC,494230
 Chaniyagaon PDC,494230
-Uperkamta PDC,494230
-Bagjhar PDC,494230
 Hatkondal PDC,494635
 Salhe PDC,494635
 Chihro PDC,494635
 Kalangpuri PDC,494635
 Parekodo PDC,494635
 Raurwahi PDC,494635
-Hepurkasha PDC,494635
 Kotalbhatti PDC,494335
 Nishanharra PDC,494335
-Tiriyarpani PDC,494335
 Marangpuri PDC,494347
 Balenga PDC,494347
 Khargaon PDC,494347
@@ -101174,19 +100683,6 @@ Toranga PDC,494237
 Mageda PDC,494237
 Badegodsoda PDC,494237
 Labha PDC,494237
-Aadnar PDC,494226
-Kadenar PDC,494220
-Chhoteteusari PDC,494220
-Rajpur PDC,494662
-Dhondarbeda PDC,494662
-Jatloor PDC,494662
-Pochawada PDC,494662
-Kachchapal PDC,494661
-Chandagaon PDC,494661
-Chhinari PDC,494661
-Matla PDC,494661
-Sulenga(Guriya) PDC,494661
-Erakbhatti PDC,494661
 Pandaria PDC,495552
 Jawalpur PDC,495559
 Mahuda PDC,495559
@@ -101334,7 +100830,6 @@ Senwaria PDC,845454
 Shikarpur PDC,845454
 Pharsahani PDC,845105
 Semra Medraul PDC,845105
-Gaunaha PDC,845455
 Alpaha PDC,845439
 B  Ratanpura PDC,845439
 Baijua PDC,845439
@@ -101720,7 +101215,6 @@ Patiyawan PDC,804424
 Kochhasa PDC,804427
 Salempur PDC,804427
 Sisamba PDC,804425
-Gonwan PDC,804425
 Supi PDC,804427
 Belkhara PDC,804429
 Jaipur PDC,804429
@@ -101756,14 +101250,6 @@ Chaura PDC,811313
 Katauna PDC,811313
 Sankurha PDC,811313
 Gurmaha PDC,811313
-Khardih PDC,811315
-Lachhuar PDC,811315
-Mathurapur PDC,811315
-Pirhinda PDC,811315
-Rabai PDC,811315
-Sawal Bigha PDC,811315
-Tal Saharsa PDC,811315
-Tarhari PDC,811315
 Khuranda PDC,811316
 Kanodi PDC,811316
 Ghutwey PDC,811316
@@ -101903,7 +101389,6 @@ Bhagwanpur PDC,805105
 Gazipur PDC,805105
 Mahudar B O PDC,805106
 Ranigadar PDC,805106
-Rewra Mahrath PDC,805108
 Reula PDC,805109
 Lond PDC,805114
 Chhatihar PDC,805111
@@ -101927,7 +101412,6 @@ Sambey PDC,805130
 Kharghara PDC,805131
 Khirwan PDC,805131
 Sahiya PDC,805131
-Kolhana PDC,805131
 Chaughara PDC,800008
 CDARIYAPUR PDC,801109
 KHAJURI PDC,801109
@@ -102142,7 +101626,6 @@ Rompalli PDC,535273
 Pittada PDC,535273
 Parasam PDC,535280
 Buradapeta PDC,535280
-BHUPALAPURAM PDC,535280
 Kothapalem PDC,535221
 Komatipalli Agraharam PDC,535580
 S Chintalavalasa PDC,535580
@@ -102377,7 +101860,6 @@ Jamuguri PDC,785603
 Chukiapather PDC,785601
 Pokamura PDC,785004
 Gorajan PDC,785631
-L Longidong PDC,785631
 Koronga PDC,785008
 Balichapori PDC,785104
 Majorchapori PDC,785104
@@ -102804,7 +102286,6 @@ Tangampadu PDC,507003
 Dubbagudem PDC,507210
 Pullur PDC,507210
 Seripuram PDC,507210
-Marrigudem PDC,507210
 Chirumarri PDC,507158
 Guvvalagudem` PDC,507158
 Suvarnapuram PDC,507158
@@ -104761,7 +104242,6 @@ Chiguruvada PDC,517508
 Thimminaidupalem PDC,517507
 Obularajukandriga PDC,517551
 Pathiputtur PDC,517551
-Oteru PDC,517508
 Chinakapavaram PDC,534235
 Gummuluru PDC,534235
 Sidhapuram PDC,534235
@@ -104793,7 +104273,6 @@ Kalipatnam PDC,534281
 Perupalem PDC,534281
 Kopparru PDC,534275
 Digamarru PDC,534275
-Yerramsettivaripalem PDC,534275
 Ramannapalem PDC,534280
 Skinnerapuram PDC,534230
 Ballipadu PDC,534225
@@ -105299,7 +104778,6 @@ Mohana Bank PDC,815351
 Pabia PDC,815351
 Pattajori Kajra PDC,815351
 Tilaki PDC,815351
-Mohra PDC,815351
 Deopur PDC,814142
 Dewalbari PDC,815352
 Gokula PDC,815352
@@ -105758,7 +105236,6 @@ Madamgeri PDC,591129
 Mugalihal PDC,591129
 Halakundi PDC,583102
 Shankarabanda PDC,583102
-Ubbalagandi PDC,583152
 Joladarashi PDC,583111
 Sidiginamola PDC,583111
 Channapatna PDC,583113
@@ -106859,7 +106336,6 @@ Dingar Kinner PDC,173001
 Dhagera PDC,173001
 Kangta Failag PDC,173022
 Thana Kashoga PDC,173022
-Chhou Bhogar PDC,173022
 Moginand PDC,173030
 Chokar PDC,173104
 Bhudhana PDC,173025
@@ -107975,7 +107451,6 @@ Shimanthoor PDC,574154
 Krishnapura PDC,575014
 Harohalli PDC,570028
 Yadakola PDC,570010
-SARKARI UTTNAHALLI PDC,570010
 Doora PDC,570008
 Jayapura PDC,570008
 Udbur PDC,570008
@@ -108150,7 +107625,6 @@ Duggaladka PDC,574239
 Kolchar PDC,574239
 Mandekole PDC,574239
 Kanyadi PDC,574240
-PERLA BAIPADY PDC,574240
 Ajjibettu PDC,574324
 Kula PDC,574243
 Nayarmoole PDC,574243
@@ -109140,7 +108614,6 @@ Gadpuri PDC,121004
 Gonchhi PDC,121004
 Neemka PDC,121004
 Seekri PDC,121004
-PYALA PDC,121004
 Bhaskola PDC,121002
 Kheri Kalan PDC,121002
 Bhandoli PDC,121107
@@ -109512,7 +108985,6 @@ Usribod PDC,491441
 Mangchua PDC,491665
 Gaulitola PDC,491665
 Keshla PDC,491665
-Goplinchuwa PDC,491665
 Patanvadwi PDC,491665
 Kulhardoh PDC,491665
 Bhojtola PDC,491665
@@ -109578,15 +109050,10 @@ Teregaon PDC,491229
 Dorde PDC,491229
 Morchul PDC,491229
 Mokasa PDC,491229
-Muchar PDC,491229
-Hathra PDC,491229
-Sudiyal PDC,491229
 Kakaipar PDC,491666
 Kandadi PDC,491666
 Rengakathera PDC,491666
 Ramgarh PDC,491666
-Bitejhar PDC,491666
-Parwahidih PDC,491666
 Khairjhiti PDC,491559
 Kisungarh PDC,491559
 Kukdur PDC,491559
@@ -110138,7 +109605,6 @@ Frisal PDC,192232
 Katrasoo PDC,192232
 Dachan PDC,193411
 Otligam PDC,193411
-Kralnewa PDC,193411
 Bemina Chowk PDC,190018
 Gariend PDC,191111
 Kachwari PDC,191111
@@ -110359,7 +109825,6 @@ Arkhango PDC,825418
 Bagro PDC,825418
 Masnodih PDC,825407
 Banji PDC,825314
-Barughutu PDC,825314
 Kariatpur PDC,825402
 Barkakala PDC,825402
 Parsauni PDC,825408
@@ -110386,7 +109851,6 @@ Jogiara PDC,825404
 Kunda PDC,825404
 Sijua PDC,825404
 Bhusia PDC,825404
-Dumarwar PDC,825404
 Pasnaur PDC,825132
 Mirganj PDC,825132
 Chopey PDC,825103
@@ -110399,7 +109863,6 @@ JirwaKhurd PDC,825103
 Sabano PDC,825103
 Banwar PDC,825103
 Salgi PDC,825103
-Jangi PDC,825103
 Kabra PDC,825321
 Tarwan PDC,825321
 Bicha PDC,829143
@@ -110782,7 +110245,6 @@ Padinharekkara PDC,676562
 Moonniyur South PDC,676311
 Ullanam PDC,676303
 Ullanam North PDC,676303
-Poovanchina PDC,676510
 Keraladheeswarapuram PDC,676307
 Panangattur PDC,676302
 Tanur Nagaram PDC,676302
@@ -111124,7 +110586,6 @@ Panwari PDC,471313
 Sarkana PDC,471313
 Sewar PDC,471313
 Deori sudeki PDC,471301
-GOPALPURA PDC,471301
 Churwari PDC,471111
 Galan PDC,471111
 Imaliya PDC,471111
@@ -111560,7 +111021,6 @@ Katkumbha PDC,444807
 Maheriam PDC,444807
 Shahapur PDC,444807
 Khallar PDC,444803
-Sakhari PDC,444803
 Badnapur PDC,444717
 Telkhar PDC,444717
 Chatwabod PDC,444702
@@ -111645,7 +111105,6 @@ Antri Deshmukh PDC,443301
 Mola PDC,443301
 Naigaon Duttapur PDC,443301
 Pimpalgaon Unda PDC,443301
-Bartala PDC,443301
 Kodri PDC,444201
 Wankhed PDC,444201
 Gadegaon Khurd PDC,443403
@@ -112350,7 +111809,6 @@ Pipalkhunta PDC,457001
 Shivpur PDC,457001
 Titari PDC,457001
 Jambupada PDC,457001
-Moriya PDC,457114
 Chandragarh PDC,457555
 Kelkachh PDC,457555
 Rajapura mataji PDC,457555
@@ -112361,7 +111819,6 @@ Jadwasa PDC,457339
 Barawada PDC,457226
 Chourasi Barayla PDC,457226
 Husaintekri PDC,457226
-Sohangarh PDC,457226
 Maota PDC,457340
 Mandawal PDC,457119
 Minawada PDC,457119
@@ -112758,7 +112215,6 @@ Bamni PDC,431510
 Bobde Takli PDC,431540
 Dudhgaon PDC,431540
 Nandapur PDC,431540
-Moirangpalli PDC,795138
 Haotak Khullen PDC,795011
 Ngaikhong Khullen PDC,795126
 Phubala PDC,795011
@@ -113435,7 +112891,6 @@ Takali Manur PDC,414102
 Tondoli PDC,414102
 Bhambora PDC,414403
 Chilwadi PDC,414403
-Siddhatek PDC,414403
 Joharapur PDC,414502
 Samsud Erandgaon PDC,414502
 Pedgaon PDC,413701
@@ -114445,7 +113900,6 @@ Kannancheri PDC,673003
 Sreerama Krishna Mission PDC,673003
 Kanni Paramba PDC,673661
 Olavanna PDC,673019
-Manakkadavu PDC,673019
 Vazhayur East PDC,673633
 Nallara Chal PDC,673593
 Narikkundu PDC,673593
@@ -115357,7 +114811,6 @@ Malwadi PDC,423102
 Matane PDC,423102
 Meshi PDC,423102
 Wajgaon PDC,423102
-Kankapur PDC,423102
 Sompur PDC,423303
 Desrane PDC,423501
 Nanduri PDC,423501
@@ -115413,7 +114866,6 @@ Kini PDC,413509
 Lohgaon PDC,431710
 Dogargaon PDC,431810
 Khanapur PDC,431717
-Yergi PDC,431717
 Salegaon PDC,431809
 Yetala PDC,431809
 Sugaon PDC,431722
@@ -115998,7 +115450,6 @@ Nagaj PDC,416403
 Antral PDC,416404
 Muchandi PDC,416404
 Shinganhalli PDC,416404
-Kolgiri PDC,416404
 Kuchi PDC,416405
 Shinganapur PDC,416405
 Alkud  (S) PDC,416411
@@ -117557,7 +117008,6 @@ Devinagar PDC,140507
 Tassimbli PDC,140501
 Behlolpur PDC,160014
 Chhatt PDC,140603
-Kurari PDC,140306
 Bassi Gujran PDC,140112
 Bass Bhabour PDC,140126
 Sukhshal PDC,140127
@@ -120599,7 +120049,6 @@ Ambagaon PDC,768110
 Balani PDC,768110
 Gursang PDC,768110
 Balu Singh Ki Dhani PDC,345024
-Prabhupura PDC,345024
 Baiya PDC,345027
 Seerhar PDC,345027
 Mehrajot PDC,345027
@@ -121495,7 +120944,6 @@ Ganwar PDC,304502
 Indoli PDC,304502
 Kurar PDC,304502
 Uniara Khurd PDC,304502
-Barol PDC,304502
 Khandewat PDC,304021
 Seedra PDC,304021
 Siras PDC,304021
@@ -121799,7 +121247,6 @@ Dhamna Bujurg PDC,209206
 Dharmangadpur PDC,209206
 Kohara PDC,209206
 Revna PDC,209206
-Gucchupur PDC,209206
 Patra PDC,209311
 Chhatrsa PDC,209302
 Injuarampur PDC,209302
@@ -125077,7 +124524,6 @@ Karahiagosain PDC,272192
 Mahadeoghurhoo PDC,272192
 Rehra Kalan PDC,272192
 Semari Khan Kot PDC,272192
-Nizamabad PDC,272192
 Belhar Kala PDC,272270
 Haribanshpur PDC,272206
 Kakrahwa PDC,272206
@@ -125887,8 +125333,6 @@ Nigoh PDC,222162
 Dhanethu PDC,222128
 Lagdharpur PDC,222128
 Tarati PDC,222128
-Kalan PDC,222101
-Rupaipur PDC,228172
 Balrampur PDC,222129
 Biri PDC,222129
 Hariharpur PDC,222129
@@ -127658,7 +127102,6 @@ Regode PDC,502290
 Rudraram PDC,502329
 IIT HYDERABAD PDC,502284
 Ameenpur PDC,502033
-Ramachandrapuram NDC PDC,502932
 Charakpally PDC,502221
 Mirzapur PDC,502249
 Sirgapur PDC,502287
@@ -127697,14 +127140,12 @@ Sanjeev Reddy Nagar PDC,500038
 Somajiguda PDC,500082
 Motinagar PDC,500114
 Vivekananda Nagar Colony PDC,500018
-NDC Sanathnagar PDC,500918
 CUC PDC,500046
 Kothaguda PDC,500084
 Manuu PDC,500032
 Toli Chowki PDC,500008
 Chitrapuri Colony S O PDC,500104
 MANCHIREVULA PDC,500106
-Narsingi PDC,500119
 Begum Bazar PDC,500012
 Fatehdarwaza PDC,500065
 Keshogiri PDC,500005
@@ -127725,8 +127166,6 @@ Nagaram PDC,500083
 Rail Nilayam PDC,500003
 Jai Jawan Colony PDC,500103
 Keesara PDC,501303
-NDC Padmaraonagar PDC,500920
-NDC Secunderabad PDC,500903
 Balanagar Township PDC,500037
 Hal PDC,500042
 IDA Jeedimetla PDC,500055
@@ -127734,7 +127173,6 @@ Jntu Kukat Pally PDC,500085
 Kompally PDC,500100
 Miyapur PDC,500049
 Vivekanandanagar Colony PDC,500072
-NDC Kukatpally PDC,500972
 Kukatpally Court Complex PDC,500072
 CCI Tandur PDC,501158
 Purgi PDC,501501
@@ -128148,7 +127586,6 @@ Kacharigaon PDC,784001
 Ketekibari PDC,784154
 Missamari PDC,784506
 Sootea PDC,784175
-BPC Counter PDC,800008
 BBazar PDC,848201
 Khagaria Bazar PDC,851204
 Manjhaul PDC,851127
@@ -128336,7 +127773,6 @@ P SHARIF PDC,801505
 MANER PDC,801108
 DIGHA PDC,800012
 KHUSHRUPUR PDC,803202
-PATNA GPO NDC PDC,800033
 Baulia PDC,821304
 Durgawati PDC,821105
 Harihar Ganj SO Rohtas PDC,821310
@@ -128501,7 +127937,6 @@ Jivraj Park PDC,380051
 Motera PDC,380005
 O N G C PDC,380005
 S A C PDC,380015
-NDC Maninagar PDC,380011
 Asarwa Chakla PDC,380016
 Asarwa Ext South PDC,380024
 Cantonment PDC,380004
@@ -128711,7 +128146,6 @@ Ramnagar SO Surat PDC,395009
 Sagrampura Putli PDC,395002
 Variav PDC,394520
 PAL PDC,394510
-NDC NANPURA PDC,395014
 A K Road PDC,395008
 Amroli PDC,394107
 Bombay Market PDC,395010
@@ -128737,7 +128171,6 @@ Racecourse PDC,390007
 Rustampura SO Vadodara PDC,391761
 Samlaya R S PDC,391520
 T B Sanatorium PDC,390021
-NDC FATEGANJ PDC,390008
 Kolak PDC,396115
 Moti Daman PDC,396220
 Nanapondha PDC,396126
@@ -128759,7 +128192,6 @@ Pinjore PDC,134102
 Prem Nagar S O (Ambala) PDC,134003
 Subzi  Mandi PDC,134003
 Shahzadpur S O PDC,134202
-NDC Sector 15 Panchkula PDC,134999
 Dhin PDC,133202
 M M E Complex Mulana PDC,133207
 Jagadhri PDC,135003
@@ -129109,7 +128541,6 @@ Koramangala I Block PDC,560034
 Koramangala VI Bk PDC,560095
 Mavalli PDC,560004
 Wilson Garden PDC,560027
-Rajarajeshwarinagar Parcel Processing Center PDC,560098
 Anjanapura PDC,560108
 Dasarahalli(Srinagar) PDC,560050
 JP Nagar VIII phase PDC,560076
@@ -129412,7 +128843,6 @@ Alappuzha Collectorate PDC,688001
 Pathirappally PDC,688521
 Pazhaveedu PDC,688009
 Punnapra North PDC,688014
-Nodal Delivery Centre Alappuzha PDC,688051
 Aroor PDC,688534
 Arthingal PDC,688530
 Poochackal PDC,688526
@@ -129423,7 +128853,6 @@ Koonammavu PDC,683518
 Palliport PDC,683515
 Puthenvelikkara PDC,683594
 Vadakkekara PDC,683522
-Nodal Delivery Centre Aluva PDC,683051
 Arakuzha PDC,686672
 Elanji PDC,686665
 Kalloorkkad PDC,686668
@@ -129888,7 +129317,6 @@ Gwalior R S PDC,474002
 Maharajpura A F PDC,474020
 New High Court PDC,474011
 R B  Colony Gwalior PDC,474002
-Gwalior Residency Nodal Delivery Center PDC,474005
 Attair PDC,477111
 Housing Colony Bhind PDC,477001
 Lahar PDC,477445
@@ -130001,7 +129429,6 @@ Mhada Colony PDC,400081
 PH Colony PDC,400078
 Shivaji Nagar SO Mumbai PDC,400043
 Usha Nagar PDC,400078
-NDC Ghatkopar West PDC,400186
 Ins Hamla PDC,400095
 Kandivali West PDC,400067
 Malad East PDC,400097
@@ -130144,8 +129571,6 @@ Pimpri P F PDC,411018
 Sasanenagar PDC,411028
 Wanowarie PDC,411040
 Moshi PDC,411070
-NDC Yerwada PDC,411079
-NDC Hadapsar IE PDC,411080
 Deccan Gymkhana PDC,411004
 Ex  Serviceman Colony PDC,411038
 Film Institute PDC,411004
@@ -130369,7 +129794,6 @@ Jatanbari PDC,799104
 Manubazar PDC,799143
 Radhanagar S O (West Tripura) PDC,799153
 Tepania PDC,799113
-IDC Radhakishorepur PDC,799120
 Bomdila PDC,790001
 Changlang PDC,792120
 Khonsa PDC,792130
@@ -131654,7 +131078,6 @@ Peernagar PDC,233002
 Yusufpur Bazar PDC,233227
 Zamania Bazar PDC,232329
 Balwarganj PDC,222201
-Belwai PDC,222101
 Civil Court SO Jaunpur PDC,222002
 Fatehganj SO Jaunpur PDC,222132
 Jalalpur SO Jaunpur PDC,222136
@@ -132276,7 +131699,6 @@ Bagdogra Air Port PDC,734421
 Kamala Bagan PDC,734426
 Rabindra Sarani PDC,734006
 Salbari PDC,734002
-NDC Siliguri PDC,734091
 Jateswar PDC,735216
 Jpg Hindustan Ins PDC,735101
 Chalsa PDC,735206
@@ -132380,7 +131802,6 @@ Mahesh 1 PDC,712202
 Nabagram SO Hooghly PDC,712246
 Rajabazar SO Hooghly PDC,712125
 Uttarpara PDC,712258
-NDC Rishra PDC,712291
 Anantapur SO Howrah PDC,711301
 Bagnan PDC,711303
 Baisnabpara Bazar PDC,711102
@@ -132782,7 +132203,6 @@ Kuda Kuda PDC,508214
 Pillalamarry PDC,508214
 Thimmapur PDC,508214
 Chandupatla PDC,508214
-Laxmi Naik Thanda PDC,508214
 Annaram PDC,508214
 Chervuannaram PDC,508205
 Eduloor PDC,508205
@@ -132875,7 +132295,6 @@ Ambatpally PDC,509401
 Balmoor PDC,509401
 Godal PDC,509401
 Komatikunta PDC,509401
-Rayavaram PDC,509401
 Apparala PDC,509110
 Maddur PDC,509110
 Sirsawada PDC,509209
@@ -132983,9 +132402,6 @@ Matair PDC,506163
 Sannur PDC,506163
 Chityal PDC,506318
 Karkala PDC,506318
-Kothur PDC,506313
-Reddipalem PDC,506313
-BANDAMPALLY PDC,506313
 Dammannapet PDC,506316
 SURARAM PDC,506316
 RAGIDI THANDA PDC,506316
@@ -133099,7 +132515,6 @@ Thimmasamudram PDC,515787
 Chalivemula PDC,515414
 Kanakuru PDC,515767
 Thippanapalli PDC,515767
-Anumpalli PDC,515767
 Chinnapolamada PDC,515411
 Basinepalli PDC,515402
 Gollaladoddi PDC,515401
@@ -133440,7 +132855,6 @@ Tandavapalli PDC,533213
 Appanaramunilanka PDC,533252
 Kattunga PDC,533235
 Rajavaram PDC,533235
-Bellampudi PDC,533240
 Mummidivarappadu PDC,533274
 Kantevaripadu PDC,533253
 Ramarajulanka PDC,533253
@@ -133738,8 +133152,6 @@ BALUA PDC,801113
 DUMRI PDC,803201
 SULTANPUR PDC,803201
 PATARIA PDC,804451
-Tineri PDC,804454
-Jamalpur PDC,804454
 BHERAGAWAN PDC,804451
 MANKIPAR PDC,804451
 NASARATPUR PDC,804451
@@ -133889,9 +133301,6 @@ Khamargaon PDC,494001
 Kawalikalan PDC,494001
 Ghatpadmur PDC,494001
 Jatam PDC,494001
-Machkot PDC,494001
-Tiriya PDC,494001
-Tolawada PDC,494001
 Kachnar PDC,494221
 Nalpawand PDC,494221
 Dhobigudha PDC,494221
@@ -133901,7 +133310,6 @@ Pakela PDC,494447
 CHINAGELUR PDC,494447
 Kanchal PDC,494447
 kottapalli PDC,494447
-Balnendra PDC,494447
 Bache R S PDC,494553
 BADAKAMELI PDC,494553
 Jaitgiri PDC,494222
@@ -133927,12 +133335,6 @@ jaigur PDC,494450
 PITEPAL PDC,494450
 SOMANPALLI PDC,494450
 Tindodi PDC,494450
-Nugur PDC,494450
-Pallewaya PDC,494450
-Edasmeta PDC,494450
-Usapari PDC,494450
-Kerpe (Dudepalli) PDC,494450
-Fundari PDC,494450
 Badeamabal PDC,494224
 Baniyagaon PDC,494224
 Bhanpuri Basti PDC,494224
@@ -133954,16 +133356,11 @@ NUKANPAL PDC,494444
 PADAMUR PDC,494444
 REDDI PDC,494444
 SANTOSHPUR PDC,494444
-Matla PDC,494444
 Balood PDC,494449
 Katekalyan PDC,494449
 Parcheli PDC,494449
 MARJUM PDC,494449
 Pandewar PDC,494449
-Basanpur PDC,494449
-Mangnar PDC,494449
-Alnar PDC,494449
-Mathadi PDC,494449
 Karanji PDC,494001
 Kumharawand PDC,494001
 Kurenga PDC,494001
@@ -133972,12 +133369,6 @@ Chintalnar PDC,494122
 Nagaram PDC,494122
 Sirsitti PDC,494122
 Durandarbha PDC,494122
-Bhimapuram (misiguda) PDC,494111
-Puwarti PDC,494111
-Alampalli PDC,494111
-Samsetti PDC,494111
-Upampali PDC,494111
-Punpalli PDC,494111
 Barsoor PDC,494441
 Chhindnar PDC,494441
 Heeranar PDC,494441
@@ -133990,10 +133381,6 @@ MUSTALNAR PDC,494441
 HAURNAR PDC,494441
 Hitameta PDC,494441
 Mohnar PDC,494441
-Budgum PDC,494441
-Katoli PDC,494441
-Hitameta-2 PDC,494441
-Pichchikoder PDC,494441
 Aranpur PDC,494556
 Gondras PDC,494556
 Gumyapal PDC,494556
@@ -134001,11 +133388,6 @@ Kondasawli PDC,494556
 Kurtem PDC,494556
 Gaganpalli PDC,494114
 Mehta PDC,494114
-Banjhwahi PDC,494114
-Singaram PDC,494114
-Dharmapenta PDC,494114
-Potakpalli PDC,494114
-Ramaram PDC,494114
 Chhaparbhanpuri PDC,494010
 Gadhiya PDC,494010
 Mardum PDC,494010
@@ -134019,17 +133401,11 @@ Dhanikarka PDC,494552
 Koriras PDC,494552
 Mahrahaurnar PDC,494552
 Revali PDC,494552
-Adpal PDC,494552
-Chhote Bedma PDC,494552
-Nayanar PDC,494552
-Barrem PDC,494552
 Burdi PDC,494111
 Chhindgarh PDC,494111
 Talnar PDC,494111
 Murtonda PDC,494111
 Gongla PDC,494111
-Maroki PDC,494111
-Gudara PDC,494111
 Badebodenar PDC,494442
 Bastanar PDC,494442
 Dilmili PDC,494442
@@ -134047,18 +133423,12 @@ Mangnar PDC,494442
 Palwa PDC,494442
 Tirthum PDC,494442
 Salepal PDC,494442
-Sanwgel PDC,494442
-Chhotebodenar PDC,494442
-Badekakloor-2 PDC,494442
 Darbha PDC,494115
 Idjepal PDC,494115
 Kikirpal PDC,494115
 Tirathgarh PDC,494115
 Kakalgur PDC,494115
 Mundenar PDC,494115
-Kudumkhodra PDC,494115
-Kandanar PDC,494115
-Birchhatpal PDC,494115
 Bewarti PDC,494334
 Chiprel PDC,494334
 Dumali PDC,494334
@@ -134074,9 +133444,6 @@ Hindu Binapal PDC,494665
 Jethegaon PDC,494665
 Kadhai Khodara PDC,494665
 Kadme PDC,494665
-Nawagawdegaon PDC,494665
-Dangra PDC,494665
-Badrangi PDC,494665
 Padenga PDC,494777
 Rengawahi PDC,494777
 Vikaspalli PDC,494777
@@ -134089,7 +133456,6 @@ Konde PDC,494669
 Pharaskot PDC,494669
 Shinhari PDC,494669
 Nirondadih PDC,494669
-Jalhur PDC,494669
 Charbhata PDC,494337
 Kurrutola PDC,494337
 Chawadi PDC,494337
@@ -134115,9 +133481,6 @@ Nilji PDC,494226
 Polang PDC,494220
 Rajagaon PDC,494226
 Satgaon PDC,494226
-Sirsikalar PDC,494226
-Umargaon-A PDC,494226
-Chichdongari PDC,494226
 Tarandul PDC,494670
 Babudabena PDC,494670
 Dongarkatta PDC,494670
@@ -134132,7 +133495,6 @@ Khodgaon PDC,494661
 Mandali PDC,494662
 Nelwad PDC,494661
 Toynar PDC,494662
-Karlakha PDC,494661
 Marwadi PDC,494333
 Ganvarsili PDC,494333
 Gondahoor PDC,494776
@@ -134161,10 +133523,6 @@ Korkoti PDC,494230
 Nayanar PDC,494230
 Bedma PDC,494230
 Kuye PDC,494230
-Pusgaon PDC,494230
-Tuskaal PDC,494230
-Paalarmeta PDC,494230
-Pusaghati PDC,494230
 Aridongri PDC,494635
 Lohattar PDC,494635
 Chichgaon PDC,494635
@@ -134184,14 +133542,6 @@ Karandi PDC,494237
 Sodma PDC,494237
 Tamrawand PDC,494237
 Umargaon PDC,494237
-Palli PDC,494662
-Thulthuli PDC,494662
-Pusawand PDC,494226
-Kalmanar PDC,494661
-Kundla PDC,494661
-Pangud PDC,494661
-HalamiMunjmeta PDC,494661
-Huchadi PDC,494661
 Khisora PDC,495559
 Khairjhiti PDC,495116
 Khongsara PDC,495116
@@ -135139,7 +134489,6 @@ Mohanpur  Karja PDC,802311
 Baulipur PDC,802152
 Bharasra Judge PDC,802152
 Gangahar PDC,802312
-Ramapur PDC,802312
 Koil PDC,802223
 Mansagar PDC,802223
 Pasaur PDC,802223
@@ -135297,7 +134646,6 @@ Sagarpur PDC,804422
 Solhanda PDC,804422
 Dhamoul PDC,804423
 Noawan PDC,804429
-Sendhwan PDC,804429
 Gayani Bigha PDC,804424
 Ghejan PDC,804424
 Sikandarpur PDC,804425
@@ -135325,12 +134673,6 @@ Darha PDC,811313
 Daulatpur PDC,811313
 Dhandh PDC,811313
 Khadigram PDC,811313
-Dhira PDC,811315
-Ghonghsa PDC,811315
-Matashi PDC,811315
-Patambar PDC,811315
-Sarsa Bichwe PDC,811315
-Bhulo PDC,811315
 Kewal PDC,811316
 Kharma PDC,811316
 P Matihana PDC,811314
@@ -135490,7 +134832,6 @@ Dhewdha PDC,805132
 Keshauri PDC,805132
 Tetariya PDC,805102
 Bagodar B O PDC,805103
-Kumbhi PDC,805104
 Bahadurganj PDC,805105
 Shekhodaura PDC,805106
 Bhattagarh PDC,805107
@@ -135526,7 +134867,6 @@ Kochagoan PDC,805130
 Manjaur PDC,805130
 Mosama PDC,805130
 Nromurar PDC,805130
-Kutri PDC,805130
 Bisunpur PDC,805131
 S Nawada PDC,805131
 Sabalpur PDC,800009
@@ -137223,7 +136563,6 @@ Ashram Brindavan PDC,845450
 Jado Chhapar PDC,845450
 Laxmipur PDC,845450
 Mushahari PDC,845450
-Kumarbagh PDC,845450
 Mangrahari PDC,845451
 Rampur PDC,845451
 Chakarsen PDC,845451
@@ -137824,7 +137163,6 @@ Gajulamandyam PDC,517520
 Kothapalem PDC,517520
 Thummalagunta PDC,517502
 Tirumala North PDC,517504
-Vedanthapuram Agraharam PDC,517508
 Chinamallipadu PDC,534235
 Kollaparru PDC,534235
 Pedakapavaram PDC,534235
@@ -138218,7 +137556,6 @@ Lamgarh PDC,835201
 Latakel PDC,835201
 BINTUKA PDC,835201
 TONEYA PDC,835201
-ELA PDC,835201
 Kumhari PDC,835229
 Longa PDC,835229
 Lungtu PDC,835229
@@ -138440,7 +137777,6 @@ Katikbhita PDC,813208
 Piaram PDC,813208
 Khutan PDC,814145
 Petsar PDC,814145
-GANGWARA PDC,814145
 Bhawnipur PDC,816107
 Daldali PDC,816107
 Nagarnabi PDC,816107
@@ -140568,7 +139904,6 @@ Koil PDC,172023
 Durah PDC,172033
 Taklech PDC,172022
 Kinnu PDC,172102
-Dalan PDC,172030
 Purbani PDC,172107
 Pangi PDC,172107
 Roghi PDC,172108
@@ -140791,7 +140126,6 @@ Mawa PDC,184121
 Rehiyan PDC,184121
 Raika PDC,184120
 Swankha PDC,184120
-Badali PDC,184120
 Kaink Jagir PDC,181201
 Kathar PDC,181201
 Mawa Brahmna PDC,181201
@@ -140892,7 +140226,6 @@ Kadabanakatte PDC,577517
 Kunabevu PDC,577517
 Gudahal PDC,577512
 Tumbigre PDC,577512
-KANDANAKOVI PDC,577512
 Kurki PDC,577514
 Kadrinayakanahalli PDC,577516
 Vasana PDC,577516
@@ -141590,17 +140923,13 @@ Tekapar PDC,491881
 Nawagaon PDC,491229
 Sitagaon PDC,491229
 Fulkodo PDC,491229
-Chichwahi PDC,491229
-Madanwada PDC,491229
 Kosmi PDC,491229
 Saroli PDC,491229
 Alkanhar PDC,491666
 Gotatola PDC,491666
 Somatola PDC,491666
 Mungadih PDC,491666
-Pidingpar PDC,491666
 Birjhutola PDC,491666
-Tatoda PDC,491666
 Dhobghatti PDC,491559
 Kamthee PDC,491559
 Kunda PDC,491559
@@ -142379,7 +141708,6 @@ Kandaber PDC,825311
 Chandaul PDC,825311
 Ango PDC,825311
 Ango PDC,825311
-Darikala PDC,825311
 Barwan PDC,825323
 Shiladih PDC,825323
 Bhandro PDC,825323
@@ -142474,7 +141802,6 @@ Jamira PDC,825101
 Lari PDC,825101
 SUKRIGARHA PDC,825101
 BARLONG PDC,825101
-Dohakatu PDC,825101
 Barlanga PDC,829110
 Hesapora PDC,829110
 Kumhardaga PDC,829110
@@ -142488,7 +141815,6 @@ Bharechnagar PDC,829117
 Kander PDC,829117
 Karma PDC,829117
 UTTRI KARMA PDC,829117
-Dhawaiya PDC,829117
 Terpa PDC,829118
 Koto PDC,829119
 Khakhanda PDC,829134
@@ -142890,7 +142216,6 @@ Rajouli PDC,133201
 Sohata PDC,133201
 Keshopur Samalkha PDC,133101
 Saran PDC,133202
-Brahman Majra PDC,133006
 Landa PDC,133102
 Pasiala PDC,133102
 Baraula PDC,133008
@@ -142990,7 +142315,6 @@ Sherpur PDC,122502
 Turkiawas PDC,122502
 Syed Shahpur PDC,122414
 Kherki Daula PDC,122004
-Nahar Pur Rupa PDC,122004
 Akhera PDC,122107
 Baslambi PDC,122503
 Baspadamka PDC,122503
@@ -143504,7 +142828,6 @@ Kolundra PDC,383350
 Kunol PDC,383350
 Lalpur PDC,383350
 Rayawada PDC,383350
-Moti Panduri PDC,383350
 Amlai PDC,383315
 Bherunda PDC,383315
 Gajan PDC,383315
@@ -143976,7 +143299,6 @@ Sangpei Khullen PDC,795118
 Ch  Khongnangpokpi PDC,795136
 Makhan PDC,795136
 Oklong PDC,795106
-Khamsom PDC,795106
 Behiang PDC,795139
 Hengtam PDC,795139
 Keirao Wangkhem PDC,795008
@@ -144065,7 +143387,6 @@ Kelsih PDC,796005
 Khawchhete PDC,796005
 Mualpui PDC,796005
 Shlimen PDC,796005
-SALEM VENG PDC,796005
 Bungtlang S PDC,796891
 Mampui PDC,796891
 Sabualtlang PDC,796891
@@ -144089,7 +143410,6 @@ Phairuangkai PDC,796701
 Dampui PDC,796441
 West Bunghmun PDC,796441
 Selam PDC,796291
-MIMBUNG PDC,796290
 Marpara PDC,796431
 RAJIVNAGAR PDC,796441
 Ailawng PDC,796501
@@ -146466,7 +145786,6 @@ Baran Khurd PDC,477332
 Kanathar PDC,477227
 Chiruli PDC,477446
 Akhdewa PDC,477446
-Rawatpura sarkar ashram PDC,477450
 Bindwa (Attair) PDC,477111
 Tarsokhar PDC,477111
 Jamsara PDC,477111
@@ -146977,7 +146296,6 @@ Kottukunnam PDC,695606
 Janardhanapuram PDC,695141
 Koliakode PDC,695607
 Pullampara PDC,695607
-Tehnopark PDC,695581
 Goureesapattom PDC,695004
 Ulloor PDC,695011
 Thope PDC,695008
@@ -147169,7 +146487,6 @@ Waghapur PDC,445002
 Dhanora PDC,445324
 Agadgaon PDC,414002
 Burhan Nagar PDC,414002
-Dahigaon PDC,414002
 Nepti PDC,414005
 Gaikwad Jalgaon PDC,414504
 Mhase PDC,413702
@@ -148087,7 +147404,6 @@ Baghwari PDC,486661
 Kuchwahi PDC,486675
 Paraswar PDC,486675
 Amarwah PDC,486661
-Bendua PDC,486661
 Panwar PDC,486661
 Padkhuri PDC,486661
 Patulkhi PDC,486675
@@ -151918,7 +151234,6 @@ Suruliyar Lower Camp PDC,625518
 Bodimettu PDC,625582
 Bodinayakanur R S PDC,625582
 Kurangani PDC,625582
-Bodi Hill North PDC,625582
 Krishnampatti PDC,625530
 Lakshminayakanpatti PDC,625530
 Palacombai PDC,625512
@@ -151931,7 +151246,6 @@ Siraparai PDC,625579
 Thangammalpuram PDC,625579
 Thummagundu PDC,625579
 Palaiyur PDC,625705
-Saptur R F PDC,625705
 Athikaripatti PDC,625527
 Erumarpatti PDC,625527
 Kattathevanpatti PDC,625529
@@ -152626,7 +151940,6 @@ Onambakkam PDC,603313
 Kadukkalur PDC,603401
 Ramapuram PDC,603201
 Adhanur PDC,603202
-KUMIZHI PDC,603202
 Vayalur PDC,603102
 Keelavalam PDC,603303
 Pudupattu PDC,603303
@@ -153134,7 +152447,6 @@ Sundakkampalayam PDC,642132
 Govindampalayam PDC,636101
 Veppampoondi PDC,636101
 Sekkadipatti PDC,636104
-Pelapadi PDC,636104
 Anaiyampatti PDC,636105
 Kudamalai PDC,636105
 Odiyathur PDC,636105
@@ -153317,7 +152629,6 @@ Gorau PDC,341316
 Thakriyas PDC,341316
 Kharwaliya PDC,341319
 Thebari PDC,341319
-Gonarda PDC,341521
 Gudhabhagwandas PDC,341001
 Chawandiya PDC,341020
 Bhadwasi PDC,341001
@@ -153391,7 +152702,6 @@ Jatawas PDC,341513
 Sensara PDC,341513
 Manglod PDC,341027
 Surjaniyawas PDC,341027
-Hanuman Nagar PDC,341029
 Bhomasar PDC,341020
 Hemliyawas Khurd PDC,306001
 Dhareshwar PDC,306001
@@ -153571,7 +152881,6 @@ Nenol PDC,343041
 Parawa PDC,343041
 Sewara PDC,343041
 Surawa PDC,343041
-Palri Solankiyan PDC,343041
 Asana PDC,343022
 Jeewana PDC,343022
 Posana PDC,343022
@@ -155703,7 +155012,6 @@ Dhakrani PDC,248142
 Bijau PDC,248158
 Nagthat PDC,248158
 Jissau PDC,248165
-Bhanjra B O PDC,248165
 Bidholi PDC,248007
 Nayagaon PDC,248007
 VANAVASI ASHRAM PDC,248007
@@ -156522,8 +155830,6 @@ Bhannaur PDC,222162
 Gaurapatti PDC,222162
 Sarsara PDC,222162
 Khetapur PDC,222128
-Harpur PDC,222101
-Kalan PDC,228172
 Hisampur PDC,222129
 Shambhuganj PDC,222132
 Kukuhan PDC,222133
@@ -156775,7 +156081,6 @@ Laskarpur PDC,221101
 Bachhaon PDC,221011
 Ramna PDC,221011
 Tikari PDC,221011
-AKHARI PDC,221011
 Amara PDC,232105
 Dharaon PDC,232105
 Hingutarjagdishpur PDC,232105
@@ -159016,7 +158321,6 @@ Vengaivadi PDC,606206
 Madiyanur PDC,606107
 Pu Mambakkam PDC,606107
 Vellaiyur PDC,606107
-Nagar PDC,606107
 Karadichittur PDC,606207
 Madhur PDC,606209
 Malliyapadi PDC,606207
@@ -160253,7 +159557,6 @@ Manavadi PDC,639005
 Mookanankurichi PDC,639005
 Paganatham PDC,639005
 Thalapatti PDC,639003
-Othaiyur PDC,639003
 Noyyal PDC,639117
 Jegadabi PDC,639118
 K Pitchampatti PDC,639118
@@ -160695,7 +159998,6 @@ Dausa PDC,303303
 Jhunjhunu PDC,333001
 Nagaur PDC,341001
 Anna Road PDC,600002
-CPRC Chennai PDC,600002
 Arakkonam PDC,631001
 Ranipet PDC,632401
 Thygarayanagar PDC,600017
@@ -160834,7 +160136,6 @@ Bharat Nagar Colony PDC,500018
 Jubilee Hills PDC,500033
 Kakatiya Nagar PDC,500008
 Vengal Rao Nagar PDC,500038
-NDC Kothaguda PDC,500984
 Golconda PDC,500008
 Kulsumpura PDC,500006
 Moazzampura PDC,500001
@@ -160848,7 +160149,6 @@ S V P N P A PDC,500052
 Yakutpura PDC,500023
 R G I  Airport PDC,500108
 Kandukur PDC,500113
-NDC Rajendranagar PDC,500930
 Barkatpura PDC,500027
 Boduppal PDC,500092
 Dilsukhnagar Colony PDC,500060
@@ -161247,7 +160547,6 @@ Noonmati PDC,781020
 Paltanbazar PDC,781008
 Sonapur PDC,782402
 Ulubari PDC,781007
-NDC Guwahati PDC,781041
 Bezera PDC,781121
 I I T PDC,781039
 Nagarbera PDC,781127
@@ -161448,7 +160747,6 @@ Ordnance Factory Rajgir PDC,803121
 Parwalpur PDC,803114
 Pawapuri PDC,803115
 Telhara SO Nalanda PDC,801306
-Daniyawan PDC,801308
 Dhamul PDC,805101
 Kosi SO Nawada PDC,805107
 Narhat PDC,805122
@@ -161456,7 +160754,6 @@ Pakaribarwan PDC,805124
 Parnawada PDC,805112
 Tarwan PDC,805128
 Tungi PDC,805129
-MESKAUR PDC,805142
 Gonawan PDC,805111
 AIIMS PDC,801507
 ASHOK NAGAR PDC,800020
@@ -161868,7 +161165,6 @@ Mora SO Surat PDC,394517
 Rander PDC,395005
 SVR College PDC,395007
 VESU PDC,395007
-Kanakpur PDC,394230
 Hathuran PDC,394125
 Katargam PDC,395004
 Mota Varachha PDC,394101
@@ -162297,7 +161593,6 @@ Belagavi M  Vadgaon PDC,590005
 Jamboti PDC,591345
 Londa PDC,591301
 Uchgaon PDC,591128
-PNDC Belagavi PDC,590100
 Chidambar Nagar Saundatti PDC,591126
 Nekarpeth Ramdurg PDC,591123
 Yargatti PDC,591129
@@ -162595,7 +161890,6 @@ Thammanam PDC,682032
 Thiruvamkulam PDC,682305
 Tripunithura Fort PDC,682301
 KULAYATTIKKARA PDC,682317
-NDC Edapally PDC,682053
 Mundamveli PDC,682507
 Narakkal PDC,682505
 North End PDC,682009
@@ -162709,7 +162003,6 @@ Kundara PDC,691501
 Pattathanam PDC,691021
 Thattamala PDC,691020
 Vadakkevila PDC,691010
-NDC KOLLAM PDC,691051
 Chadayamangalam PDC,691534
 Nellikunnam PDC,691527
 Kottanad PDC,689615
@@ -163190,7 +162483,6 @@ IRLA PDC,400056
 V P  Road PDC,400052
 Vesava PDC,400061
 Vileparle Railway Station PDC,400057
-NDC Azad Nagar PDC,400153
 Bhandup West PDC,400078
 RANagar PDC,400075
 SB Road PDC,400080
@@ -163309,7 +162601,6 @@ Kuhi PDC,441202
 Mandhal PDC,441210
 Mohpa PDC,441502
 Umred PDC,441203
-Khapari PDC,441124
 Indira Market Wardha PDC,442001
 Ramnagar Wardha PDC,442001
 Seloo PDC,442104
@@ -163350,7 +162641,6 @@ Rupeenagar PDC,411062
 Vidyanagar S O (Pune) PDC,411032
 Viman nagar PDC,411014
 Vishrantwadi PDC,411015
-NDC Chinchwad East PDC,411077
 Armament PDC,411021
 Aundh T S PDC,411007
 Dhankawadi PDC,411043
@@ -163364,7 +162654,6 @@ Swargate PDC,411042
 Sinhgad Technical Education Society PDC,411041
 Nanded S O (Pune) PDC,411068
 Baner DSO (Pune) PDC,411069
-NDC Shivajinagar PDC,411075
 Bawada PDC,413103
 Charholi PDC,411081
 Kamshet PDC,410405
@@ -163520,7 +162809,6 @@ Arundhutinagar PDC,799003
 Khayerpur PDC,799008
 Mohanpur S O (West Tripura) PDC,799211
 Jampuijala PDC,799011
-IDC Agartala PDC,799001
 Amarpur S O (South Tripura) PDC,799101
 Bishramganj PDC,799103
 Kakraban PDC,799105
@@ -164233,7 +163521,6 @@ Kotturpuram PDC,600085
 Madipakkam South PDC,600091
 Rajbhavan S O (Chennai) PDC,600022
 Ram Nagar PDC,600091
-TTTI Taramani NDC PDC,600202
 Flower Bazaar PDC,600001
 Mint Building PDC,600001
 Sowcarpet ND PDC,600001
@@ -165426,7 +164713,6 @@ Patakura SO Cooch Behar PDC,736101
 Sahebganj SO Cooch Behar PDC,736176
 Saontalpur PDC,736206
 Tufanganj New Town PDC,736160
-Natabari PDC,736209
 Algarah PDC,734314
 Bhanugram PDC,734101
 Bijanbari PDC,734201
@@ -165625,4 +164911,3 @@ Raghunathbari PDC,721634
 Ramchandrapur SO East Midnapore PDC,721647
 Srirampur Mid PDC,721651
 Gopinathpur PDC,721638
-NDC Barkatpura PDC,500927

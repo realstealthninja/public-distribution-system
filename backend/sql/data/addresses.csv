@@ -661,7 +661,6 @@ pincode,district
 523212,Bapatla
 523211,Prakasam
 523301,Bapatla
-523261,Nan
 523183,Prakasam
 523225,Prakasam
 523264,Bapatla
@@ -734,7 +733,6 @@ pincode,district
 521212,Eluru
 521190,Ntr
 521402,Ntr
-521250,Nan
 533217,Konaseema
 533214,Konaseema
 533222,Konaseema
@@ -817,7 +815,6 @@ pincode,district
 811317,Jamui
 811312,Jamui
 811313,Jamui
-811315,Nan
 811316,Jamui
 811314,Jamui
 811101,Sheikhpura
@@ -962,13 +959,13 @@ pincode,district
 494444,Raipur
 494449,Dantewada
 494122,Sukma
-494111,Nan
 494441,Dantewada
 494556,Dantewada
 494114,Raipur
 494010,Raipur
 494448,Raipur
 494552,Dantewada
+494111,Raipur
 518002,Kurnool
 518464,Kurnool
 518405,Nandyal
@@ -1413,7 +1410,6 @@ pincode,district
 854107,Katihar
 855108,Kishanganj
 855107,Kishanganj
-855115,Nan
 854108,Katihar
 854116,Katihar
 854113,Katihar
@@ -1422,6 +1418,7 @@ pincode,district
 855113,Katihar
 854115,Katihar
 855114,Katihar
+855115,Kishanganj
 855117,Kishanganj
 855116,Kishanganj
 854311,Araria
@@ -2313,7 +2310,6 @@ pincode,district
 504292,Kumuram Bheem Asifabad
 825320,Giridih
 815317,Giridih
-825405,Nan
 825311,Hazaribagh
 825323,Hazaribagh
 825312,Hazaribagh
@@ -2627,7 +2623,6 @@ pincode,district
 583218,Vijaynagar
 583219,Vijaynagar
 583220,Vijaynagar
-583221,Nan
 583132,Ballari
 583134,Vijaynagar
 583135,Vijaynagar
@@ -4043,7 +4038,6 @@ pincode,district
 493773,Dhamtari
 493889,Gariyaband
 493891,Gariyaband
-492009,Nan
 493113,Baloda Bazar
 493555,Mahasamund
 493335,Baloda Bazar
@@ -4067,7 +4061,6 @@ pincode,district
 492112,Baloda Bazar
 493558,Mahasamund
 493559,Baloda Bazar
-493101,Nan
 492013,Raipur
 493229,Baloda Bazar
 493448,Mahasamund
@@ -4664,7 +4657,6 @@ pincode,district
 416519,Sindhudurg
 416518,Sindhudurg
 416516,Sindhudurg
-416549,Nan
 410206,Raigad
 410201,Raigad
 410101,Raigad
@@ -5066,7 +5058,6 @@ pincode,district
 688537,Alappuzha
 688531,Alappuzha
 688526,Alappuzha
-688523,Nan
 688527,Alappuzha
 688540,Alappuzha
 683511,Ernakulam
@@ -7107,7 +7098,6 @@ pincode,district
 327032,Banswara
 327601,Banswara
 327604,Banswara
-327603,Nan
 327022,Banswara
 327023,Banswara
 327034,Banswara
@@ -11448,7 +11438,6 @@ pincode,district
 222144,Jaunpur
 222162,Jaunpur
 222128,Jaunpur
-222101,Nan
 223103,Jaunpur
 222129,Jaunpur
 222133,Jaunpur
@@ -12151,8 +12140,6 @@ pincode,district
 462002,Bhopal
 462040,Bhopal
 462020,Bhopal
-462116,Nan
-462034,Nan
 471105,Chhatarpur
 471101,Chhatarpur
 471510,Chhatarpur
@@ -12181,7 +12168,6 @@ pincode,district
 456337,Ujjain
 456010,Ujjain
 473001,Guna
-473106,Nan
 474002,Gwalior
 475675,Datia
 474012,Gwalior
@@ -12223,6 +12209,7 @@ pincode,district
 416513,Sindhudurg
 416528,Sindhudurg
 416515,Sindhudurg
+416549,Sindhudurg
 400009,Mumbai
 400014,Mumbai
 400070,Mumbai Suburban
@@ -12251,15 +12238,12 @@ pincode,district
 400066,Mumbai Suburban
 400102,Mumbai Suburban
 400097,Mumbai Suburban
-400201,Nan
-400160,Nan
 400004,Mumbai
 400020,Mumbai
 400025,Mumbai
 400028,Mumbai
 400018,Mumbai
 400030,Mumbai
-400113,Nan
 400011,Mumbai
 400007,Mumbai
 400005,Mumbai
@@ -12337,7 +12321,6 @@ pincode,district
 411014,Pune
 411006,Pune
 411057,Pune
-411078,Nan
 411051,Pune
 411002,Pune
 411038,Pune
@@ -12397,7 +12380,6 @@ pincode,district
 431401,Parbhani
 795114,Imphal East
 795121,Imphal West
-795160,Nan
 796014,Aizawl
 796370,Serchhip
 796004,Aizawl
@@ -12444,7 +12426,6 @@ pincode,district
 495220,Bilaspur
 495001,Bilaspur
 495003,Bilaspur
-495002,Nan
 495455,Korba
 495454,Korba
 490009,Durg
@@ -12598,7 +12579,6 @@ pincode,district
 125061,Hisar
 126110,Jind
 132117,Karnal
-132035,Nan
 132115,Panipat
 132103,Panipat
 132105,Panipat
@@ -12690,6 +12670,7 @@ pincode,district
 829127,Bokaro
 829128,Bokaro
 829129,Bokaro
+825405,Hazaribagh
 825301,Hazaribagh
 825415,Chatra
 829102,Ramgarh
@@ -12997,8 +12978,6 @@ pincode,district
 245208,Hapur
 201303,Gautam Buddha Nagar
 201315,Gautam Buddha Nagar
-201319,Nan
-201320,Nan
 226005,Lucknow
 226009,Lucknow
 226018,Lucknow
@@ -13146,7 +13125,6 @@ pincode,district
 732209,Maldah
 737136,East District
 733134,Dinajpur Uttar
-733139,Nan
 713324,Paschim Bardhaman
 713302,Paschim Bardhaman
 713343,Paschim Bardhaman
@@ -13526,7 +13504,6 @@ pincode,district
 533105,East Godavari
 533233,Konaseema
 533309,Konaseema
-532184,Nan
 532322,Srikakulam
 532215,Srikakulam
 530002,Visakhapatanam
@@ -13634,6 +13611,7 @@ pincode,district
 823001,Gaya
 804402,Arwal
 804421,Arwal
+811315,Jamui
 811201,Munger
 803301,Patna
 805114,Nawada
@@ -13784,8 +13762,6 @@ pincode,district
 249001,Tehri Garhwal
 721507,Jhargram
 504001,Adilabad
-504314,Nan
-504300,Nan
 506370,Hanumakonda
 505327,Jagitial
 505462,Jagitial
@@ -13809,13 +13785,10 @@ pincode,district
 500041,Hyderabad
 500073,Hyderabad
 500110,Hyderabad
-500934,Nan
-500931,Nan
 500004,Hyderabad
 500022,Hyderabad
 500031,Hyderabad
 500006,Hyderabad
-500901,Nan
 500058,Hyderabad
 500035,Ranga Reddy
 500070,Ranga Reddy
@@ -13824,8 +13797,6 @@ pincode,district
 500056,Hyderabad
 500094,Hyderabad
 500049,Medchal Malkajgiri
-500955,Nan
-500915,Nan
 515001,Anantapur
 515801,Anantapur
 515611,Anantapur
@@ -13927,7 +13898,6 @@ pincode,district
 506315,Mahabubabad
 506007,Hanumakonda
 506166,Hanumakonda
-506313,Nan
 506316,Jangoan
 506008,Hanumakonda
 500113,Ranga Reddy
@@ -14076,6 +14046,7 @@ pincode,district
 521184,Ntr
 521163,Krishna
 521170,Ntr
+521250,Krishna
 521165,Krishna
 533218,Konaseema
 533240,Konaseema
@@ -14226,7 +14197,7 @@ pincode,district
 583115,Ballari
 583116,Ballari
 583154,Ballari
-583203,Nan
+583221,Vijaynagar
 583136,Vijaynagar
 585327,Bidar
 585328,Bidar
@@ -14272,6 +14243,7 @@ pincode,district
 493195,Raipur
 493662,Dhamtari
 492101,Raipur
+493101,Baloda Bazar
 110020,South
 110047,South
 110010,New Delhi
@@ -14805,7 +14777,6 @@ pincode,district
 484446,Anuppur
 486887,Singrauli
 486776,Sidhi
-486890,Nan
 486889,Singrauli
 464240,Vidisha
 464220,Vidisha
@@ -15227,7 +15198,6 @@ pincode,district
 799015,West Tripura
 799007,West Tripura
 799211,West Tripura
-799012,Nan
 799011,Sepahijala
 799013,Gomati
 790003,West Kameng
@@ -15913,7 +15883,6 @@ pincode,district
 327024,Banswara
 323601,Bundi
 313002,Udaipur
-301019,Nan
 302002,Jaipur
 302005,Jaipur
 302004,Jaipur
@@ -15935,7 +15904,6 @@ pincode,district
 600004,Chennai
 600014,Chennai
 600033,Chennai
-600200,Nan
 600040,Chennai
 600038,Chennai
 600036,Chennai
@@ -15949,7 +15917,6 @@ pincode,district
 605003,Pondicherry
 605013,Pondicherry
 605011,Pondicherry
-605012,Nan
 605105,Villupuram
 600076,Chennai
 600060,Chennai
@@ -16011,7 +15978,6 @@ pincode,district
 415710,Ratnagiri
 415717,Ratnagiri
 415614,Ratnagiri
-415635,Nan
 416317,Sangli
 416429,Sangli
 415412,Sangli
@@ -16026,18 +15992,14 @@ pincode,district
 400012,Mumbai
 400027,Mumbai
 400019,Mumbai
-400114,Nan
 400029,Mumbai Suburban
 400058,Mumbai Suburban
 400096,Mumbai Suburban
-400193,Nan
 400085,Mumbai Suburban
 400074,Mumbai Suburban
 400086,Mumbai Suburban
 400088,Mumbai Suburban
 400076,Mumbai Suburban
-400171,Nan
-400183,Nan
 400104,Mumbai Suburban
 400068,Mumbai Suburban
 400065,Mumbai Suburban
@@ -16045,7 +16007,6 @@ pincode,district
 400026,Mumbai
 400008,Mumbai
 400034,Mumbai
-400118,Nan
 400001,Mumbai
 400701,Thane
 400709,Thane
@@ -16062,7 +16023,6 @@ pincode,district
 401107,Thane
 401207,Palghar
 401202,Palghar
-401108,Nan
 444710,Amravati
 443401,Buldhana
 444304,Buldhana
@@ -16074,7 +16034,6 @@ pincode,district
 440017,Nagpur
 440022,Nagpur
 440015,Nagpur
-440038,Nan
 441109,Nagpur
 442003,Wardha
 414504,Ahmednagar
@@ -16092,8 +16051,6 @@ pincode,district
 411020,Pune
 411007,Pune
 411009,Pune
-411074,Nan
-411076,Nan
 413133,Pune
 412112,Pune
 412307,Pune
@@ -16109,7 +16066,6 @@ pincode,district
 413411,Solapur
 413005,Solapur
 431005,Aurangabad
-431025,Nan
 431212,Jalna
 431122,Beed
 425505,Jalgaon
@@ -16118,7 +16074,6 @@ pincode,district
 425004,Jalgaon
 422002,Nashik
 422222,Nashik
-422014,Nan
 422501,Nashik
 413510,Latur
 413625,Osmanabad
@@ -16127,6 +16082,7 @@ pincode,district
 797121,Kohima
 798623,Mokokchung
 799005,West Tripura
+799012,West Tripura
 799150,South Tripura
 791111,Papum Pare
 792105,Namsai
@@ -16198,7 +16154,6 @@ pincode,district
 394510,Surat
 394270,Surat
 395006,Surat
-395015,Nan
 390004,Vadodara
 391320,Vadodara
 396130,Valsad
@@ -16213,15 +16168,12 @@ pincode,district
 121005,Faridabad
 121008,Faridabad
 121015,Faridabad
-121999,Nan
 122005,Gurugram
 122505,Gurugram
 122052,Gurugram
 122007,Gurugram
 122051,Gurugram
 122012,Gurugram
-122999,Nan
-122998,Nan
 125006,Hisar
 136118,Kurukshetra
 136134,Kurukshetra
@@ -16395,7 +16347,6 @@ pincode,district
 500059,Hyderabad
 500065,Hyderabad
 500112,Hyderabad
-500958,Nan
 500068,Medchal Malkajgiri
 500013,Medchal Malkajgiri
 500060,Ranga Reddy
@@ -16404,7 +16355,6 @@ pincode,district
 500040,Hyderabad
 500007,Hyderabad
 500016,Hyderabad
-500962,Nan
 500010,Medchal Malkajgiri
 500050,Ranga Reddy
 500047,Medchal Malkajgiri
@@ -16487,6 +16437,7 @@ pincode,district
 688008,Alappuzha
 688539,Alappuzha
 688570,Alappuzha
+688523,Alappuzha
 688582,Alappuzha
 688528,Alappuzha
 688555,Alappuzha
@@ -16636,7 +16587,6 @@ pincode,district
 673103,Kozhikode
 462008,Bhopal
 462036,Bhopal
-462099,Nan
 462027,Bhopal
 462023,Bhopal
 462044,Bhopal
@@ -16653,10 +16603,8 @@ pincode,district
 454775,Dhar
 482011,Jabalpur
 482010,Jabalpur
-482007,Nan
 450119,East Nimar
 458001,Mandsaur
-457111,Nan
 465106,Shajapur
 473447,Ashoknagar
 473112,Guna
@@ -16673,7 +16621,6 @@ pincode,district
 403107,South Goa
 403114,North Goa
 403521,North Goa
-403522,Nan
 623308,Ramanathapuram
 630606,Sivaganga
 625516,Theni
@@ -16732,7 +16679,6 @@ pincode,district
 271304,Gonda
 273409,Gorakhpur
 273009,Gorakhpur
-273011,Nan
 208006,Kanpur Nagar
 208010,Kanpur Nagar
 208007,Kanpur Nagar
@@ -16772,7 +16718,6 @@ pincode,district
 788005,Cachar
 788014,Cachar
 784028,Sonitpur
-800036,Nan
 851115,Begusarai
 851110,Begusarai
 847429,Darbhanga
@@ -16802,7 +16747,6 @@ pincode,district
 490001,Durg
 490026,Durg
 490022,Durg
-490004,Nan
 496109,Raigarh
 110031,Shahdara
 110051,East
@@ -16821,7 +16765,6 @@ pincode,district
 380052,Ahmadabad
 380013,Ahmadabad
 380005,Ahmadabad
-380012,Nan
 380016,Ahmadabad
 380018,Ahmadabad
 380049,Ahmadabad
@@ -16863,7 +16806,6 @@ pincode,district
 248171,Dehradun
 249203,Dehradun
 248018,Dehradun
-248020,Nan
 247658,Haridwar
 263149,Udam Singh Nagar
 262402,Nainital
@@ -16967,7 +16909,6 @@ pincode,district
 723134,Purulia
 721603,Medinipur East
 721607,Medinipur East
-500939,Nan
 713124,Purba Bardhaman
 713127,Purba Bardhaman
 713142,Bankura
@@ -17366,7 +17307,6 @@ pincode,district
 416004,Kolhapur
 462047,Bhopal
 471408,Chhatarpur
-480442,Nan
 461881,Hoshangabad
 484336,Anuppur
 762024,Boudh
@@ -17505,7 +17445,6 @@ pincode,district
 736203,Alipurduar
 734215,Darjeeling
 734316,Kalimpong
-734010,Nan
 735216,Alipurduar
 735213,Alipurduar
 735219,Jalpaiguri
@@ -17606,9 +17545,10 @@ pincode,district
 712202,Hooghly
 711403,Howrah
 480003,Chhindwara
+480442,Chhindwara
 461005,Hoshangabad
+486890,Singrauli
 452014,Indore
-452999,Nan
 458336,Neemuch
 466445,Sehore
 465118,Shajapur
@@ -17617,7 +17557,6 @@ pincode,district
 474007,Gwalior
 475331,Gwalior
 477450,Bhind
-476338,Nan
 403410,South Goa
 403706,South Goa
 403602,South Goa
@@ -17637,15 +17576,12 @@ pincode,district
 400037,Mumbai
 400031,Mumbai
 400050,Mumbai Suburban
-400150,Nan
 400042,Mumbai Suburban
 400077,Mumbai Suburban
 400060,Mumbai Suburban
 400064,Mumbai Suburban
-400167,Nan
 400032,Mumbai
 400021,Mumbai
-400111,Nan
 400710,Thane
 415213,Raigad
 402404,Raigad
@@ -17653,7 +17589,6 @@ pincode,district
 421202,Thane
 421308,Thane
 400605,Thane
-400609,Nan
 401301,Palghar
 401304,Palghar
 444001,Akola
@@ -17703,11 +17638,9 @@ pincode,district
 793016,East Khasi Hills
 793017,East Khasi Hills
 793018,East Khasi Hills
-794116,Nan
 756039,Baleshwar
 516311,Y.S.R.
 517504,Tirupati
-517510,Nan
 534001,Eluru
 524324,Spsr Nellore
 522004,Guntur
@@ -17821,6 +17754,7 @@ pincode,district
 324008,Kota
 324007,Kota
 323615,Bundi
+301019,Alwar
 302015,Jaipur
 302019,Jaipur
 303323,Dausa
@@ -17842,7 +17776,6 @@ pincode,district
 600083,Chennai
 600025,Chennai
 600061,Chennai
-600201,Nan
 602117,Kanchipuram
 602118,Kanchipuram
 605004,Pondicherry
@@ -17882,6 +17815,7 @@ pincode,district
 590009,Belagavi
 583275,Ballari
 583215,Vijaynagar
+583203,Vijaynagar
 585401,Bidar
 591201,Belagavi
 591239,Belagavi
@@ -18013,7 +17947,6 @@ pincode,district
 462037,Bhopal
 462045,Bhopal
 462004,Bhopal
-462057,Nan
 271001,Gonda
 273003,Gorakhpur
 273004,Gorakhpur
@@ -18083,6 +18016,7 @@ pincode,district
 744203,North And Middle Andaman
 734424,Darjeeling
 734015,Jalpaiguri
+734010,Darjeeling
 734013,Darjeeling
 735234,Jalpaiguri
 733101,Dinajpur Dakshin
@@ -18186,7 +18120,6 @@ pincode,district
 380019,Ahmadabad
 382480,Ahmadabad
 380057,Ahmadabad
-380010,Nan
 380024,Ahmadabad
 382345,Ahmadabad
 380002,Ahmadabad
@@ -18208,7 +18141,6 @@ pincode,district
 360575,Porbandar
 360007,Rajkot
 363623,Morbi
-360008,Nan
 363780,Surendranagar
 388335,Anand
 394345,Surat
@@ -18224,7 +18156,6 @@ pincode,district
 396370,Navsari
 395011,Surat
 390018,Vadodara
-390026,Nan
 391750,Vadodara
 390016,Vadodara
 391345,Vadodara
@@ -18327,7 +18258,6 @@ pincode,district
 505211,Peddapalli
 502305,Sangareddy
 500018,Medchal Malkajgiri
-500989,Nan
 500109,Hyderabad
 500032,Hyderabad
 500091,Ranga Reddy
@@ -18342,7 +18272,6 @@ pincode,district
 500090,Medchal Malkajgiri
 500085,Medchal Malkajgiri
 500117,Hyderabad
-500970,Nan
 509326,Nagarkurnool
 533253,East Godavari
 803307,Patna
@@ -18414,7 +18343,6 @@ pincode,district
 678007,Palakkad
 676562,Malappuram
 676311,Malappuram
-676510,Nan
 444005,Akola
 482008,Jabalpur
 466118,Sehore
@@ -18507,6 +18435,7 @@ pincode,district
 767070,Balangir
 759147,Anugul
 342032,Jodhpur
+327603,Banswara
 263664,Almora
 281405,Mathura
 249405,Haridwar
@@ -18564,29 +18493,25 @@ pincode,district
 502324,Sangareddy
 502284,Sangareddy
 502033,Sangareddy
-502932,Nan
+506313,Hanumakonda
 500034,Hyderabad
 500038,Hyderabad
 500082,Hyderabad
 500114,Medchal Malkajgiri
-500918,Nan
 500046,Ranga Reddy
 500084,Hyderabad
 500104,Ranga Reddy
 500106,Hyderabad
-500119,Nan
 500012,Hyderabad
 500076,Medchal Malkajgiri
 500017,Hyderabad
 500103,Medchal Malkajgiri
-500920,Nan
-500903,Nan
 500037,Medchal Malkajgiri
 500042,Medchal Malkajgiri
-500972,Nan
 516005,Y.S.R.
 534008,Eluru
 524005,Spsr Nellore
+523261,Bapatla
 522308,Guntur
 520008,Ntr
 521137,Krishna
@@ -18619,7 +18544,6 @@ pincode,district
 800031,Patna
 800019,Patna
 800012,Patna
-800033,Nan
 490011,Durg
 490020,Durg
 491443,Rajnandgaon
@@ -18634,7 +18558,6 @@ pincode,district
 380054,Ahmadabad
 380061,Ahmadabad
 380051,Ahmadabad
-380011,Nan
 382475,Ahmadabad
 382418,Ahmadabad
 382045,Gandhinagar
@@ -18651,18 +18574,15 @@ pincode,district
 394516,Surat
 395023,Surat
 394221,Surat
-395014,Nan
 395008,Surat
 390017,Vadodara
 390021,Vadodara
-390008,Nan
 396115,Valsad
 396180,Valsad
 396171,Valsad
 134108,Panchkula
 134113,Panchkula
 134005,Ambala
-134999,Nan
 133207,Ambala
 122009,Gurugram
 131030,Sonipat
@@ -18726,12 +18646,10 @@ pincode,district
 688521,Alappuzha
 688009,Alappuzha
 688014,Alappuzha
-688051,Nan
 688534,Alappuzha
 683502,Ernakulam
 683571,Ernakulam
 683515,Ernakulam
-683051,Nan
 683549,Ernakulam
 683543,Ernakulam
 686104,Kottayam
@@ -18798,6 +18716,7 @@ pincode,district
 673311,Kannur
 679572,Malappuram
 676528,Malappuram
+676510,Malappuram
 676104,Malappuram
 462043,Bhopal
 461446,Hoshangabad
@@ -18829,7 +18748,6 @@ pincode,district
 400098,Mumbai Suburban
 400056,Mumbai Suburban
 400094,Mumbai Suburban
-400186,Nan
 400095,Mumbai Suburban
 400063,Mumbai Suburban
 400013,Mumbai
@@ -18857,8 +18775,6 @@ pincode,district
 411061,Pune
 411040,Pune
 411070,Pune
-411079,Nan
-411080,Nan
 411008,Pune
 411073,Pune
 410302,Pune
@@ -19051,7 +18967,6 @@ pincode,district
 734204,Darjeeling
 734421,Darjeeling
 734002,Darjeeling
-734091,Nan
 737101,East District
 713330,Paschim Bardhaman
 713331,Paschim Bardhaman
@@ -19067,7 +18982,6 @@ pincode,district
 721406,Medinipur East
 712222,Hooghly
 712234,Hooghly
-712291,Nan
 711308,Howrah
 711331,Howrah
 711107,Howrah
@@ -19075,7 +18989,6 @@ pincode,district
 723156,Purulia
 500079,Ranga Reddy
 533125,East Godavari
-804454,Nan
 532207,Srikakulam
 786192,Tinsukia
 824234,Gaya
@@ -19176,14 +19089,12 @@ pincode,district
 502325,Sangareddy
 502205,Sangareddy
 502034,Sangareddy
-500984,Nan
 500064,Hyderabad
 500066,Hyderabad
 500048,Ranga Reddy
 500069,Ranga Reddy
 500023,Hyderabad
 500108,Ranga Reddy
-500930,Nan
 500092,Medchal Malkajgiri
 500051,Medchal Malkajgiri
 500098,Medchal Malkajgiri
@@ -19207,7 +19118,6 @@ pincode,district
 781019,Kamrup Metro
 781022,Kamrup Metro
 781020,Kamrup Metro
-781041,Nan
 781039,Kamrup
 851135,Begusarai
 854305,Purnia
@@ -19217,7 +19127,6 @@ pincode,district
 802224,Bhojpur
 823005,Gaya
 803121,Nalanda
-805142,Nan
 801507,Patna
 800028,Patna
 800003,Patna
@@ -19226,6 +19135,7 @@ pincode,district
 497553,Korea
 497450,Korea
 496108,Raigarh
+492009,Raipur
 492002,Raipur
 492008,Raipur
 110106,North
@@ -19310,7 +19220,6 @@ pincode,district
 560057,Bengaluru Urban
 560023,Bengaluru Urban
 562166,Ramanagara
-590100,Nan
 591219,Belagavi
 580026,Dharwad
 580029,Dharwad
@@ -19342,7 +19251,6 @@ pincode,district
 682039,Ernakulam
 682032,Ernakulam
 682317,Ernakulam
-682053,Nan
 682505,Ernakulam
 682009,Ernakulam
 682003,Ernakulam
@@ -19357,7 +19265,6 @@ pincode,district
 689661,Pathanamthitta
 690539,Kollam
 691008,Kollam
-691051,Nan
 691527,Kollam
 689550,Pathanamthitta
 689584,Pathanamthitta
@@ -19416,7 +19323,6 @@ pincode,district
 400072,Mumbai Suburban
 400093,Mumbai Suburban
 400061,Mumbai Suburban
-400153,Nan
 400092,Mumbai Suburban
 400101,Mumbai Suburban
 400103,Mumbai Suburban
@@ -19430,16 +19336,13 @@ pincode,district
 440032,Nagpur
 440037,Nagpur
 440033,Nagpur
-441124,Nan
 414003,Ahmednagar
 411039,Pune
 411060,Pune
-411077,Nan
 411043,Pune
 411045,Pune
 411068,Pune
 411069,Pune
-411075,Nan
 411081,Pune
 415516,Satara
 431006,Aurangabad
@@ -19501,7 +19404,6 @@ pincode,district
 600032,Chennai
 600085,Chennai
 600022,Chennai
-600202,Nan
 605006,Pondicherry
 605401,Villupuram
 600070,Chengalpattu
@@ -19566,7 +19468,6 @@ pincode,district
 700109,24 Paraganas North
 700081,24 Paraganas North
 700115,24 Paraganas North
-736209,Nan
 734011,Darjeeling
 735232,Jalpaiguri
 732144,Maldah
@@ -19584,4 +19485,3 @@ pincode,district
 721604,Medinipur East
 721171,Medinipur East
 721638,Medinipur East
-500927,Nan
