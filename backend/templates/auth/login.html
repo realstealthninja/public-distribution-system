@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block header %}
+  <h1>{% block title %}Login{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <section>
+    <p>Log in to use PDS services</p>
+    <form method="post">
+      <div class="mb-3 form-floating">
+        <input
+          name="username"
+          class="form-control"
+          type="text"
+          id="username"
+          required
+        />
+        <label for="username" class="form-label"> Username</label>
+      </div>
+      <div class="mb-3 form-floating">
+        <input
+          name="password"
+          class="form-control"
+          type="password"
+          id="password"
+          required
+        />
+        <label for="password" class="form-label">Password</label>
+      </div>
+
+      <input type="submit" class="btn btn-primary" value="Log In" />
+    </form>
+  </section>
+{% endblock %}
