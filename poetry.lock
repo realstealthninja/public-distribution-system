@@ -13,6 +13,22 @@ files = [
 ]
 
 [[package]]
+name = "bootstrap-flask"
+version = "2.6.0"
+description = "Bootstrap 4 & 5 helper for your Flask projects."
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "bootstrap_flask-2.6.0-py3-none-any.whl", hash = "sha256:2a0ff1df295b143020743949419c955de23ffc3465518f4bf5bac32f90deaa52"},
+    {file = "bootstrap_flask-2.6.0.tar.gz", hash = "sha256:2b0849f77a743e117716a75406b0312f0783658589519b0e922054bfb3102b9f"},
+]
+
+[package.dependencies]
+Flask = "*"
+WTForms = "*"
+
+[[package]]
 name = "cffi"
 version = "2.1.1"
 description = "Foreign Function Interface for Python calling C code."
@@ -478,7 +494,25 @@ markupsafe = ">=2.1.1"
 [package.extras]
 watchdog = ["watchdog (>=2.3)"]
 
+[[package]]
+name = "wtforms"
+version = "3.2.2"
+description = "Form validation and rendering for Python web development."
+optional = false
+python-versions = ">=3.10"
+groups = ["main"]
+files = [
+    {file = "wtforms-3.2.2-py3-none-any.whl", hash = "sha256:72b90d5d921bd3119252069cf0301e9c13915f9e52792652bc91c5dda4b79e56"},
+    {file = "wtforms-3.2.2.tar.gz", hash = "sha256:7b00c73f8670f35d4edb0293dcd81b980528bee72fd662b182aaba27ae570b93"},
+]
+
+[package.dependencies]
+markupsafe = ">=1.1.1"
+
+[package.extras]
+email = ["email-validator (>=2.0)"]
+
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.14"
-content-hash = "8431cdd9ff3fcbb093429ee73df0429183305c59d52c38ee96b655f4323d8fb1"
+content-hash = "81453e986eceb115e866e790c995af926a0e5258ea61dd8b2e0ffff443233420"
