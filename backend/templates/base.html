@@ -22,12 +22,48 @@
             >Home</a
           >
         </li>
-        {% if g.user %}
-          <li class="nav-item">name</li>
-          <li class="nav-item">Allocations</li>
-          <li class="nav-item">Transactions</li>
-          <li class="nav-item">Order</li>
-          <li class="nav-item">Log Out</li>
+        {% if g.family_user %}
+          <li class="nav-item">
+            <a
+              class="nav-link {% if url_for('family.index') == request.path %}active{% endif %}"
+              href="{{ url_for('family.index') }}"
+              >Family</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link {% if url_for('family.allocations') == request.path %}active{% endif %}"
+              href="{{ url_for('family.allocations') }}"
+              >Allocations</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link {% if url_for('family.transactions') == request.path %}
+                active
+              {% endif %}"
+              href="{{ url_for('family.transactions') }}"
+              >Transactions</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link {% if url_for('family.order') == request.path %}
+                active
+              {% endif %}"
+              href="{{ url_for('family.order') }}"
+              >Order</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link {% if url_for('auth.logout') == request.path %}
+                active
+              {% endif %}"
+              href="{{ url_for('auth.logout') }}"
+              >Log Out</a
+            >
+          </li>
         {% else %}
           <li class="nav-item">
             <a
