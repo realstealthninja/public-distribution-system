@@ -1,12 +1,12 @@
 {% extends 'base.html' %}
+{% from 'bootstrap5/utils.html' import render_icon %}
+
 {% macro card(title, description, button, url, icon) %}
   <article class="card">
     <div
       class="position-absolute start-50 translate-middle rounded-circle p-3 text-light bg-dark"
     >
-      <div class="container" style="width: 64px; height: 64px;">
-        <i class="bi {{ icon }} fs-1 w"></i>
-      </div>
+      {{ render_icon(icon, size='64px') }}
     </div>
     <section class="card-body">
       <h5 class="card-title">{{ title }}</h5>
@@ -43,7 +43,15 @@
     </section>
     <section class="row mt-5">
       <div class="col">
-        {{ card('Families', 'There are 250 families currently registered for public distribution.', 'register', url_for('auth.register'), 'bi-people-fill') }}
+        {{
+          card(
+            title = 'Families',
+            description = 'There are 250 families currently registered for public distribution.',
+            button ='register',
+            url = url_for('auth.register'),
+            icon = 'people-fill'
+          )
+        }}
       </div>
 
       <div class="col">
@@ -51,7 +59,7 @@
           card(
             title = "Allocations",
             description = "We have over 250 allocations ready to be distributed.",
-            icon = "bi-basket-fill",
+            icon = "basket-fill",
             button = "order",
             url = "#"
           )
@@ -63,7 +71,7 @@
           card(
             title = "States",
             description = "Currently operational in 15 states all across the Indian subcontinent.",
-            icon = "bi-globe-central-south-asia",
+            icon = "globe-central-south-asia",
             button = "statisitcs",
             url = "#"
           )
