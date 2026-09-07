@@ -1,3 +1,5 @@
+import csv
+
 import click
 from flask import current_app, g
 from oracledb import Connection, connect
@@ -15,6 +17,12 @@ def get_db() -> Connection:
     return g.db
 
 
+def insert_csv_data(file, query, cursor):
+    data = list(map(tuple, list(csv.reader(file))[1:]))
+
+    cursor.executemany(query, data)
+
+
 def run_sql_script(file, cursor):
     statement_parts = []
     for line in file.readlines():
@@ -24,7 +32,7 @@ def run_sql_script(file, cursor):
                 try:
                     cursor.execute(statement)
                 except:
-                    print("Failed to execute SQL:", statement)
+                    print(f"Failed to execute SQL file({file.name}):", statement)
                     raise
             statement_parts = []
         else:
@@ -35,10 +43,34 @@ def init_db():
     db = get_db()
 
     with (
-        current_app.open_resource("sql/schema.sql", "r") as file,
+        current_app.open_resource("sql/schema.sql", "r") as schema,
+        current_app.open_resource("sql/data/states.csv", mode="r") as states,
+        current_app.open_resource("sql/data/districts.csv", "r") as districts,
+        current_app.open_resource("sql/data/addresses.csv", "r") as addresses,
+        current_app.open_resource("sql/data/distributors.csv", "r") as distributors,
         db.cursor() as cursor,
     ):
-        run_sql_script(file, cursor)
+        run_sql_script(schema, cursor)
+
+        insert_csv_data(states, "INSERT INTO state(state_name) VALUES(:state)", cursor)
+
+        insert_csv_data(
+            districts,
+            "INSERT INTO district(district_name, state_id) VALUES(:district, (SELECT state_id FROM state WHERE state_name = :state))",
+            cursor,
+        )
+
+        insert_csv_data(
+            addresses,
+            "INSERT INTO address(pincode, district_id) VALUES(:pincode, (SELECT district_id FROM district WHERE district_name = :district))",
+            cursor,
+        )
+
+        insert_csv_data(
+            distributors,
+            "INSERT INTO distributor(distributor_name, address_id) VALUES(:distributor_name, (SELECT address_id FROM address WHERE pincode = :pincode))",
+            cursor,
+        )
         db.commit()
 
 
