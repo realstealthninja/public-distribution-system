@@ -14,8 +14,13 @@
       <div class="contianer p-1">
         <div class="row">
           <div class="col form-floating">
-            <input class="form-control" id="name" name="name" required />
-            <label class="form-label" for="name">Name</label>
+            <input
+              class="form-control"
+              id="family_name"
+              name="family_name"
+              required
+            />
+            <label class="form-label" for="family_name">Name</label>
           </div>
           <div class="col form-floating">
             <input
@@ -34,15 +39,14 @@
               min="1"
               max="10"
               step="1"
-              id="property"
-              name="property"
+              value="1"
+              id="property_count"
+              name="property_count"
               required
             />
-            <output
-              for="property"
-              id="property-output"
-              aria-hidden="true"
-            ></output>
+            <output for="property_count" id="property-output" aria-hidden="true"
+              >1</output
+            >
           </div>
         </div>
       </div>
@@ -82,7 +86,13 @@
         </div>
       </div>
       <div class="form-floating">
-        <input class="form-control" id="pincode" name="pincode" required />
+        <input
+          class="form-control"
+          id="pincode"
+          class="{% if error %}is-invalid{% endif %}"
+          name="pincode"
+          required
+        />
         <label class="form-label" for="pincode">Pincode</label>
       </div>
     </fieldset>
@@ -111,7 +121,7 @@
   <script>
     const district = document.getElementById("district");
     const state = document.getElementById("state");
-    const property = document.getElementById("property");
+    const property = document.getElementById("property_count");
     const property_output = document.getElementById("property-output");
 
     function district_changed() {
