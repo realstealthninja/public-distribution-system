@@ -48,7 +48,7 @@ CREATE TABLE employee(
 
 CREATE TABLE family(
     family_id NUMBER(6) GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) PRIMARY KEY,
-    family_name VARCHAR(20),
+    family_name VARCHAR(36),
     property NUMBER(2),
     annual_income NUMBER(10,2),
     distributor_id NUMBER(6) REFERENCES distributor(distributor_id),
