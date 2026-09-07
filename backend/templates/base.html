@@ -3,12 +3,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{% block title %}{% endblock %}</title>
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-    crossorigin="anonymous"
-  />
+  {{ bootstrap.load_css() }}
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
@@ -19,7 +14,13 @@
     <div class="container-fluid">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+          <a
+            class="nav-link {% if url_for('index') == request.path %}
+              active
+            {% endif %}"
+            href="{{ url_for('index') }}"
+            >Home</a
+          >
         </li>
         {% if g.user %}
           <li class="nav-item">name</li>
@@ -29,14 +30,28 @@
           <li class="nav-item">Log Out</li>
         {% else %}
           <li class="nav-item">
-            <a class="nav-link" href="{{ url_for('auth.admin') }}">admin</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ url_for('auth.register') }}"
-              >Register</a
+            <a
+              class="nav-link {% if url_for('auth.admin') == request.path %}
+                active
+              {% endif %}"
+              href="{{ url_for('auth.admin') }}"
+              >Admin</a
             >
           </li>
           <li class="nav-item">
+            <a
+              class="nav-link {% if url_for('auth.register') == request.path %}
+                active
+              {% endif %}"
+              href="{{ url_for('auth.register') }}"
+              >Register</a
+            >
+          </li>
+          <li
+            class="nav-item {% if url_for('auth.login') == request.path %}
+              active
+            {% endif %}"
+          >
             <a class="nav-link" href="{{ url_for('auth.login') }}">Log In</a>
           </li>
         {% endif %}
@@ -44,15 +59,12 @@
     </div>
   </nav>
   <section class="content container">
-    <header>{% block header %}{% endblock %}</header>
+    <header class="my-3 py-5">{% block header %}{% endblock %}</header>
     {% for message in get_flashed_messages() %}
       <div class="flash">{{ message }}</div>
     {% endfor %}
     <main>{% block content %}{% endblock %}</main>
   </section>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"
-  ></script>
+  <footer></footer>
+  {{ bootstrap.load_js() }}
 </body>
