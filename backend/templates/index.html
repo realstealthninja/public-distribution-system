@@ -46,7 +46,7 @@
         {{
           card(
             title = 'Families',
-            description = 'There are 250 families currently registered for public distribution.',
+            description = 'There are ' + family_count + ' families currently registered for public distribution.',
             button ='register',
             url = url_for('auth.register'),
             icon = 'people-fill'
@@ -58,7 +58,7 @@
         {{
           card(
             title = "Allocations",
-            description = "We have over 250 allocations ready to be distributed.",
+            description = "We have over " + allocation_count + " allocations ready to be distributed.",
             icon = "basket-fill",
             button = "order",
             url = "#"
@@ -70,7 +70,7 @@
         {{
           card(
             title = "States",
-            description = "Currently operational in 15 states all across the Indian subcontinent.",
+            description = "Currently operational in " +  state_count + " provinces all across the Indian peninsula.",
             icon = "globe-central-south-asia",
             button = "statisitcs",
             url = "#"
