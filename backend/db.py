@@ -48,9 +48,11 @@ def init_db():
         current_app.open_resource("sql/data/districts.csv", "r") as districts,
         current_app.open_resource("sql/data/addresses.csv", "r") as addresses,
         current_app.open_resource("sql/data/distributors.csv", "r") as distributors,
+        current_app.open_resource("sql/items.sql", "r") as items,
         db.cursor() as cursor,
     ):
         run_sql_script(schema, cursor)
+        run_sql_script(items, cursor)
 
         insert_csv_data(states, "INSERT INTO state(state_name) VALUES(:state)", cursor)
 
