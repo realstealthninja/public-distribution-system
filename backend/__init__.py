@@ -3,7 +3,7 @@ import os
 from flask import Flask, redirect, render_template
 from flask_bootstrap import Bootstrap5
 
-from backend import family
+from backend import admin, family
 
 from . import auth, db
 
@@ -45,5 +45,6 @@ def create_app(test_config=None):
 
     app.register_blueprint(auth.bp)
     app.register_blueprint(family.bp)
+    app.register_blueprint(admin.bp)
     app.add_url_rule("/", endpoint="index")
     return app
