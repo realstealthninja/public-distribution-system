@@ -77,7 +77,7 @@ def admin():
         if error is None:
             session.clear()
             session["user_id"] = user[0]
-            return redirect(url_for("index"))
+            return redirect(url_for("admin.index"))
 
         flash(error, category="error")
 
@@ -111,18 +111,25 @@ def register():
             if address is None:
                 error.append({"id": "pincode"})
             else:
-                distributor = cursor.execute(
-                    "SELECT distributor_id FROM distributor WHERE address_id = :addressid",
-                    (address[0],),
-                ).fetchone()
+                try:
+                    distributor = cursor.execute(
+                        "SELECT distributor_id FROM distributor WHERE address_id = :addressid",
+                        (address[0],),
+                    ).fetchone()
+                except:
+                    # incase no distributor within pincode unlikely...
+                    distributor = cursor.execute(
+                        "SELECT distributor_id FROM distributor WHERE address_id = (SELECT addres_id FROM address WHERE district = :districtid FETCH FIRST 1 ROWS ONLY)"
+                    )
 
                 cursor.execute(
-                    "INSERT INTO family(family_name, property, address_id, distributor_id) VALUES(:familyname, :property, :addressid,  :distributorid)",
+                    "INSERT INTO family(family_name, property, address_id, distributor_id, annual_income) VALUES(:familyname, :property, :addressid,  :distributorid, :annual)",
                     (
                         family_name,
                         property_count,
                         address[0],
                         distributor[0],
+                        annual_income,
                     ),
                 )
 
