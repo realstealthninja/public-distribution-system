@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask, render_template
+from flask import Flask, redirect, render_template
 from flask_bootstrap import Bootstrap5
 
 from backend import family
@@ -17,6 +17,10 @@ def create_app(test_config=None):
     db.init_app(app)
 
     os.makedirs(app.instance_path, exist_ok=True)
+
+    @app.route("/favicon.ico")
+    def favicon():
+        return redirect("static/favicon.ico")
 
     @app.route("/")
     def index():
