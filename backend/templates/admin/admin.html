@@ -5,4 +5,69 @@
 {% endblock %}
 
 {% block content %}
+  <section>
+    <h2>Tables</h2>
+    <section class="row">
+      <section class="col">
+        <h3>Item</h3>
+        <table class="table table-striped table-bordered table-hover">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in items %}
+              <tr>
+                {% for data in item %}
+                  <td>{{ data }}</td>
+                {% endfor %}
+                <td><button class="btn btn-secondary">-</button></td>
+              </tr>
+            {% endfor %}
+            <tr>
+              <td></td>
+              <td>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Special Rice"
+                />
+              </td>
+              <td><button class="btn btn-primary">+</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="col">
+        <h3>Families</h3>
+        <table class="table table-striped table-bordered table-hover">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Property</th>
+              <th>Annual Income</th>
+              <th>Distributor ID</th>
+              <th>Address ID</th>
+              <th>action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for family in families %}
+              <tr>
+                {% for data in family %}
+                  <td>{{ data }}</td>
+                {% endfor %}
+                <td><button class="btn btn-secondary">-</button></td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </section>
+    </section>
+  </section>
 {% endblock %}
