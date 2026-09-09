@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% from 'bootstrap5/form.html' import render_form %}
+{% from 'utils.html' import card %}
+{% block header %}
+  <h1>{% block title %}{{ family[1] }}{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <section class="row">
+    <div class="col">
+      {{
+        card(
+          title='Allocations',
+          description='Your family has x allocations',
+          button = 'allocations',
+          url =  url_for('family.allocations')
+        )
+      }}
+    </div>
+    <div class="col">
+      {{
+        card(
+          title='Orders',
+          description='Your family has ordered x allocations',
+          button = 'allocations',
+          url =  url_for('family.allocations')
+        )
+      }}
+    </div>
+    <div class="col">
+      {{
+        card(
+          title='Transactions',
+          description='Your family has transacted with us x times',
+          button = 'allocations',
+          url =  url_for('family.allocations')
+        )
+      }}
+    </div>
+  </section>
+  <section class="my-3">
+    <h3>Distributor information</h3>
+    <div class="mx-3 my-3">
+      <h4>{{ distributor_name }}</h4>
+      <address>
+        {{ pincode }}
+        {{ district }}
+        {{ state }}
+      </address>
+    </div>
+  </section>
+  <section class="my-3">
+    <h3>Members</h3>
+    <div class="mx-3">
+      <ul>
+        {% for member in members %}
+          <li class="my-1">
+            <b>{{ member[2] }}</b> {{ member[3] }}
+            <button
+              class="btn btn-secondary mx-3"
+              onclick="deleteMember({{ member[0] }})"
+            >
+              -
+            </button>
+          </li>
+        {% else %}
+          <article><p>No members found</p></article>
+        {% endfor %}
+      </ul>
+      <div>
+        <h4>Add a member</h4>
+        {{ render_form(form) }}
+      </div>
+    </div>
+  </section>
+  <script>
+    function deleteMember(id) {
+      fetch("/family/member/" + id, { method: "DELETE" }).then(() => {
+        window.location.reload();
+      });
+    }
+  </script>
+{% endblock %}
