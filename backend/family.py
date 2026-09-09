@@ -75,7 +75,13 @@ def index():
 @bp.route("/allocations")
 @family_required
 def allocations():
-    return "un implemented"
+    allocations = []
+    with get_db().cursor() as cursor:
+        allocations = cursor.execute(
+            "SELECT name, amount, price FROM allocation NATURAL JOIN ITEM WHERE family_id = :familyid",
+            (g.family_user[1],),
+        ).fetchall()
+    return render_template("family/allocations.html", allocations=allocations)
 
 
 @bp.route("/transactions")
