@@ -1,3 +1,5 @@
+import functools
+
 from flask import Blueprint, flash, g, render_template, request, session, url_for
 from flask.helpers import redirect
 from werkzeug.security import check_password_hash, generate_password_hash
@@ -20,15 +22,34 @@ def load_logged_in_admin():
             ).fetchone()
 
 
+def family_required(view):
+    @functools.wraps(view)
+    def wrapped_view(**kwargs):
+        if g.family_user is None:
+            return redirect(url_for("auth.login"))
+
+        return view(**kwargs)
+
+    return wrapped_view
+
+
+def admin_required(view):
+    @functools.wraps(view)
+    def wrapped_view(**kwargs):
+        if g.user is None:
+            return redirect(url_for("auth.admin"))
+        return wrapped_view
+
+
 @bp.before_app_request
 def load_logged_in_user():
     family_id = session.get("family_id")
 
     if family_id is None:
-        g.user = None
+        g.family_user = None
     else:
         with get_db().cursor() as cursor:
-            g.user = cursor.execute(
+            g.family_user = cursor.execute(
                 "SELECT * FROM family_user where family_id = :familyid", (family_id,)
             ).fetchone()
 
@@ -40,7 +61,7 @@ def admin():
         password = request.form["password"]
 
         db = get_db()
-        user: None = None
+        user = None
         error: str | None = None
 
         with db.cursor() as cursor:
@@ -83,8 +104,8 @@ def register():
 
         with db.cursor() as cursor:
             address = cursor.execute(
-                "SELECT address_id FROM address where district_id = :districtid",
-                (district,),
+                "SELECT address_id FROM address where pincode = :pincode",
+                (pincode,),
             ).fetchone()
 
             if address is None:
@@ -157,13 +178,13 @@ def login():
 
         if user is None:
             error = "Incorrect username."
-        elif not check_password_hash(user[2], password):
+        elif not check_password_hash(user[3], password):
             error = "Incorrect password."
 
         if error is None and user is not None:
             session.clear()
             session["family_id"] = user[1]
-            return redirect(url_for("index"))
+            return redirect(url_for("family.index"))
         elif error is not None:
             flash(error, category="error")
     return render_template("auth/login.html")
