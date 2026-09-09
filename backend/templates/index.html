@@ -1,20 +1,5 @@
 {% extends 'base.html' %}
-{% from 'bootstrap5/utils.html' import render_icon %}
-
-{% macro card(title, description, button, url, icon) %}
-  <article class="card">
-    <div
-      class="position-absolute start-50 translate-middle rounded-circle p-3 text-light bg-dark"
-    >
-      {{ render_icon(icon, size='64px') }}
-    </div>
-    <section class="card-body">
-      <h5 class="card-title">{{ title }}</h5>
-      <p class="card-text">{{ description }}</p>
-      <a href="{{ url }}" class="btn btn-primary">{{ button }}</a>
-    </section>
-  </article>
-{% endmacro %}
+{% from 'utils.html' import card %}
 
 {% block header %}
   <div class="px-3 bg-img rounded index-hero">
