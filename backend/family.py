@@ -29,6 +29,7 @@ def index():
     form = MemberForm(request.form)
     family = ()
     family_id = g.family_user[1]
+    allocation_count = 0
     members = [()]
 
     if request.method == "POST":
@@ -60,6 +61,12 @@ def index():
             "SELECT a.pincode, d.district_name, s.state_name FROM address a JOIN district d ON(a.district_id = d.district_id) JOIN state s ON(d.state_id = s.state_id)  WHERE address_id = :addressid",
             (family[5],),
         ).fetchone()
+        allocation_count = str(
+            cursor.execute(
+                "SELECT COUNT(allocation_id) FROM allocation WHERE family_id = :familyid",
+                (family_id,),
+            ).fetchone()[0]
+        )
     return render_template(
         "family/family.html",
         family=family,
@@ -69,6 +76,7 @@ def index():
         pincode=address[0],
         district=address[1],
         state=address[2],
+        allocation_count=allocation_count,
     )
 
 
