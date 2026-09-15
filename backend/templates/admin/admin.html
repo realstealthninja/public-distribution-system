@@ -10,36 +10,51 @@
     <section class="row">
       <section class="col">
         <h3>Item</h3>
-        <table class="table table-striped table-bordered table-hover">
-          <thead>
-            <tr>
-              <th>ID</th>
-              <th>Name</th>
-              <th>action</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for item in items %}
+
+        <form action="{{ url_for('admin.item') }}" method="POST">
+          <table class="table table-striped table-bordered table-hover">
+            <thead>
               <tr>
-                {% for data in item %}
-                  <td>{{ data }}</td>
-                {% endfor %}
-                <td><button class="btn btn-secondary">-</button></td>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Action</th>
               </tr>
-            {% endfor %}
-            <tr>
-              <td></td>
-              <td>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Special Rice"
-                />
-              </td>
-              <td><button class="btn btn-primary">+</button></td>
-            </tr>
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {% for item in items %}
+                <tr>
+                  {% for data in item %}
+                    <td>{{ data }}</td>
+                  {% endfor %}
+                  <td>
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      onclick="deleteItem('{{ item[0] }}')"
+                    >
+                      -
+                    </button>
+                  </td>
+                </tr>
+              {% endfor %}
+              <tr>
+                <td></td>
+                <td>
+                  <input
+                    id="item"
+                    name="item"
+                    type="text"
+                    class="form-control"
+                    placeholder="Special Rice"
+                  />
+                </td>
+                <td>
+                  <button type="submit" class="btn btn-primary">+</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
       </section>
 
       <section class="col">
@@ -53,7 +68,7 @@
               <th>Annual Income</th>
               <th>Distributor ID</th>
               <th>Address ID</th>
-              <th>action</th>
+              <th>Action</th>
             </tr>
           </thead>
           <tbody>
@@ -62,12 +77,223 @@
                 {% for data in family %}
                   <td>{{ data }}</td>
                 {% endfor %}
-                <td><button class="btn btn-secondary">-</button></td>
+                <td>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    onclick="deleteFamily('{{ family[0] }}')"
+                  >
+                    -
+                  </button>
+                </td>
               </tr>
             {% endfor %}
           </tbody>
         </table>
       </section>
     </section>
+    <section class="row">
+      <section class="col">
+        <h3>Inventory</h3>
+        <form method="post" action="{{ url_for('admin.inventory') }}">
+          <table class="table table-striped table-bordered table-hover">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>distributor</th>
+                <th>item</th>
+                <th>amount</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for inventory in inventories %}
+                <tr>
+                  {% for data in inventory %}
+                    <td>{{ data }}</td>
+                  {% endfor %}
+                  <td>
+                    <button
+                      class="btn btn-secondary"
+                      onclick="deleteInventory('{{ inventory[0] }}')"
+                    >
+                      -
+                    </button>
+                  </td>
+                </tr>
+              {% else %}
+                <tr>
+                  <td class="text-center" colspan="5">
+                    No inventories present
+                  </td>
+                </tr>
+              {% endfor %}
+              <tr>
+                <td></td>
+                <td>
+                  <select
+                    name="distributor"
+                    id="distributor"
+                    class="form-select"
+                    required
+                  >
+                    {% for distributor in distributors %}
+                      <option value="{{ distributor[0] }}">
+                        {{ distributor[1] }}
+                      </option>
+                    {% endfor %}
+                  </select>
+                </td>
+                <td>
+                  <select name="item" id="item" class="form-select" required>
+                    {% for item in items %}
+                      <option value="{{ item[0] }}">{{ item[1] }}</option>
+                    {% endfor %}
+                  </select>
+                </td>
+                <td>
+                  <input
+                    name="amount"
+                    id="amount"
+                    type="number"
+                    placeholder="30"
+                    class="form-control"
+                    required
+                  />
+                </td>
+                <td>
+                  <button type="submit" class="btn btn-primary">+</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </section>
+    </section>
+    <section class="row">
+      <section class="col">
+        <h3>Allocations</h3>
+        <form method="post" action="{{ url_for('admin.allocation') }}">
+          <table class="table table-striped table-bordered table-hover">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Family</th>
+                <th>Item</th>
+                <th>Amount</th>
+                <th>Price</th>
+                <th>Date</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for allocation in allocations %}
+                <tr>
+                  {% for data in allocation %}
+                    <td>{{ data }}</td>
+                  {% endfor %}
+                  <td>
+                    <button
+                      type="button"
+                      formnovalidate
+                      class="btn btn-secondary"
+                      onclick="deleteAllocation('{{ allocation[0] }}')"
+                    >
+                      -
+                    </button>
+                  </td>
+                </tr>
+              {% else %}
+                <tr class="text-center">
+                  <td colspan="7">No allocations present</td>
+                </tr>
+              {% endfor %}
+              <tr>
+                <td></td>
+                <td>
+                  <select
+                    id="familyid"
+                    name="familyid"
+                    class="form-select"
+                    required
+                  >
+                    {% for family in families %}
+                      <option value="{{ family[0] }}">{{ family[1] }}</option>
+                    {% endfor %}
+                  </select>
+                </td>
+                <td>
+                  <select
+                    id="itemid"
+                    name="itemid"
+                    class="form-select"
+                    required
+                  >
+                    {% for item in items %}
+                      <option value="{{ item[0] }}">{{ item[1] }}</option>
+                    {% endfor %}
+                  </select>
+                </td>
+                <td>
+                  <input
+                    class="form-control"
+                    type="number"
+                    id="amount"
+                    placeholder="30"
+                    min="1"
+                    name="amount"
+                    required
+                  />
+                </td>
+                <td>
+                  <input
+                    class="form-control"
+                    type="number"
+                    name="price"
+                    step="0.01"
+                    placeholder="3.75"
+                    min="0"
+                    id="price"
+                    required
+                  />
+                </td>
+                <td>
+                  <input type="date" name="date" required />
+                </td>
+                <td>
+                  <button type="submit" class="btn btn-primary">+</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </section>
+    </section>
   </section>
+
+  <script>
+    function deleteInventory(id) {
+      fetch(`{{ url_for('admin.inventory' )}}/${id}`, {
+        method: "DELETE",
+      }).then(() => window.location.reload());
+    }
+
+    function deleteFamily(id) {
+      fetch(`/admin/family/${id}`, {
+        method: "DELETE",
+      }).then(() => window.location.reload());
+    }
+
+    function deleteItem(id) {
+      fetch(`/admin/item/${id}`, {
+        method: "DELETE",
+      }).then(() => window.location.reload());
+    }
+
+    function deleteAllocation(id) {
+      fetch(`{{ url_for('admin.allocation' )}}/${id}`, {
+        method: "DELETE",
+      }).then(() => window.location.reload());
+    }
+  </script>
 {% endblock %}
