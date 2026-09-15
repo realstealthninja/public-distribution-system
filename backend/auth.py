@@ -119,7 +119,8 @@ def register():
                 except:
                     # incase no distributor within pincode unlikely...
                     distributor = cursor.execute(
-                        "SELECT distributor_id FROM distributor WHERE address_id = (SELECT addres_id FROM address WHERE district = :districtid FETCH FIRST 1 ROWS ONLY)"
+                        "SELECT distributor_id FROM distributor WHERE address_id = (SELECT addres_id FROM address WHERE district = :districtid FETCH FIRST 1 ROWS ONLY)",
+                        (district,),
                     )
 
                 cursor.execute(
