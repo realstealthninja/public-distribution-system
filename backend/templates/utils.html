@@ -11,7 +11,9 @@
     <section class="card-body">
       <h5 class="card-title">{{ title }}</h5>
       <p class="card-text">{{ description }}</p>
-      <a href="{{ url }}" class="btn btn-primary">{{ button }}</a>
+      {% if button %}
+        <a href="{{ url }}" class="btn btn-primary">{{ button }}</a>
+      {% endif %}
     </section>
   </article>
 {% endmacro %}
