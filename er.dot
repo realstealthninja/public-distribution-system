@@ -1,0 +1,77 @@
+graph ER {
+    layout="neato"
+    mode="KK"
+    overlap="false"
+    
+    fontname="Helvetica, Arial, sans-serif"
+    node [fontname="Helvetica, Arial, sans-serif"]
+    edge [fontname="Helvetica, Arial, sans-serif"]
+    
+    node [shape=box] family; member; employee; distributor; allocation; state; district; address; item; inventory;
+    node [shape=ellipse] {node [label= <<u>state_id</u>>] state_id}; state_name; {node [label = <<u>district_id</u>>] district_id}; district_name; {node [label= <<u>address_id</u>>] address_id}; pincode; {node [label = < <u> item_id</u> > ] item_id}; name; {node [label = < <u> distributor_id </u> >] distributor_id}; distributor_name; {node [label=< <u> employee_id </u> >] employee_id}; employee_name; employee_age; {node [label=< <u>family_id</u> > ] family_id}; family_name; property; annual_income; {node [label=< <u>member_id</u>>] member_id}; member_name; member_age; {node [label=< <u>inventory_id </u>>] inventory_id} ; { node [label="amount"] amount0 amount1}; {node [label=< <u>allocation_id</u> >] allocation_id}; allocation_date; price;
+    node [shape=diamond, style=filled, color=lightgray] contains; {node [label="lives at"] livesat}; {node [label="located at"] locatedat}; allocates {node [label="is in"] isin0 isin1}; "part of"; "employs"  
+
+    family_id -- family;
+    family_name -- family;
+    property -- family;
+    annual_income -- family;
+
+    employee_id -- employee;
+    employee_name -- employee;
+    employee_age -- employee;
+
+    member_id -- member;
+    member_name -- member;
+    member_age -- member;
+
+    inventory_id -- inventory;
+    amount0 -- inventory;
+
+    allocation_id -- allocation;
+    amount1 -- allocation;
+    price -- allocation;
+    allocation_date -- allocation;
+
+    distributor_id -- distributor;
+    distributor_name -- distributor;
+
+    item_id -- item;
+    name -- item;
+
+    state_name -- state;
+    state_id -- state;
+
+    district_name -- district;
+    district_id -- district;
+
+    address_id -- address;
+    pincode -- address;
+
+
+    allocation -- allocates [label="1"] 
+    allocates -- item [label="n"]
+
+    address -- isin0 [label="n"]
+    isin0 -- district [label="1"]
+    district -- isin1 [label="n"]
+    isin1 -- state [label="1"]
+
+    distributor -- locatedat [label="1"]
+    locatedat -- address [label="1"]
+
+    member -- "part of" [label="n"]
+    "part of" -- family [label="1"]
+
+    family -- livesat [label="1"]
+    livesat -- address [label="1"]
+
+    employee -- "employs" [label="n"]
+    "employs" -- distributor [label="1"]
+
+    inventory -- contains [label="1"]
+    contains -- item [label="n"]
+
+    distributor -- has [label="1"]
+    has -- inventory [label="1"]
+
+}

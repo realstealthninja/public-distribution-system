@@ -1,0 +1,526 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1109pt" height="865pt" viewBox="0.00 0.00 1109.07 865.09">
+<g id="graph0" class="graph" transform="translate(4,861.0900268554688) scale(1)" data-name="ER">
+
+<!-- f -->
+<g id="node1" class="node" pointer-events="visible" data-name="family" data-comment="f">
+
+<polygon fill="none" stroke="black" points="302.47,-399.16 248.47,-399.16 248.47,-363.16 302.47,-363.16 302.47,-399.16"/>
+<text text-anchor="middle" x="275.47" y="-376.96" font-family="Helvetica, Arial, sans-serif" font-size="14.00">family</text>
+</g>
+<!-- s -->
+<g id="node3" class="node" pointer-events="visible" data-name="employee" data-comment="s">
+
+<polygon fill="none" stroke="black" points="523.62,-130.43 452.77,-130.43 452.77,-94.43 523.62,-94.43 523.62,-130.43"/>
+<text text-anchor="middle" x="488.2" y="-108.23" font-family="Helvetica, Arial, sans-serif" font-size="14.00">employee</text>
+</g>
+<!-- d -->
+<g id="node4" class="node" pointer-events="visible" data-name="distributor" data-comment="d">
+
+<polygon fill="none" stroke="black" points="586.28,-289.93 511.62,-289.93 511.62,-253.93 586.28,-253.93 586.28,-289.93"/>
+<text text-anchor="middle" x="548.95" y="-267.73" font-family="Helvetica, Arial, sans-serif" font-size="14.00">distributor</text>
+</g><g id="edge37" class="edge" data-name="family--livesat" data-comment="d">
+
+<path fill="none" stroke="black" d="M302.75,-381.53C306.88,-381.58 311.27,-381.64 315.74,-381.7"/>
+<text text-anchor="middle" x="305.74" y="-385.82" font-family="Helvetica, Arial, sans-serif" font-size="14.00">1</text>
+</g>
+<!-- a -->
+<g id="node5" class="node" pointer-events="visible" data-name="allocation" data-comment="a">
+
+<polygon fill="none" stroke="black" points="934.64,-568 863.24,-568 863.24,-532 934.64,-532 934.64,-568"/>
+<text text-anchor="middle" x="898.94" y="-545.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">allocation</text>
+</g><g id="edge35" class="edge" data-name="member--part of" data-comment="a">
+
+<path fill="none" stroke="black" d="M207.37,-558.79C224.31,-549.27 244.77,-537.77 259.64,-529.41"/>
+<text text-anchor="middle" x="230.01" y="-548.3" font-family="Helvetica, Arial, sans-serif" font-size="14.00">n</text>
+</g>
+<!-- sta -->
+<g id="node6" class="node" pointer-events="visible" data-name="state" data-comment="sta">
+
+<polygon fill="none" stroke="black" points="604.96,-798.94 550.96,-798.94 550.96,-762.94 604.96,-762.94 604.96,-798.94"/>
+<text text-anchor="middle" x="577.96" y="-776.74" font-family="Helvetica, Arial, sans-serif" font-size="14.00">state</text>
+</g>
+<!-- d -->
+<g id="node7" class="node" pointer-events="visible" data-name="district" data-comment="d">
+
+<polygon fill="none" stroke="black" points="514.69,-638.38 459.93,-638.38 459.93,-602.38 514.69,-602.38 514.69,-638.38"/>
+<text text-anchor="middle" x="487.31" y="-616.18" font-family="Helvetica, Arial, sans-serif" font-size="14.00">district</text>
+</g><g id="edge33" class="edge" data-name="distributor--locatedat" data-comment="d">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M531.75,-290.14C521.35,-301.14 508.27,-314.98 498.56,-325.27"/>
+<text text-anchor="middle" x="511.65" y="-295.1" font-family="Helvetica, Arial, sans-serif" font-size="14.00">1</text>
+</g>
+<!-- a -->
+<g id="node8" class="node" pointer-events="visible" data-name="address" data-comment="a">
+
+<polygon fill="none" stroke="black" points="491.71,-445.11 433.74,-445.11 433.74,-409.11 491.71,-409.11 491.71,-445.11"/>
+<text text-anchor="middle" x="462.72" y="-422.91" font-family="Helvetica, Arial, sans-serif" font-size="14.00">address</text>
+</g><g id="edge27" class="edge" data-name="allocation--allocates" data-comment="a">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M901.16,-531.64C904.29,-505.83 909.95,-459.12 913.04,-433.66"/>
+<text text-anchor="middle" x="903.6" y="-486.85" font-family="Helvetica, Arial, sans-serif" font-size="14.00">1</text>
+</g>
+<!-- i -->
+<g id="node9" class="node" pointer-events="visible" data-name="item" data-comment="i">
+
+<polygon fill="none" stroke="black" points="917.75,-328.59 863.75,-328.59 863.75,-292.59 917.75,-292.59 917.75,-328.59"/>
+<text text-anchor="middle" x="890.75" y="-306.39" font-family="Helvetica, Arial, sans-serif" font-size="14.00">item</text>
+</g><g id="node44" class="node" pointer-events="visible" data-name="employs" data-comment="i">
+
+<polygon fill="lightgray" stroke="lightgray" points="588.09,-181.28 526.31,-163.28 588.09,-145.28 649.86,-163.28 588.09,-181.28"/>
+<text text-anchor="middle" x="588.09" y="-159.08" font-family="Helvetica, Arial, sans-serif" font-size="14.00">employs</text>
+</g>
+<!-- in -->
+<g id="node10" class="node" pointer-events="visible" data-name="inventory" data-comment="in">
+
+<polygon fill="none" stroke="black" points="777.75,-250.77 708.44,-250.77 708.44,-214.77 777.75,-214.77 777.75,-250.77"/>
+<text text-anchor="middle" x="743.09" y="-228.57" font-family="Helvetica, Arial, sans-serif" font-size="14.00">inventory</text>
+</g><g id="edge39" class="edge" data-name="employee--employs" data-comment="in">
+
+<path fill="none" stroke="black" d="M523.98,-130.64C537.64,-137.6 552.84,-145.33 565.01,-151.53"/>
+<text text-anchor="middle" x="540.99" y="-128.49" font-family="Helvetica, Arial, sans-serif" font-size="14.00">n</text>
+</g>
+<!-- m -->
+
+<!-- state_ -->
+<g id="node11" class="node" pointer-events="visible" data-name="state_id" data-comment="state_">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="425.12" cy="-839.09" rx="41.15" ry="18"/>
+<text text-anchor="start" x="403.35" y="-835.89" font-family="Helvetica, Arial, sans-serif" font-size="14.00" text-decoration="underline">state_id</text>
+</g><g id="edge31" class="edge" data-name="district--isin1" data-comment="state_">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M514.92,-622.65C538.33,-624.57 571.98,-627.33 596.95,-629.38"/>
+<text text-anchor="middle" x="552.43" y="-630.22" font-family="Helvetica, Arial, sans-serif" font-size="14.00">n</text>
+</g>
+<!-- state_nam -->
+<g id="node12" class="node" pointer-events="visible" data-name="state_name" data-comment="state_nam">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="738.42" cy="-799.17" rx="54.45" ry="18"/>
+<text text-anchor="middle" x="738.42" y="-794.97" font-family="Helvetica, Arial, sans-serif" font-size="14.00">state_name</text>
+</g><g id="edge22" class="edge" data-name="state_id--state" data-comment="state_nam">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M456.42,-827.18C484.1,-816.65 524.1,-801.43 550.55,-791.37"/>
+</g><g id="edge29" class="edge" data-name="address--isin0" data-comment="state_nam">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M468.27,-445.58C473.59,-463.3 481.55,-489.8 486.64,-506.72"/>
+<text text-anchor="middle" x="473.95" y="-480.35" font-family="Helvetica, Arial, sans-serif" font-size="14.00">n</text>
+</g>
+<!-- dis -->
+<g id="node13" class="node" pointer-events="visible" data-name="district_id" data-comment="dis">
+
+<ellipse fill="none" stroke="black" cx="325.14" cy="-697.32" rx="50.4" ry="18"/>
+<text text-anchor="start" x="296.76" y="-694.12" font-family="Helvetica, Arial, sans-serif" font-size="14.00" text-decoration="underline">district_id</text>
+</g><g id="edge21" class="edge" data-name="state_name--state" data-comment="dis">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M686.77,-793.3C659.65,-790.22 627.52,-786.57 605.24,-784.04"/>
+</g><g id="node45" class="node" pointer-events="visible" data-name="has" data-comment="dis">
+
+<polygon fill="lightgray" stroke="lightgray" points="652.11,-255.73 618.49,-237.73 652.11,-219.73 685.74,-237.73 652.11,-255.73"/>
+<text text-anchor="middle" x="652.11" y="-233.53" font-family="Helvetica, Arial, sans-serif" font-size="14.00">has</text>
+</g>
+<!-- d -->
+<g id="node14" class="node" pointer-events="visible" data-name="district_name" data-comment="d">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="445.12" cy="-721.6" rx="63.7" ry="18"/>
+<text text-anchor="middle" x="445.12" y="-717.4" font-family="Helvetica, Arial, sans-serif" font-size="14.00">district_name</text>
+</g><g id="edge43" class="edge" data-name="distributor--has" data-comment="d">
+
+<path fill="none" stroke="black" d="M586.78,-259.39C601.62,-254.47 618.09,-249.01 630.78,-244.8"/>
+<text text-anchor="middle" x="605.28" y="-256.3" font-family="Helvetica, Arial, sans-serif" font-size="14.00">1</text>
+</g>
+<!-- address_id -->
+<g id="node15" class="node" pointer-events="visible" data-name="address_id">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="378.07" cy="-535.6" rx="52.18" ry="18"/>
+<text text-anchor="start" x="348.13" y="-532.4" font-family="Helvetica, Arial, sans-serif" font-size="14.00" text-decoration="underline">address_id</text>
+</g>
+<!-- pinc -->
+<g id="node16" class="node" pointer-events="visible" data-name="pincode" data-comment="pinc">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="601.7" cy="-485.8" rx="41.71" ry="18"/>
+<text text-anchor="middle" x="601.7" y="-481.6" font-family="Helvetica, Arial, sans-serif" font-size="14.00">pincode</text>
+</g><g id="edge23" class="edge" data-name="district_name--district" data-comment="pinc">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M452.66,-703.5C460.29,-685.19 472.03,-657.04 479.69,-638.66"/>
+</g><g id="edge24" class="edge" data-name="district_id--district" data-comment="pinc">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M356.03,-682.67C385.89,-668.5 430.74,-647.22 459.52,-633.57"/>
+</g>
+<!-- item_id -->
+<g id="node17" class="node" pointer-events="visible" data-name="item_id">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="749.37" cy="-451.08" rx="47.57" ry="18"/>
+<text text-anchor="start" x="722.73" y="-447.88" font-family="Helvetica, Arial, sans-serif" font-size="14.00"> </text>
+<text text-anchor="start" x="726.23" y="-447.88" font-family="Helvetica, Arial, sans-serif" text-decoration="underline" font-size="14.00"> item_id</text>
+<text text-anchor="start" x="772.51" y="-447.88" font-family="Helvetica, Arial, sans-serif" font-size="14.00"> </text>
+</g>
+<!-- name -->
+<g id="node18" class="node" pointer-events="visible" data-name="name">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="1012.88" cy="-218.93" rx="31.9" ry="18"/>
+<text text-anchor="middle" x="1012.88" y="-214.73" font-family="Helvetica, Arial, sans-serif" font-size="14.00">name</text>
+</g><g id="edge19" class="edge" data-name="item_id--item" data-comment="name">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M766.71,-433.85C793.55,-407.18 844.92,-356.13 872.37,-328.85"/>
+</g><g id="edge25" class="edge" data-name="address_id--address" data-comment="name">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M391.67,-518.17C407.19,-498.28 432.46,-465.9 448.3,-445.59"/>
+</g>
+<!-- distributor_id -->
+<g id="node19" class="node" pointer-events="visible" data-name="distributor_id">
+
+<ellipse fill="none" stroke="black" cx="632.02" cy="-368.68" rx="73.04" ry="18"/>
+<text text-anchor="start" x="586.91" y="-365.48" font-family="Helvetica, Arial, sans-serif" font-size="14.00"> </text>
+<text text-anchor="start" x="590.41" y="-365.48" font-family="Helvetica, Arial, sans-serif" text-decoration="underline" font-size="14.00"> distributor_id </text>
+<text text-anchor="start" x="673.63" y="-365.48" font-family="Helvetica, Arial, sans-serif" font-size="14.00"> </text>
+</g>
+<!-- dist -->
+<g id="node20" class="node" pointer-events="visible" data-name="distributor_name" data-comment="dist">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="425.87" cy="-213.55" rx="77.03" ry="18"/>
+<text text-anchor="middle" x="425.87" y="-209.35" font-family="Helvetica, Arial, sans-serif" font-size="14.00">distributor_name</text>
+</g><g id="edge17" class="edge" data-name="distributor_id--distributor" data-comment="dist">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M616.78,-350.94C601.98,-333.7 579.61,-307.65 564.66,-290.22"/>
+</g><g id="edge20" class="edge" data-name="name--item" data-comment="dist">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M993.52,-233.45C972.27,-249.4 938.1,-275.05 915.06,-292.34"/>
+</g>
+<!-- e -->
+<g id="node21" class="node" pointer-events="visible" data-name="employee_id" data-comment="e">
+
+<ellipse fill="none" stroke="black" cx="638.43" cy="-36.83" rx="70.64" ry="18"/>
+<text text-anchor="start" x="595.28" y="-33.63" font-family="Helvetica, Arial, sans-serif" font-size="14.00"> </text>
+<text text-anchor="start" x="598.78" y="-33.63" font-family="Helvetica, Arial, sans-serif" text-decoration="underline" font-size="14.00"> employee_id </text>
+<text text-anchor="start" x="678.09" y="-33.63" font-family="Helvetica, Arial, sans-serif" font-size="14.00"> </text>
+</g>
+<!-- em -->
+<g id="node22" class="node" pointer-events="visible" data-name="employee_name" data-comment="em">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="472.85" cy="-18" rx="74.13" ry="18"/>
+<text text-anchor="middle" x="472.85" y="-13.8" font-family="Helvetica, Arial, sans-serif" font-size="14.00">employee_name</text>
+</g><g id="edge5" class="edge" data-name="employee_id--employee" data-comment="em">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M605.83,-53.23C581.67,-65.39 548.75,-81.96 523.88,-94.47"/>
+</g><g id="edge18" class="edge" data-name="distributor_name--distributor" data-comment="em">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M460.48,-229.97C476.27,-237.45 495,-246.34 511.15,-254"/>
+</g><g id="edge26" class="edge" data-name="pincode--address" data-comment="em">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M571.54,-473.06C547.91,-463.08 515.23,-449.28 491.87,-439.42"/>
+</g>
+<!-- employee_n -->
+<g id="node23" class="node" pointer-events="visible" data-name="employee_age" data-comment="employee_n">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="301.84" cy="-60.61" rx="66.61" ry="18"/>
+<text text-anchor="middle" x="301.84" y="-56.41" font-family="Helvetica, Arial, sans-serif" font-size="14.00">employee_age</text>
+</g>
+<!-- f -->
+<g id="node24" class="node" pointer-events="visible" data-name="family_id" data-comment="f">
+
+<ellipse fill="none" stroke="black" cx="289.33" cy="-241.18" rx="53.33" ry="18"/>
+<text text-anchor="start" x="258.61" y="-237.98" font-family="Helvetica, Arial, sans-serif" font-size="14.00"> </text>
+<text text-anchor="start" x="262.11" y="-237.98" font-family="Helvetica, Arial, sans-serif" text-decoration="underline" font-size="14.00">family_id</text>
+<text text-anchor="start" x="316.55" y="-237.98" font-family="Helvetica, Arial, sans-serif" font-size="14.00"> </text>
+</g><g id="edge6" class="edge" data-name="employee_name--employee" data-comment="f">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M475.81,-36.21C478.51,-52.82 482.48,-77.26 485.2,-93.96"/>
+</g>
+<!-- fa -->
+<g id="node25" class="node" pointer-events="visible" data-name="family_name" data-comment="fa">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="112.67" cy="-83.64" rx="61.97" ry="18"/>
+<text text-anchor="middle" x="112.67" y="-79.44" font-family="Helvetica, Arial, sans-serif" font-size="14.00">family_name</text>
+</g><g id="edge1" class="edge" data-name="family_id--family" data-comment="fa">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M287.52,-259.48C284.86,-286.31 279.94,-336.03 277.28,-362.86"/>
+</g>
+<!-- pro -->
+<g id="node26" class="node" pointer-events="visible" data-name="property" data-comment="pro">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="173.04" cy="-387.65" rx="43.5" ry="18"/>
+<text text-anchor="middle" x="173.04" y="-383.45" font-family="Helvetica, Arial, sans-serif" font-size="14.00">property</text>
+</g><g id="edge7" class="edge" data-name="employee_age--employee" data-comment="pro">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M348.87,-73.69C381,-82.62 422.93,-94.28 452.36,-102.47"/>
+</g><g id="edge41" class="edge" data-name="inventory--contains" data-comment="pro">
+
+<path fill="none" stroke="black" d="M758.9,-251.12C766.93,-260.45 776.56,-271.63 784.09,-280.38"/>
+<text text-anchor="middle" x="774.99" y="-253.15" font-family="Helvetica, Arial, sans-serif" font-size="14.00">1</text>
+</g>
+<!-- a -->
+<g id="node27" class="node" pointer-events="visible" data-name="annual_income" data-comment="a">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="88.86" cy="-270.72" rx="70.06" ry="18"/>
+<text text-anchor="middle" x="88.86" y="-266.52" font-family="Helvetica, Arial, sans-serif" font-size="14.00">annual_income</text>
+</g><g id="edge2" class="edge" data-name="family_name--family" data-comment="a">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M122.61,-101.8C151.68,-154.92 236.29,-309.56 265.46,-362.86"/>
+</g>
+<!-- m -->
+<g id="node28" class="node" pointer-events="visible" data-name="member_id" data-comment="m">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="68.63" cy="-738.54" rx="57.36" ry="18"/>
+<text text-anchor="start" x="35" y="-735.34" font-family="Helvetica, Arial, sans-serif" font-size="14.00"> </text>
+<text text-anchor="start" x="38.5" y="-735.34" font-family="Helvetica, Arial, sans-serif" text-decoration="underline" font-size="14.00">member_id</text>
+</g>
+<!-- m -->
+<g id="node29" class="node" pointer-events="visible" data-name="member_name" data-comment="m">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="209.5" cy="-791.3" rx="68.33" ry="18"/>
+<text text-anchor="middle" x="209.5" y="-787.1" font-family="Helvetica, Arial, sans-serif" font-size="14.00">member_name</text>
+</g><g id="edge3" class="edge" data-name="property--family" data-comment="m">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M216.48,-384.9C227.17,-384.22 238.32,-383.51 248.01,-382.9"/>
+</g>
+<!-- m -->
+<g id="node30" class="node" pointer-events="visible" data-name="member_age" data-comment="m">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="60.91" cy="-482.96" rx="60.81" ry="18"/>
+<text text-anchor="middle" x="60.91" y="-478.76" font-family="Helvetica, Arial, sans-serif" font-size="14.00">member_age</text>
+</g>
+<!-- inventory_id -->
+<g id="node31" class="node" pointer-events="visible" data-name="inventory_id">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="953.78" cy="-59.57" rx="65.43" ry="18"/>
+<text text-anchor="start" x="914.51" y="-56.37" font-family="Helvetica, Arial, sans-serif" font-size="14.00"> </text>
+<text text-anchor="start" x="918.01" y="-56.37" font-family="Helvetica, Arial, sans-serif" text-decoration="underline" font-size="14.00">inventory_id </text>
+</g><g id="edge4" class="edge" data-name="annual_income--family" data-comment="inventory_id">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M117.2,-287.49C152.69,-308.49 213.05,-344.22 248.08,-364.95"/>
+</g>
+<!-- a -->
+
+<!-- all -->
+<!-- allocation_id -->
+<!-- allocation_id -->
+<!-- allocation_id -->
+<g id="node34" class="node" pointer-events="visible" data-name="allocation_id">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="1034.79" cy="-443.68" rx="66.06" ry="18"/>
+<text text-anchor="start" x="994.75" y="-440.48" font-family="Helvetica, Arial, sans-serif" font-size="14.00"> </text>
+<text text-anchor="start" x="998.25" y="-440.48" font-family="Helvetica, Arial, sans-serif" text-decoration="underline" font-size="14.00">allocation_id</text>
+<text text-anchor="start" x="1071.34" y="-440.48" font-family="Helvetica, Arial, sans-serif" font-size="14.00"> </text>
+</g>
+<g id="node32" class="node" pointer-events="visible" data-name="amount0" data-comment="allocation_id">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="772.3" cy="-80.65" rx="40.01" ry="18"/>
+<text text-anchor="middle" x="772.3" y="-76.45" font-family="Helvetica, Arial, sans-serif" font-size="14.00">amount</text>
+</g>
+<g id="node33" class="node" pointer-events="visible" data-name="amount1" data-comment="allocation_id">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="947.52" cy="-795.02" rx="40.01" ry="18"/>
+<text text-anchor="middle" x="947.52" y="-790.82" font-family="Helvetica, Arial, sans-serif" font-size="14.00">amount</text>
+</g>
+<g id="node2" class="node" pointer-events="visible" data-name="member" data-comment="allocation_id">
+
+<polygon fill="none" stroke="black" points="207.15,-594.28 145.41,-594.28 145.41,-558.28 207.15,-558.28 207.15,-594.28"/>
+<text text-anchor="middle" x="176.28" y="-572.08" font-family="Helvetica, Arial, sans-serif" font-size="14.00">member</text>
+</g>
+<!-- p -->
+<!-- price -->
+<!-- price -->
+<!-- price -->
+<!-- price -->
+<!-- price -->
+<!-- price -->
+<!-- price -->
+<!-- price -->
+<!-- price -->
+<!-- price -->
+<!-- price -->
+<g id="node36" class="node" pointer-events="visible" data-name="price">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="1021" cy="-653.2" rx="30.17" ry="18"/>
+<text text-anchor="middle" x="1021" y="-649" font-family="Helvetica, Arial, sans-serif" font-size="14.00">price</text>
+</g><g id="edge8" class="edge" data-name="member_id--member" data-comment="price">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M80.56,-720.56C101.25,-689.37 143.56,-625.59 164.29,-594.34"/>
+</g>
+<!-- g -->
+<g id="edge9" class="edge" data-name="member_name--member" data-comment="g">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M206.66,-772.97C200.39,-732.35 185.37,-635.15 179.11,-594.56"/>
+</g>
+
+<g id="edge10" class="edge" data-name="member_age--member" data-comment="g">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M82.07,-500.07C102.36,-516.49 132.91,-541.2 153.68,-557.99"/>
+</g>
+<g id="edge11" class="edge" data-name="inventory_id--inventory" data-comment="g">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M932.81,-76.81C892.95,-109.58 806.56,-180.6 765.56,-214.3"/>
+</g>
+
+
+
+<!-- gets -->
+
+
+<g id="edge13" class="edge" data-name="allocation_id--allocation" data-comment="gets">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M1012.66,-461C987.85,-480.42 947.78,-511.78 922.43,-531.62"/>
+</g><g id="edge14" class="edge" data-name="amount1--allocation" data-comment="gets">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M943.87,-776.6C934.84,-731.08 911.57,-613.69 902.57,-568.3"/>
+</g>
+<g id="edge12" class="edge" data-name="amount0--inventory" data-comment="gets">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M768.77,-99C763.16,-128.24 752.25,-185.08 746.63,-214.36"/>
+</g>
+
+
+
+<!-- gets -->
+
+<!-- a -->
+
+
+<!-- a -->
+<!-- amount -->
+<!-- amount -->
+<!-- amount -->
+<!-- amount -->
+<!-- amount -->
+
+<!-- i -->
+<!-- price&#45;&#45;allocation -->
+<!-- price&#45;&#45;allocation -->
+<!-- price&#45;&#45;allocation -->
+<g id="edge15" class="edge" data-name="price--allocation">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M1003.25,-638.19C981.3,-619.63 943.96,-588.06 920.41,-568.16"/>
+</g>
+
+
+
+
+
+<!-- allocation_d -->
+<g id="node35" class="node" pointer-events="visible" data-name="allocation_date" data-comment="allocation_d">
+
+<ellipse fill="none" stroke="rgb(0, 0, 0)" cx="776.65" cy="-619.17" rx="70.05" ry="18"/>
+<text text-anchor="middle" x="776.65" y="-614.97" font-family="Helvetica, Arial, sans-serif" font-size="14.00">allocation_date</text>
+</g>
+<!-- allocation_date&#45;&#45;allocation -->
+<g id="edge16" class="edge" data-name="allocation_date--allocation">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M806.25,-602.43C824.49,-592.11 847.88,-578.88 866.6,-568.29"/>
+</g>
+<!-- item_ -->
+
+<!-- stat -->
+
+
+<!-- district_i -->
+
+<!-- p -->
+<g id="node37" class="node" pointer-events="visible" data-name="contains" data-comment="p">
+
+<polygon fill="lightgray" stroke="lightgray" points="796.73,-313.05 735.49,-295.05 796.73,-277.05 857.97,-295.05 796.73,-313.05"/>
+<text text-anchor="middle" x="796.73" y="-290.85" font-family="Helvetica, Arial, sans-serif" font-size="14.00">contains</text>
+</g>
+<!-- li -->
+<g id="node38" class="node" pointer-events="visible" data-name="livesat" data-comment="li">
+
+<polygon fill="lightgray" stroke="lightgray" points="369.78,-400.43 314.93,-382.43 369.78,-364.43 424.62,-382.43 369.78,-400.43"/>
+<text text-anchor="middle" x="369.78" y="-378.23" font-family="Helvetica, Arial, sans-serif" font-size="14.00">lives at</text>
+</g>
+<!-- loca -->
+<g id="node39" class="node" pointer-events="visible" data-name="locatedat" data-comment="loca">
+
+<polygon fill="lightgray" stroke="lightgray" points="484.76,-357.86 416.64,-339.86 484.76,-321.86 552.88,-339.86 484.76,-357.86"/>
+<text text-anchor="middle" x="484.76" y="-335.66" font-family="Helvetica, Arial, sans-serif" font-size="14.00">located at</text>
+</g>
+<!-- a -->
+<g id="node40" class="node" pointer-events="visible" data-name="allocates" data-comment="a">
+
+<polygon fill="lightgray" stroke="lightgray" points="915.18,-433.95 851.92,-415.95 915.18,-397.95 978.44,-415.95 915.18,-433.95"/>
+<text text-anchor="middle" x="915.18" y="-411.75" font-family="Helvetica, Arial, sans-serif" font-size="14.00">allocates</text>
+</g>
+<!-- al -->
+
+<g id="edge28" class="edge" data-name="allocates--item" data-comment="al">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M911.26,-399.02C906.81,-379.82 899.57,-348.64 894.99,-328.89"/>
+<text text-anchor="middle" x="899.63" y="-368.15" font-family="Helvetica, Arial, sans-serif" font-size="14.00">n</text>
+</g><!-- is -->
+<!-- isin0 -->
+<g id="node41" class="node" pointer-events="visible" data-name="isin0">
+
+<polygon fill="lightgray" stroke="lightgray" points="491.5,-540.9 452.99,-522.9 491.5,-504.9 530.01,-522.9 491.5,-540.9"/>
+<text text-anchor="middle" x="491.5" y="-518.7" font-family="Helvetica, Arial, sans-serif" font-size="14.00">is in</text>
+</g>
+<!-- isn -->
+<!-- isin0&#45;&#45;district -->
+<!-- isin0&#45;&#45;district -->
+<!-- isin0&#45;&#45;district -->
+<g id="edge30" class="edge" data-name="isin0--district">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M490.73,-540.78C489.98,-558.15 488.86,-584.4 488.1,-601.96"/>
+<text text-anchor="middle" x="485.92" y="-575.57" font-family="Helvetica, Arial, sans-serif" font-size="14.00">1</text>
+</g>
+<!-- isin0&#45;&#45;d -->
+
+<g id="edge34" class="edge" data-name="locatedat--address" data-comment="isin0--d">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M480.41,-357.1C476.64,-372 471.22,-393.47 467.37,-408.7"/>
+<text text-anchor="middle" x="470.39" y="-387.1" font-family="Helvetica, Arial, sans-serif" font-size="14.00">1</text>
+</g>
+<g id="node42" class="node" pointer-events="visible" data-name="isin1" data-comment="isin0--d">
+
+<polygon fill="lightgray" stroke="lightgray" points="630.52,-650.14 592.01,-632.14 630.52,-614.14 669.03,-632.14 630.52,-650.14"/>
+<text text-anchor="middle" x="630.52" y="-627.94" font-family="Helvetica, Arial, sans-serif" font-size="14.00">is in</text>
+</g>
+<!-- i -->
+
+<g id="edge38" class="edge" data-name="livesat--address" data-comment="i">
+
+<path fill="none" stroke="black" d="M392.28,-393.25C404.63,-399.19 420.1,-406.62 433.4,-413.01"/>
+<text text-anchor="middle" x="409.34" y="-407.33" font-family="Helvetica, Arial, sans-serif" font-size="14.00">1</text>
+</g>
+<!-- isin1&#45;&#45;state -->
+<g id="edge32" class="edge" data-name="isin1--state">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M625,-647.78C615.19,-675.54 594.8,-733.25 584.39,-762.74"/>
+<text text-anchor="middle" x="601.19" y="-709.46" font-family="Helvetica, Arial, sans-serif" font-size="14.00">1</text>
+</g>
+<!-- p -->
+<g id="node43" class="node" pointer-events="visible" data-name="part of" data-comment="p">
+
+<polygon fill="lightgray" stroke="lightgray" points="279.91,-536.01 228.15,-518.01 279.91,-500.01 331.67,-518.01 279.91,-536.01"/>
+<text text-anchor="middle" x="279.91" y="-513.81" font-family="Helvetica, Arial, sans-serif" font-size="14.00">part of</text>
+</g>
+<!-- m -->
+
+<!-- f -->
+
+<g id="edge36" class="edge" data-name="part of--family" data-comment="f">
+
+<path fill="none" stroke="black" d="M279.32,-499.84C278.47,-473.66 276.91,-425.62 276.06,-399.41"/>
+<text text-anchor="middle" x="274.19" y="-453.82" font-family="Helvetica, Arial, sans-serif" font-size="14.00">1</text>
+</g><g id="edge42" class="edge" data-name="contains--item" data-comment="f">
+
+<path fill="none" stroke="black" d="M836.87,-301.68C845.86,-303.17 855.18,-304.71 863.5,-306.08"/>
+<text text-anchor="middle" x="846.69" y="-308.08" font-family="Helvetica, Arial, sans-serif" font-size="14.00">n</text>
+</g>
+<!-- f -->
+
+<!-- w -->
+
+<!-- works at -->
+
+<!-- e -->
+
+<g id="edge40" class="edge" data-name="employs--distributor" data-comment="e">
+
+<path fill="none" stroke="black" d="M582.14,-179.78C575,-199.61 563.05,-232.78 555.61,-253.45"/>
+<text text-anchor="middle" x="565.38" y="-220.82" font-family="Helvetica, Arial, sans-serif" font-size="14.00">1</text>
+</g><!-- inve -->
+
+<g id="edge44" class="edge" data-name="has--inventory" data-comment="inve">
+
+<path fill="none" stroke="black" d="M683.42,-236.02C691.34,-235.59 699.89,-235.12 707.98,-234.68"/>
+<text text-anchor="middle" x="692.2" y="-239.55" font-family="Helvetica, Arial, sans-serif" font-size="14.00">1</text>
+</g></g>
+</svg>
