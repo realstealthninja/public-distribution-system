@@ -39,8 +39,8 @@ CREATE TABLE distributor(
 
 CREATE TABLE employee(
     employee_id NUMBER(6) GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) PRIMARY KEY,
-    name VARCHAR(25),
-    age NUMBER(3),
+    employee_name VARCHAR(25),
+    employee_age NUMBER(3),
     address_id NUMBER(6) REFERENCES address(address_id),
     distributor_id NUMBER(6) REFERENCES distributor(distributor_id)
 )
@@ -67,15 +67,15 @@ CREATE TABLE members(
 CREATE TABLE inventory(
     inventory_id NUMBER(6) GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) PRIMARY KEY,
     distributor_id NUMBER(6) REFERENCES distributor(distributor_id),
-    item_id NUMBER(6) REFERENCES item(item_id),
+    item_id NUMBER(6) REFERENCES item(item_id) ON DELETE CASCADE,
     amount NUMBER(5)
 )
 /
 
 CREATE TABLE allocation(
     allocation_id NUMBER(6) GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) PRIMARY KEY,
-    family_id NUMBER(6) REFERENCES family(family_id),
-    item_id NUMBER(6) REFERENCES item(item_id),
+    family_id NUMBER(6) REFERENCES family(family_id) ON DELETE CASCADE,
+    item_id NUMBER(6) REFERENCES item(item_id) ON DELETE CASCADE,
     amount NUMBER(4),
     price NUMBER(6,2),
     allocation_date DATE
@@ -84,8 +84,8 @@ CREATE TABLE allocation(
 
 CREATE TABLE transaction(
     transaction_id NUMBER(6) GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) PRIMARY KEY,
-    member_id NUMBER(6),
-    allocation_id NUMBER(6),
+    family_id NUMBER(6) REFERENCES family(family_id) ON DELETE CASCADE,
+    allocation_id NUMBER(6) REFERENCES allocation(allocation_id) ON DELETE CASCADE,
     transaction_time TIMESTAMP,
     amount NUMBER(4),
     bill NUMBER(6,2)
@@ -93,15 +93,15 @@ CREATE TABLE transaction(
 /
 CREATE TABLE admin(
     user_id NUMBER(6) GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) PRIMARY KEY,
-    username VARCHAR(10),
+    username VARCHAR(10) UNIQUE,
     password VARCHAR(162)
 )
 /
 
 CREATE TABLE family_user(
     user_id NUMBER(6) GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) PRIMARY KEY,
-    family_id NUMBER(6) REFERENCES family(family_id),
-    username VARCHAR(10),
+    family_id NUMBER(6) REFERENCES family(family_id) ON DELETE CASCADE,
+    username VARCHAR(10) UNIQUE,
     password VARCHAR(162)
 )
 /
