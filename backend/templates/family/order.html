@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% from 'bootstrap5/form.html' import render_form %}
+{% from 'utils.html' import card %}
+{% block header %}
+  <h1>{% block title %}Orders{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  {% if allocations|length > 0 %}
+    <form method="post">
+      <div class="row">
+        <label class="form-label">Allocation</label>
+        <select id="allocation" name="allocation" class="form-select">
+          {% for allocation in allocations %}
+            <option
+              value="{{ allocation[0] }}"
+              data-max="{{ allocation[2] }}"
+              data-cost="{{ allocation[3] }}"
+            >
+              {{ allocation[1] }} - ₹{{ allocation[3] }} - {{ allocation[2] }}
+              kg
+            </option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="row">
+        <label for="amount" class="form-label">Amount</label>
+        <input
+          id="amount"
+          name="amount"
+          type="number"
+          min="1"
+          value="10"
+          max="{{ allocations[0][2] }}"
+          step="1"
+          required
+        />
+      </div>
+      <div>
+        <label for="totalcost">Total cost:</label>
+        <output id="totalcost" for="allocation amount"></output>
+      </div>
+      <button type="submit" class="btn btn-primary">Order</button>
+    </form>
+
+    <script>
+      const totalCost = document.getElementById("totalcost");
+      const amount = document.getElementById("amount");
+      const allocation = document.getElementById("allocation");
+
+      function onAmountEntered() {
+        totalCost.value =
+          "₹ " +
+          (
+            amount.valueAsNumber *
+            parseFloat(
+              allocation.options
+                .item(allocation.selectedIndex)
+                .getAttribute("data-cost"),
+            )
+          ).toFixed(2);
+      }
+
+      function onSelected() {
+        amount.setAttribute(
+          "max",
+          allocation.options
+            .item(allocation.selectedIndex)
+            .getAttribute("data-max"),
+        );
+      }
+
+      allocation.addEventListener("change", onSelected);
+      amount.addEventListener("input", onAmountEntered);
+      onAmountEntered();
+    </script>
+  {% else %}
+    <h3>
+      You dont have any allocations and thus can't order currently try again
+      later!
+    </h3>
+  {% endif %}
+{% endblock %}
