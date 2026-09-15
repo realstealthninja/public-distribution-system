@@ -22,18 +22,16 @@
         card(
           title='Orders',
           description='Your family has ordered x allocations',
-          button = 'allocations',
-          url =  url_for('family.allocations')
+          button = 'orders',
+          url =  url_for('family.order')
         )
       }}
     </div>
     <div class="col">
       {{
         card(
-          title='Transactions',
-          description='Your family has transacted with us x times',
-          button = 'allocations',
-          url =  url_for('family.allocations')
+          title='Items',
+          description=items|join(' <br>') |safe,
         )
       }}
     </div>
@@ -67,7 +65,7 @@
             <td class="text-center">
               <button
                 class="btn btn-secondary mx-3"
-                onclick="deleteMember({{ member[0] }})"
+                onclick="deleteMember('{{ member[0] }}')"
               >
                 -
               </button>

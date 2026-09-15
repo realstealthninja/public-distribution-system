@@ -1,5 +1,6 @@
-from flask import Blueprint, Response, g, render_template, request
+from flask import Blueprint, Response, flash, g, render_template, request
 from flask_wtf import FlaskForm
+from oracledb import DatabaseError, Error
 from wtforms import IntegerField, Label, StringField, SubmitField
 
 from backend.auth import family_required
@@ -30,6 +31,8 @@ def index():
     family = ()
     family_id = g.family_user[1]
     allocation_count = 0
+    transcation_count = 0
+    items = []
     members = [()]
 
     if request.method == "POST":
@@ -67,6 +70,19 @@ def index():
                 (family_id,),
             ).fetchone()[0]
         )
+        transcation_count = str(
+            cursor.execute(
+                "SELECT COUNT(transaction_id) FROM transaction WHERE family_id = :familyid ",
+                (family_id,),
+            ).fetchone()
+        )
+        items = map(
+            lambda x: f"{x[0]} - {x[1]} kg",
+            cursor.execute(
+                "SELECT name, SUM(NVL(amount, 0)) FROM allocation a RIGHT OUTER JOIN item i ON (i.item_id = a.item_id) GROUP BY name"
+            ).fetchall(),
+        )
+
     return render_template(
         "family/family.html",
         family=family,
@@ -77,6 +93,8 @@ def index():
         district=address[1],
         state=address[2],
         allocation_count=allocation_count,
+        transcation_count=transcation_count,
+        items=items,
     )
 
 
@@ -86,7 +104,7 @@ def allocations():
     allocations = []
     with get_db().cursor() as cursor:
         allocations = cursor.execute(
-            "SELECT name, amount, price FROM allocation NATURAL JOIN ITEM WHERE family_id = :familyid",
+            "SELECT TO_CHAR(allocation_date, 'DD-MON-YYYY'), name, amount, price FROM allocation NATURAL JOIN ITEM WHERE family_id = :familyid ORDER BY allocation_date",
             (g.family_user[1],),
         ).fetchall()
     return render_template("family/allocations.html", allocations=allocations)
@@ -95,10 +113,83 @@ def allocations():
 @bp.route("/transactions")
 @family_required
 def transactions():
-    return "unimplemented"
+    transactions = []
+    with get_db().cursor() as cursor:
+        query = """--sql
+        SELECT TO_CHAR(transaction_time, 'DD-MON-YYYY HH:mm:SS'),
+                name,
+                amount,
+                bill
+                FROM transaction NATURAL JOIN allocation NATURAL JOIN item
+                WHERE family_id = :familyid
+        """
+        transactions = cursor.execute(query, (g.family_user[1],)).fetchall()
+
+    return render_template("family/transactions.html", transactions=transactions)
 
 
-@bp.route("/order")
+@bp.route("/order", methods=["GET", "POST"])
 @family_required
 def order():
-    return "Unimplemented"
+    allocations = []
+
+    if request.method == "POST":
+        alloc_id = request.form["allocation"]
+        amount = request.form["amount"]
+        try:
+            with get_db().cursor() as cursor:
+                cursor.execute(
+                    "UPDATE allocation SET amount = amount - :amount WHERE allocation_id = :alloc_id",
+                    (
+                        amount,
+                        alloc_id,
+                    ),
+                )
+                cursor.execute(
+                    """--sql--
+
+                UPDATE inventory SET amount = amount - :amount WHERE
+                    item_id = (SELECT item_id FROM allocation WHERE allocation_id = :alloc_id)
+                    AND distributor_id = (SELECT distributor_id FROM family WHERE family_id = :family_id)
+                """,
+                    amount=amount,
+                    alloc_id=alloc_id,
+                    family_id=g.family_user[0],
+                )
+                cursor.execute(
+                    """--sql--
+
+                    INSERT INTO transaction(
+                                family_id,
+                                allocation_id,
+                                transaction_time,
+                                amount,
+                                bill
+                    ) VALUES (
+                        :familyid,
+                        :alloc_id,
+                        LOCALTIMESTAMP,
+                        :amount,
+                        (
+                            SELECT ROUND(price * :amount, 2) FROM allocation 
+                            WHERE allocation_id = :alloc_id
+                        )
+                    )""",
+                    familyid=g.family_user[0],
+                    alloc_id=alloc_id,
+                    amount=amount,
+                )
+            get_db().commit()
+            print("hello")
+        except Error as sqlerror:
+            get_db().rollback()
+            (error,) = sqlerror.args
+            flash(error.message)
+
+    with get_db().cursor() as cursor:
+        allocations = cursor.execute(
+            "SELECT allocation_id, name, amount, price FROM allocation NATURAL JOIN ITEM WHERE family_id = :familyid AND amount > 0 ORDER BY allocation_date",
+            (g.family_user[1],),
+        ).fetchall()
+
+    return render_template("family/order.html", allocations=allocations)
