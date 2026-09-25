@@ -10,9 +10,9 @@ from . import auth, db
 bootstrap = Bootstrap5()
 
 
-def create_app(test_config=None):
+def create_app():
     app = Flask(__name__, instance_relative_config=True)
-    app.config.from_mapping(SECRET_KEY="dev", DATABASE="hello")
+    app.config.from_mapping(BOOTSTRAP_SERVE_LOCAL=True)
 
     bootstrap.init_app(app)
 
