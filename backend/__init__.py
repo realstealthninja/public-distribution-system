@@ -7,12 +7,14 @@ from backend import admin, family
 
 from . import auth, db
 
+bootstrap = Bootstrap5()
+
 
 def create_app(test_config=None):
     app = Flask(__name__, instance_relative_config=True)
     app.config.from_mapping(SECRET_KEY="dev", DATABASE="hello")
 
-    bootstrap = Bootstrap5(app)
+    bootstrap.init_app(app)
 
     db.init_app(app)
 
