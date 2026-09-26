@@ -12,7 +12,7 @@ bootstrap = Bootstrap5()
 
 def create_app():
     app = Flask(__name__, instance_relative_config=True)
-    app.config.from_mapping(BOOTSTRAP_SERVE_LOCAL=True)
+    app.config.from_mapping(BOOTSTRAP_SERVE_LOCAL=True, SECRET_KEY='dev')
 
     bootstrap.init_app(app)
 
